@@ -25,6 +25,7 @@ build:
 
 requirements:
   build:
+    - {{ compiler('cxx') }}
     - cmake >=3.12.4
   host:
     - cudatoolkit {{ cuda_version }}.*
