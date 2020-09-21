@@ -8,7 +8,8 @@ package:
   version: {{ version }}
 
 source:
-  path: ../../..
+  git_url: https://github.com/rapidsai/rmm.git
+  git_tag: branch-0.14
 
 build:
   number: {{ git_revision_count }}
