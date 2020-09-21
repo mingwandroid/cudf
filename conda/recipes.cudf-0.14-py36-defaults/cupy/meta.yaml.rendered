@@ -1,0 +1,109 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Aug 19 08:32:50 2020
+# ------------------------------------------------
+
+package:
+    name: cupy
+    version: 7.8.0
+source:
+    -   sha256: d35b79e9d4f6f5b9069daa92a37c4574108dba80c2404b470934247e155080ce
+        url: https://github.com/cupy/cupy/archive/v7.8.0.tar.gz
+build:
+    missing_dso_whitelist:
+        - '*/libcuda.*'
+    number: '0'
+    script:
+        - /home/conda/feedstock_root/build_artifacts/cupy_1597826126562/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin/python
+            -m pip install . -vv
+        - mkdir -p "${PREFIX}/etc/conda/activate.d"
+        - cp "${RECIPE_DIR}/activate.sh" "${PREFIX}/etc/conda/activate.d/cupy_activate.sh"
+        - mkdir -p "${PREFIX}/etc/conda/deactivate.d"
+        - cp "${RECIPE_DIR}/deactivate.sh" "${PREFIX}/etc/conda/deactivate.d/cupy_deactivate.sh"
+    string: py36h5c369b2_0
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - binutils_impl_linux-64 2.34 h2122c62_9
+        - binutils_linux-64 2.34 h47ac705_27
+        - gcc_impl_linux-64 7.5.0 hda68d29_13
+        - gcc_linux-64 7.5.0 hf34d7eb_27
+        - gxx_impl_linux-64 7.5.0 h64c220c_13
+        - gxx_linux-64 7.5.0 ha781d05_27
+        - kernel-headers_linux-64 2.6.32 h77966d4_13
+        - ld_impl_linux-64 2.34 hc38a660_9
+        - libgcc-ng 9.3.0 h24d8f2e_15
+        - libgomp 9.3.0 h24d8f2e_15
+        - libstdcxx-ng 9.3.0 hdf63c60_15
+        - nvcc_linux-64 10.1 h51cf6c1_6
+        - sysroot_linux-64 2.12 h77966d4_13
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - ca-certificates 2020.6.20 hecda079_0
+        - certifi 2020.6.20 py36h9f0ad1d_0
+        - cudatoolkit 10.1.243 h6bb024c_0
+        - cudnn 7.6.5 cuda10.1_0
+        - cython 0.29.21 py36h831f99a_0
+        - fastrlock 0.5 py36h831f99a_0
+        - ld_impl_linux-64 2.34 hc38a660_9
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.3.0 h24d8f2e_15
+        - libgomp 9.3.0 h24d8f2e_15
+        - libstdcxx-ng 9.3.0 hdf63c60_15
+        - nccl 2.4.6.1 h51cf6c1_0
+        - ncurses 6.2 he1b5a44_1
+        - openssl 1.1.1g h516909a_1
+        - pip 20.2.2 py_0
+        - python 3.6.11 h4d41432_2_cpython
+        - python_abi 3.6 1_cp36m
+        - readline 8.0 he28a2e2_2
+        - setuptools 49.6.0 py36h9f0ad1d_0
+        - sqlite 3.33.0 h4cf870e_0
+        - tk 8.6.10 hed695b0_0
+        - wheel 0.35.1 pyh9f0ad1d_0
+        - xz 5.2.5 h516909a_1
+        - zlib 1.2.11 h516909a_1007
+    run:
+        - cudatoolkit 10.1|10.1.*
+        - cudnn >=7.6,<8.0a0
+        - fastrlock >=0.3
+        - libgcc-ng >=7.5.0
+        - libstdcxx-ng >=7.5.0
+        - nccl >=2.4.6.1,<3.0a0
+        - numpy >=1.9.0
+        - python >=3.6,<3.7.0a0
+        - python_abi 3.6.* *_cp36m
+        - setuptools
+        - six >=1.9.0
+test:
+    requires:
+        - gcc_linux-64 7.*
+        - gxx_linux-64 7.*
+        - mock
+        - nvcc_linux-64 10.1.*
+        - pytest
+    source_files:
+        - tests
+about:
+    dev_url: https://github.com/cupy/cupy/
+    doc_url: https://docs.cupy.dev/en/stable/
+    home: https://cupy.dev/
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: CuPy is an implementation of a NumPy-compatible multi-dimensional array
+        on CUDA.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - asi1024
+        - beam2d
+        - emcastillo
+        - hvy
+        - jakirkham
+        - kmaehashi
+        - leofang
+        - toslunar

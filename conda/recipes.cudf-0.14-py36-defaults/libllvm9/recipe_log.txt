@@ -1,0 +1,1649 @@
+commit 3507151a765500c3b0a26314c4e34bdad9a6799b
+Author: Angela Gloyna <angela.gloyna@gmail.com>
+Date:   Thu Jul 9 12:36:58 2020 -0500
+
+    add clang workaround flags
+
+commit 87ff6d85c4f5514cbcce79f939c537eb9c1f4b37
+Author: Angela Gloyna <angela.gloyna@gmail.com>
+Date:   Thu Jul 9 11:51:33 2020 -0500
+
+    use the 9 version patch
+
+commit 84b1a35cd78dbca0a3d8083b28b6d16bbbb85019
+Author: Angela Gloyna <angela.gloyna@gmail.com>
+Date:   Thu Jul 9 11:27:13 2020 -0500
+
+    up build number for v9.0.1 and add numba patches
+
+commit 32418e694188e05162be26be08be70eb6a6fab9a
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Tue Jun 23 10:18:36 2020 +0200
+
+    Adjust recipe so it builds OOTB on Windows
+
+commit 0039a0cdb136866986ef32dc597f4142fd277fb8
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Mon May 11 17:06:36 2020 +0200
+
+    Merge to build clang 10.0.0
+
+commit 9c84835064b025b40231b2105b32a94b4c08fd42
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Apr 29 01:51:11 2020 +0000
+
+    Non-rebased sync with CFÂ
+
+commit e6f2f6603e0efbbfd9bdd97afbef42161bd5f53e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Mar 24 17:11:16 2020 +0000
+
+    Oops
+
+commit 190579092ec48fd951afe5ed6a5ba4dd3bf36c28
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Mar 23 09:29:44 2020 +0000
+
+    Oops
+
+commit ddda252cf15c2d684c58678fdd3647165edd4390
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Mar 23 09:27:45 2020 +0000
+
+    Enable LLVM_CCACHE_BUILD (and fix it on Windows)
+
+commit 8f99e3e3383a56861439c8980594b62b770ef8c6
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Mar 14 01:09:49 2020 +0100
+
+    No xar on Windows
+
+commit 542b0e759d29adf4215a9df4b250ccddd8a2213a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Oct 9 23:44:42 2019 +0100
+
+    No longer need to have Xcode to build this
+
+commit 9956a26f309bcdf38239a011093cd6c683014c67
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Oct 8 09:03:05 2019 +0200
+
+    Avoid Xcode
+
+commit 3dd44f6a17373140b08175cadad0771a80fae510
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 21:42:31 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit ff2420e944a2ccae06068216e50a25220ea8c80a
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Fri Jan 3 06:07:12 2020 +0000
+
+    Fix typo
+
+commit 3fe2fe1db86ab5ec9a3144987b0b6d73a46c69c4
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Fri Jan 3 06:06:53 2020 +0000
+
+    Rename llvm-lit to llvm-lit.py for Windows
+
+commit 5510049584a55328c23612843c5dc3ef012f205b
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Thu Jan 2 22:15:46 2020 +0000
+
+    Add debugging printout on Windows
+
+commit 6e96034f14e5dbd47cf81fcc605e993bafd846ad
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Jan 2 07:10:00 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2019.12.18
+
+commit 794f4f90edc5a42a0400fdd6631d0e9d716b4dbf
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Thu Jan 2 07:07:32 2020 +0000
+
+    Update to 9.0.1
+
+commit 477c68449918ba8c421437d5dea9272a81ed8485
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Nov 7 08:15:13 2019 -0600
+
+    Update meta.yaml
+
+commit 99fb4b2f6ab197db9a3f1377fa89f4266e5fc1ff
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Nov 7 03:07:30 2019 -0600
+
+    Use cb 3.18.9
+
+commit 24435f22f4ba1bb721cc20727f42acb5593d47b9
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Nov 7 00:43:10 2019 -0600
+
+    Echo commands
+
+commit ee362b72a20ead050ad3c95dcfbc8081bf2514de
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Nov 6 22:06:55 2019 -0600
+
+    Fix run_exports
+
+commit 8d0f142041c9be0e565a795b5552104176d773d0
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Nov 6 21:10:25 2019 -0600
+
+    Add ROCM patches
+
+commit 3a0ad7408a17bef2db71c53a269399ec76d8ebf9
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Oct 9 23:44:42 2019 +0100
+
+    No longer need to have Xcode to build this
+
+commit d286e18626f04dd7138bdf3970b6a288ba5fb4bf
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Oct 8 09:03:05 2019 +0200
+
+    Avoid Xcode
+
+commit 192ce2e2c638672b715b92e19f2c14d47844b4b3
+Merge: 4a1b728 36f2db0
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Sep 21 16:14:51 2019 -0500
+
+    Merge pull request #75 from isuruf/cmake
+    
+    Fix LLVMExports-release.cmake
+
+commit 36f2db0528bff6a6859152284ad93fc036d40ae1
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Sep 21 21:10:07 2019 +0000
+
+    Reduce diff
+
+commit 728e068c9c93b0fae509950139e94c9682a28527
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Sep 21 21:09:07 2019 +0000
+
+    Use relative paths
+
+commit 8e2dd5d8d4d2b0dd8628ec3a9ebc08b6689baa14
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Sep 21 20:51:06 2019 +0000
+
+    Fix LLVMExports-release.cmake
+
+commit 4a1b72899b9980c668d9d1524d95aaa4e90d6098
+Merge: 4302653 63b6627
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Sep 21 00:03:42 2019 -0500
+
+    Merge pull request #74 from isuruf/utils
+    
+    Fix llvm-utils dir
+
+commit 63b662710a33f79e81b6900d4de3525ea2c1d9ca
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Sep 20 21:09:41 2019 -0500
+
+    remove llvm-utils package
+
+commit c2ae351a46d49f0bba91b6ac85bbe8e54431c7af
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Sep 20 20:54:46 2019 -0500
+
+    Fix win too
+
+commit 43b6479d0d7bbe8ef30979b1a8b3ab337307c187
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Sep 20 20:52:35 2019 -0500
+
+    Fix llvm-utils dir
+
+commit 4302653a1de8ac7418159d53aa147f3f8b7da3dc
+Merge: 28c885a 379ec98
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Sep 20 18:49:13 2019 -0500
+
+    Merge pull request #73 from Hardcode84/9.0.0_fix_svml
+    
+    Port svml patch to 9.0.0
+
+commit 379ec987897d8e8bc9fd1c51e300c3d7badeac10
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Sep 20 01:26:29 2019 -0500
+
+    Update to 9.0.0
+
+commit 3a0f1f9d1cb7bb6f300830bca41e7f9e46dc6fff
+Author: Ivan Butygin <ivan.butygin@intel.com>
+Date:   Thu Aug 29 21:32:11 2019 +0300
+
+    echo on
+
+commit dfd765ee2ed33929ef43dabc293cbea8d2f93588
+Author: Ivan Butygin <ivan.butygin@intel.com>
+Date:   Thu Aug 29 13:34:04 2019 +0300
+
+    remove partial-testing.patch
+
+commit af8e8167d4b7a2494c6847ae5bee7329b7b49b8f
+Author: Ivan Butygin <ivan.butygin@intel.com>
+Date:   Thu Aug 29 10:20:52 2019 +0300
+
+    enable tests on windows
+
+commit 0e38bfd7db46c392d7be24bee9d6ea3790ea2333
+Author: Ivan Butygin <ivan.butygin@intel.com>
+Date:   Wed Aug 28 16:48:36 2019 +0300
+
+    less tests
+
+commit f9890b2f7f5108a164c19a0586450d524c92f082
+Author: Ivan Butygin <ivan.butygin@intel.com>
+Date:   Wed Aug 28 14:02:01 2019 +0300
+
+    try to enable more tests
+
+commit 7fda955f0d662e84eaef89256e75299aa218f82d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Aug 28 03:37:19 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.22
+
+commit 0a3466e5aebfadd1fe558bff2f40c0e5ecac6064
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Aug 27 22:34:48 2019 -0500
+
+    Fix compiler for win
+
+commit b3785347f24dfef2dc89e621df9917f34ea35ecd
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Aug 27 21:00:39 2019 -0500
+
+    Use VS2017
+
+commit fe71022fb91088c35111dfb98c85e2666be31e53
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Aug 27 14:06:40 2019 -0500
+
+    Try new changes in 9.0 branch
+
+commit 5f3debfaf31d97ab8651d78013adffc01691193e
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Aug 27 15:21:56 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.22
+
+commit b0e84cb66b97c85fb11ad8f743c2e17a4a0aec8b
+Author: Ivan Butygin <ivan.butygin@intel.com>
+Date:   Tue Aug 27 13:34:56 2019 +0300
+
+    fix svml patch
+
+commit d5cb93daf5d17e8d5b1641d3df10e483c66c9d74
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Aug 20 13:56:58 2019 -0500
+
+    Use the bootstrap compiler
+
+commit 06335c7021ba4b7318ee04863fd03eb2ac633cc5
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Aug 20 13:55:27 2019 -0500
+
+    try 9.0.0.rc2
+
+commit 28c885a9d5279c321b0745077dc83e73ac067830
+Merge: 962f921 9af7982
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Aug 18 17:03:00 2019 -0500
+
+    Merge pull request #67 from isuruf/lit
+    
+    package lit and llvm-utils
+
+commit 9af7982d2a50e1833d4877da8725bd0b1715ac1c
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Aug 18 18:59:58 2019 +0000
+
+    Fix installing utils
+
+commit 491b202c68e9107c6375993d659b7f06b9bbc2aa
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Aug 18 02:41:34 2019 -0500
+
+    Add entry_points to lit
+
+commit 6d898140013eba2571c2089e6415c1e1e0065f44
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Aug 18 07:36:34 2019 +0000
+
+    Install llvm-utils as well
+
+commit b0f40789f4e54eea7363d85423e732a2101c1cd0
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Aug 18 06:14:45 2019 +0000
+
+    Package lit
+
+commit 2cbef917d0a582026ed9a18a11000236de9b0caf
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Aug 18 06:14:20 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.12
+
+commit 962f92115b90e8966a8f0ddccf5ce92a7025110e
+Merge: 9dca44b e4e2e1c
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Aug 18 00:46:45 2019 -0500
+
+    Merge pull request #71 from isuruf/8.0.1
+    
+    Update to 8.0.1
+
+commit e4e2e1cfe6221c1839ef95ebf8e281c21b3a7fe8
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Aug 17 16:49:11 2019 -0500
+
+    Update to 8.0.1
+
+commit 9dca44b711137cbc6194421e0fda63f6ea96cef0
+Merge: a6cea95 a514e57
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Aug 17 16:47:19 2019 -0500
+
+    Merge pull request #66 from isuruf/shared
+    
+    Build shared libraries as well
+
+commit a514e57a02dbf43d31ac9e0885f6a7077117c66e
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Aug 16 11:35:56 2019 -0500
+
+    Use rmdir
+
+commit 921b28d12bd8dd149f7c6a4e033f9387700235a1
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Aug 10 07:04:51 2019 -0500
+
+    Make osx work like linux
+
+commit 5d399428c7219aae0940225fbd68891317a9ebbe
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Aug 10 00:02:31 2019 -0500
+
+    No libedit
+
+commit 6f3ec2ba55106c54b5266ed38dc7fb3407b013dd
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Aug 9 12:23:49 2019 -0500
+
+    Workaround for conda-build bug
+
+commit 7a6f0c5096af50478084dfd64e20eb46f583cb9c
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Aug 9 08:19:51 2019 -0500
+
+    libllvm -> llvm
+
+commit 90aaa7724a410b2c5a6d851a661adad1323d6ecd
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Aug 8 23:17:17 2019 -0500
+
+    Workaround conda-build bug
+
+commit 1e559579605fc79aeadcfa6b326c065a3d881974
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Aug 8 22:55:31 2019 -0500
+
+    Fix linter error
+
+commit 9f44064f125535ed0a10651d6ac3464fce5c5f1b
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Aug 8 22:51:39 2019 -0500
+
+    Add tests
+
+commit a76081fef4f6710e69dcf8a427a6cebf03334fc2
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Aug 8 22:35:22 2019 -0500
+
+    Activate in script
+
+commit 8059f3a076bfc1770ab993c22e882fc7279e66a3
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Aug 8 22:01:53 2019 -0500
+
+    No shared on windows
+
+commit b25514a66c139a2fb07e3760273770d14b1ab6de
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Aug 9 01:36:50 2019 +0000
+
+    Fix packaging
+
+commit eb3b6e1bdc5ac44e0f59afc9f4daed7d6be2f63b
+Merge: 42613f6 a6cea95
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Aug 8 19:05:00 2019 -0500
+
+    Merge branch 'master' into shared
+
+commit a6cea959ac22c04294cd13e03fddff4aedf2420f
+Merge: e80e819 b5251a7
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Jun 28 00:06:42 2019 -0400
+
+    Merge pull request #69 from jakirkham-feedstocks/add_patch_revert_non-GlobalValue_name
+    
+    Revert limit on the length of a non-GlobalValue name
+
+commit b5251a7c1361f43813cb24cdeba74ade9f0b2f9b
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Thu Jun 27 11:33:37 2019 -0400
+
+    MNT: Re-rendered with conda-build 3.18.4, conda-smithy 3.4.0, and conda-forge-pinning 2019.06.27
+    
+    Now that `aarch64` and `ppc64le` are skipped, re-render to remove the
+    associated CI configuration files and update the README.
+
+commit f71de3561d311eddb48ec5e4bf7cb7f34846a927
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Thu Jun 27 11:33:35 2019 -0400
+
+    Disable `aarch64` and `ppc64le` builds with `skip`
+    
+    These are fine to build, but take too long for our CIs. So here we
+    disable them to avoid wasting CI time.
+
+commit 88cc7088e81ef4de258028914b746d1e76a60f2b
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Jun 26 21:54:59 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.4, conda-smithy 3.4.0, and conda-forge-pinning 2019.06.19
+
+commit acce245c6da2f3ab08ca7c43e4c72eb914698fe8
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Wed Jun 26 17:48:47 2019 -0400
+
+    Bump build number to 2
+
+commit f03ed0625513c4218b840692f99c71d8bf75dd58
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Wed Jun 26 17:47:34 2019 -0400
+
+    Revert size limit on non-GlobalValue names
+
+commit 42613f685b05c0d858c98df8cead33c49d1a813b
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 24 11:31:06 2019 -0500
+
+    Fix paths and build dll on windows
+
+commit 28351404fad1aa28a196d2cf966b9d7473fead6d
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 24 08:49:27 2019 -0500
+
+    Fix osx build
+
+commit 0723d0952198f21c3e699646e07e26b481ca2cf7
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 24 08:45:39 2019 -0500
+
+    Fix windows build
+
+commit f5ecf1c05809c1fd0f1d90a1c5c46bbb73dc7a02
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Apr 24 13:19:14 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.3, and conda-forge-pinning 2019.04.18
+
+commit a96f8488ca7d8ceb6522f2c54b25d237f4f63142
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 24 08:18:26 2019 -0500
+
+    Don't build ppc64le and aarch64
+
+commit 9a8474c31c9ecc069b46565366d729d0e1e2f6a1
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 24 08:17:04 2019 -0500
+
+    Add dummy file
+
+commit e90f9a08ba07d24c05a987368ab2beda51551de7
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 24 01:59:59 2019 -0500
+
+    Build shared libraries as well
+
+commit e80e8195a3e49dafe90f79f5f6e9d18189a2ba1e
+Merge: 47aed2b 694502d
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Apr 12 08:21:29 2019 -0400
+
+    Merge pull request #64 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition1_arch
+    
+    Arch Migrator
+
+commit 694502d124435928f17ba648699afedbe03d14a7
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Thu Apr 11 08:34:08 2019 -0400
+
+    Switch to native for ppc64le
+
+commit 1b33e71bf349fd7bb15b8359226ddb37e7130899
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Thu Apr 11 08:33:46 2019 -0400
+
+    MNT: Re-rendered with conda-build 3.17.5, conda-smithy 3.3.2.post.dev30, and conda-forge-pinning 2019.04.12
+
+commit 1b44368faf5d003eff977a1591506d7b4315c1a4
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Thu Apr 11 08:16:36 2019 -0400
+
+    For non-intel platforms don't test for haswell
+
+commit 7a2c89bea565a2777bf2838d07645b82a5c20830
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 10 23:18:09 2019 -0500
+
+    Add make
+
+commit aebe03512d2732703a0e63e9ea96961789a923e2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Apr 11 03:32:34 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.2, and conda-forge-pinning 2019.04.10
+
+commit 255d7c4e2d5bbcc70b712967ed50226e53177c59
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Apr 11 03:32:21 2019 +0000
+
+    bump build number
+
+commit 47aed2bac9dcaf55e090c335a32a6f98b2d5d5af
+Merge: 4c16d63 be67850
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Apr 8 21:45:02 2019 -0500
+
+    Merge pull request #63 from isuruf/zlib
+    
+    Disable xml2 and zlib
+
+commit be67850152186eab9db584e7d775d5ea95a5115c
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Apr 8 19:34:47 2019 -0500
+
+    Add llvm-meta as run_constrained only
+
+commit 12b8fb0c4f9bc9473456551ec5fc5d626754ffb3
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Apr 8 19:30:56 2019 -0500
+
+    Disable xml2 and zlib
+    
+    In Linux these are disabled and this commit disables them for clang as well.
+    XML2 and ZLIB are used by only a few tools and doesn't seem worth adding support.
+    They can be added back if they are needed.
+
+commit 4c16d635d8de3bda5c3caa2620486fe2715c2562
+Merge: 3f4ed6a d75fa76
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Apr 6 14:25:31 2019 -0500
+
+    Merge pull request #62 from anton-malakhov/rebase_llvm8
+    
+    Updated and rebased to LLVM8
+
+commit d75fa7626592309c4b882d0b79c929230340bb49
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Wed Apr 3 13:52:18 2019 -0500
+
+    Commented partial_testing patch out because it doesn't work with llvm-lit for llvm8 anyway
+
+commit 1dddc9366f3f1bdba9f4d4b3bddfff7272790be6
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Apr 3 13:33:58 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.2, and conda-forge-pinning 2019.03.17
+
+commit 677586362fe5f63f6f5f41b64e20e37ac923a9ba
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 3 08:33:31 2019 -0500
+
+    Update conda-forge.yml
+
+commit e1e7c82e3b1ed7a64403d59eb9deb3a7afd3c321
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 3 08:33:18 2019 -0500
+
+    Use azure on win
+
+commit 585ccee2b2a518b7c1090ecd7abbd090a966d3ea
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 3 08:19:49 2019 -0500
+
+    Set CC and CXX
+
+commit 36d1856d6ada8aed40ae515551bc0fc42a7d6e0e
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Apr 2 22:39:55 2019 -0500
+
+    Set C compiler for azure
+
+commit e4064e5a37e7ad89829d2d1ce2d4c9cc4278c1e3
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Tue Apr 2 16:24:27 2019 -0500
+
+    Reducing the build time at expense of the testing
+
+commit 674392dec387e7b568ed6f6b4d354a7a23e07e31
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Tue Apr 2 11:41:54 2019 -0500
+
+    Disabled lit testing, enabled LLVM_TEMPORARILY_ALLOW_OLD_TOOLCHAIN
+
+commit 2aaf53f74cebe31709ec564ce225d3b2886cccfd
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Mon Apr 1 20:59:32 2019 -0500
+
+    removed twine patch
+
+commit ce5d41a8201f12ded30e9a8571414366133b419c
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Mon Apr 1 19:13:52 2019 -0500
+
+    Rebased the patch for LLVM8
+
+commit 2eee77c415a76125817bd1e4d6e20dc4450159de
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Mar 20 22:27:40 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.1, and conda-forge-pinning 2019.03.17
+
+commit b6b1477ad6aa5dbe36485063b7eb7257cb1dbf16
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Mar 20 22:27:28 2019 +0000
+
+    updated v8.0.0
+
+commit 3f4ed6a6ab5d8e263d36973b3aee3ad203b0f7b3
+Merge: 7cbea83 3a9d22b
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Feb 13 10:37:20 2019 -0600
+
+    Merge pull request #59 from Quansight/pr-18-update
+    
+    Set LLVM to build default (all) targets (was PR-18)
+
+commit 3a9d22ba20d5096c8908a00cfa10e9fadb0ad748
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Jan 31 15:53:26 2019 -0600
+
+    allow win failure
+
+commit 75cb4fda0137b61bfe1b5d7ca1d5b7b82774b00a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Jan 31 21:37:04 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.12, and conda-forge-pinning 2019.01.29
+
+commit 310b8a491032b3e662bb3c0019f066f2654b0a42
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Jan 31 15:30:17 2019 -0600
+
+    Use appveyor on win
+
+commit f57170ee1242a2336b1966bb4c97318707d29936
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Jan 30 18:03:25 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.10, and conda-forge-pinning 2019.01.29
+
+commit 2de20c459aadcc196b8016a10e2bf2efd04e3f56
+Author: Pearu Peterson <pearu.peterson@gmail.com>
+Date:   Wed Jan 30 19:32:04 2019 +0200
+
+    Updated PR-18: Set LLVM to build default (all) targets
+
+commit 7cbea832c88edfeb2c1ae6dd96333ffe84423742
+Merge: 38e4d76 1414761
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Jan 17 02:00:21 2019 -0600
+
+    Merge pull request #58 from conda-forge-linter/conda_forge_admin_57
+    
+    MNT: rerender
+
+commit 14147614c43ec78e3a304ac50661e7af6247dc54
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Jan 16 23:58:54 2019 -0600
+
+    Add libcxx to host on osx
+
+commit 874c8c16c33135523b476349d89cfee50cf81281
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Jan 17 05:41:39 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.5, conda-smithy 3.2.9, and conda-forge-pinning 2019.01.16
+
+commit b965f7b0fc427f584f804fab4e9736c23b0f91ec
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Jan 16 23:41:10 2019 -0600
+
+    Use python 3.7 for build
+
+commit 64ddd3a38b1b596d23a25e6c4485f461d1046238
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Jan 17 05:39:19 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.5, conda-smithy 3.2.9, and conda-forge-pinning 2019.01.16
+
+commit 38e4d766ba50fb427fac324206814a438f5e9eea
+Merge: 91e8874 24a4da8
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Jan 16 23:36:44 2019 -0600
+
+    Merge pull request #53 from anton-malakhov/VF-intrinsics-fix
+    
+    Fixed patch for VF fix, added profiling support
+
+commit 24a4da8ed364154a3ae382b7f44352e58f645ea9
+Merge: f0cc88e 91e8874
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Dec 29 19:02:25 2018 -0500
+
+    Merge 'conda-forge/master' into 'anton-malakhov/VF-intrinsics-fix'
+
+commit 91e8874e62e58c424b91346b9c1385759e18eed1
+Merge: 1f72ea5 6d783bd
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Dec 29 18:58:16 2018 -0500
+
+    Merge pull request #56 from hmaarrfk/7.0.1
+    
+    7.0.1
+
+commit 6d783bd4377672ae549d789f861a0c6e00c177fe
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Dec 25 00:01:53 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.18
+
+commit 0b1183c83f011898cddce051b1364dc28eade73f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Dec 15 07:15:28 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.12
+
+commit 7cffd7f12cda1ad1d8a21a6896828b301ecb93da
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Dec 15 07:15:21 2018 +0000
+
+    updated v7.0.1
+
+commit f0cc88e76e3e8d9fb17e8af8349018a174e30c8c
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Sun Nov 4 01:05:50 2018 -0600
+
+    Enabled testing (again)
+
+commit 0c3108caf0e9cbddf835a4307d0b73b797051837
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Nov 2 04:36:22 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.31
+
+commit ac6df4dd7a51ffd8fcf3242f626ae96a2d3d57c2
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Thu Nov 1 23:34:19 2018 -0500
+
+    Bumped build number
+
+commit b676b4b60abe0825f2c8907cf5e8ed370b8875d3
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Thu Nov 1 23:29:34 2018 -0500
+
+    Fixed patch for VF fix, added profiling support
+
+commit 1f72ea5d3f6882f7cbfb85896f5fcd222884181b
+Merge: f14bf42 88181c7
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Thu Oct 25 23:47:42 2018 +0200
+
+    Merge pull request #51 from SylvainCorlay/conda-build-config
+    
+    Remove useless conda_build_config.yaml
+
+commit 88181c7e541972fd7a305b9df1255a17def072be
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Sun Oct 7 19:45:15 2018 +0200
+
+    Remove useless conda_build_config
+
+commit f14bf4215d7764df0479fc8774ba9aefa2f92a9b
+Merge: e60beb1 6b6d6d9
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Fri Oct 5 13:03:47 2018 +0200
+
+    Merge pull request #48 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit 6b6d6d90c781e93791cb4955f391ae3d858c9e3e
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Thu Oct 4 11:22:58 2018 +0200
+
+    Remove cling patches and rerender
+
+commit f82e9a6e530442ef81b1765ab37af4dfbee75f38
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Thu Oct 4 10:56:23 2018 +0200
+
+    llvmdev 7.0 does not have cling patches.
+
+commit 7be52cf72563f8b0e1045e9cf1870b608f66dd80
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 3 02:14:51 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit 6d8af26fc11950a2373f3bc22251c4d60dd88a32
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 3 02:14:43 2018 +0000
+
+    bump build number
+
+commit e60beb1fb79b4f9340147836893efdc687143e4e
+Merge: a67db04 409d529
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Oct 2 10:08:07 2018 -0500
+
+    Merge pull request #47 from anton-malakhov/LLVM7
+    
+    llvmdev v7.0.0 with rebased SVML
+
+commit 409d5295679b7a2fe3c48ef70e579e4bafb8bb28
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Tue Sep 25 23:05:36 2018 -0500
+
+    Rebased SVML patch on top of LLVM 7
+
+commit 75ab2d60269ca0946d4c9068cdfa5588b40ff89b
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Sep 24 01:59:14 2018 -0400
+
+    Drop the `CodeView_registers.patch`
+    
+    Appears this may have been integrated into LLVM 7. So applying the patch
+    no longer works and may no longer be needed. Hence this tries to drop
+    it.
+
+commit 3a8e787c58292cb58b4c4183112ef1ead17e4fd7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 19 12:13:52 2018 +0000
+
+    updated v7.0.0
+
+commit a67db043e699d1a29fd79d5c9327dff744e4c7e9
+Merge: 061a916 7e51575
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Aug 11 21:15:40 2018 -0400
+
+    Merge pull request #44 from jakirkham-feedstocks/apply_codeview_registers_patch
+    
+    Apply upstream CodeView registers patch
+
+commit 7e5157555b6d19c9815035b4ffe1b87352ed7d58
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Aug 11 17:20:15 2018 -0400
+
+    Drop test portions of `CodeView_registers.patch`
+    
+    As the test portions of the `CodeView_registers.patch` don't apply
+    cleanly and we are not running the full test suite, go ahead drop these
+    portions.
+
+commit 9be716b6174994b09a9be6b4d56b41afac3d992a
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Aug 11 15:50:01 2018 -0400
+
+    Bump build number to 2
+    
+    Needed to rebuild `llvmdev` with the upstream CodeView registers patch.
+
+commit eb7157dd46faf166af924a588b64d483b30a9206
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Aug 11 15:48:42 2018 -0400
+
+    Add upstream patch to fix CodeView registers
+    
+    This patch has already been merged upstream. Appears to be needed to
+    build `lldb`.
+    
+    ref: https://reviews.llvm.org/D47478
+
+commit 061a9164493b25f587710663ab7ee8ac55080415
+Merge: de06b87 c16d0f3
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Aug 10 15:26:30 2018 -0400
+
+    Merge pull request #42 from jakirkham-feedstocks/bld_wasm_target
+    
+    Start building LLVM with support for the experimental WebAssembly target
+
+commit c16d0f3412bee165d4d191008c3984d46b56b3da
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Aug 6 15:50:25 2018 -0400
+
+    Bump the build number to 1
+    
+    Rebuild now that the experimental WebAssembly target is included.
+
+commit 47f5710611ed7e7e3a929f9ad1e449388961ff79
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Aug 6 15:49:14 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.10 and pinning 2018.08.05
+    
+    Now that the macOS build provider has been switched from Travis CI to
+    CircleCI, re-render to update the CI configuration files and README
+    accordingly.
+
+commit 7a9f1700aa4af605588ad33cff7c3ed8c3fa7452
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Aug 6 15:49:02 2018 -0400
+
+    Switch to building macOS packages on CircleCI
+    
+    It comes as no surprise that we would eventually run into the Travis CI
+    time limit for our macOS builds. Unfortunately it seems to timeout when
+    fixing and inspecting the linkages. In order to give the builds a bit
+    more time, switch to building on CircleCI's macOS workers, which have a
+    longer time limit.
+    
+    ref: https://travis-ci.org/conda-forge/llvmdev-feedstock/builds/412780833
+
+commit f057c46f8c8b8651d2d872c47a9362fd915777e4
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Aug 6 15:48:48 2018 -0400
+
+    Build the experimental WebAssembly target
+    
+    Start building the experimental WebAssembly target. This allows LLVM to
+    be used to compiler C/C++ codes to WebAssembly. Not sure the viability
+    of Fortran with Flang ATM, but that may also be possible.
+
+commit 15ec6c8ec9f8f20617ad4f80e65959db2c17c458
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Aug 6 15:47:58 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.10 and pinning 2018.08.05
+
+commit de06b875451e51e588058354f9f9d9da817942c5
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:34:47 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit b9257d674d83541779514d6172e299b0a9cb4a92
+Merge: c3eddf5 fbd577c
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Jul 11 08:50:02 2018 -0600
+
+    Merge pull request #39 from regro-cf-autotick-bot/6.0.1
+    
+    llvmdev v6.0.1
+
+commit fbd577c87e25b434c99595e68b100455c3329589
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Jul 8 13:24:08 2018 -0600
+
+    Update bld.bat
+
+commit dacb1c160c61d2b182e3f4ba4ecb8d67178b4a4d
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Jun 29 22:17:36 2018 -0600
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.29
+
+commit a92c7c210aa7b1b0248c3acfeb0b59099c4d1430
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Jun 29 22:05:54 2018 -0600
+
+    Remove llvm-meta output
+
+commit c4b569d422a21ad085394daed522bf4be0356b87
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Jun 29 21:52:33 2018 -0600
+
+    Fix recipe
+
+commit dfe9632e81d19a58aad0c9efdf2d65e7e71def90
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Jun 29 21:44:09 2018 -0600
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.29
+
+commit c6a69040ca026800e84a06f3457ff20be91b488d
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Jun 29 18:00:28 2018 -0600
+
+    Update to conda-build=3
+
+commit 39da6a1d05c1849f76737628a823a69681e3d74f
+Merge: 06c55ac c3eddf5
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Jun 29 17:58:54 2018 -0600
+
+    Merge branch 'master' of github.com:conda-forge/llvmdev-feedstock into regro-cf-autotick-bot-6.0.1
+
+commit c3eddf5810da94c321a6401eccae6ddd3abef5a4
+Merge: 4cab24b d3d3b70
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Jun 29 17:49:11 2018 -0600
+
+    Merge pull request #38 from anton-malakhov/develop
+    
+    Hot-fix in LoopVectorize for numba/numba#3016
+
+commit 06c55ac9e46d7b9f7c2761525f74670a3044195e
+Author: Andreas Klöckner <inform@tiker.net>
+Date:   Fri Jun 29 09:53:40 2018 -0500
+
+    Drop export_LLVMInitializeInstCombine.diff (part 2)
+
+commit 2360cd76dc6d681d7c42108edbad99f548fcda59
+Author: Andreas Klöckner <inform@tiker.net>
+Date:   Fri Jun 29 09:53:28 2018 -0500
+
+    Drop export_LLVMInitializeInstCombine.diff (part 1)
+
+commit b95614c891e6fd121cd543c76f340e63a4e08b50
+Author: Travis CI User <travis@example.org>
+Date:   Fri Jun 29 07:06:22 2018 +0000
+
+    updated v6.0.1
+
+commit d3d3b7049096c3e98329085727b3a027c87e921b
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Wed Jun 20 14:58:34 2018 -0500
+
+    fixed bad copy-paste and using findstr instead
+
+commit 08f15cd5d5a075132e00e3f5285623d491d23252
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Tue Jun 19 21:22:30 2018 -0500
+
+    added grep for win
+
+commit 8199c3347021f19b8881113581d48834a041bc7f
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Tue Jun 19 17:46:59 2018 -0500
+
+    fixed the hot-fix for Windows
+
+commit 09647da51effae5d6372f958bbab91c125293871
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Mon Jun 18 19:44:00 2018 -0500
+
+    Added test for numba/numba#3016
+
+commit b531c2a0b1a6b733c348842fd922f01b3db1944b
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Wed Jun 13 19:07:44 2018 -0500
+
+    Rebased patch for LLVM 6.0.0
+
+commit b7bafd8ed4d23c57961af54ae88ceeab44aec163
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Wed Jun 13 18:10:17 2018 -0500
+
+    Hot-fix for numba/numba#3016
+
+commit 4cab24bddb97f4316f17c27ed15c60b3592a3bd1
+Merge: c6e0686 7b3c627
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Jun 4 19:10:31 2018 -0600
+
+    Merge pull request #37 from anton-malakhov/master
+    
+    Enable autovectorization with SVML library
+
+commit 7b3c62728ca259e03f72b5bc66da8481a097a661
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Mon Jun 4 00:47:55 2018 -0500
+
+    build number
+
+commit ace4b6688348bc6799e849982309bec806cd360f
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Sun Jun 3 16:25:58 2018 -0500
+
+    Enable autovectorization with SVML library using patch from https://reviews.llvm.org/D47188
+
+commit c6e0686243415a059d24b4337e134f938d338270
+Merge: 44be507 3afb865
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Apr 30 23:46:02 2018 -0400
+
+    Merge pull request #35 from jakirkham-feedstocks/add_twine_cfg_undefined_behavior_patch
+    
+    Add CFGPrinter undefined behavior patch
+
+commit 3afb86540f65104e34f2f35ebec9a7116ef2c4c4
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Apr 30 22:24:54 2018 -0400
+
+    Bump build number to 2
+    
+    Need a rebuild after applying a patch to fix undefined behavior in
+    CFGPrinter.
+
+commit a2e5013e495a5f0dab550aab2a6bad9b881298e5
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Apr 30 22:21:57 2018 -0400
+
+    Add patch for undefined behavior in CFGPrinter
+    
+    Takes a patch from one of the Numba developers for LLVM upstream to fix
+    undefined behavior in CFGPrinter related to Twine (mis)use.
+    
+    ref: https://bugs.llvm.org/show_bug.cgi?id=37019
+    ref: https://github.com/numba/llvmlite/blob/v0.23.0/conda-recipes/twine_cfg_undefined_behavior.patch
+
+commit 44be507d349b4fa312b95b34190b143e506aaf75
+Merge: 7aa8404 3c8aa73
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Apr 29 19:18:40 2018 -0400
+
+    Merge pull request #34 from jakirkham-feedstocks/export_LLVMInitializeInstCombine
+    
+    Export LLVMInitializeInstCombine
+
+commit 3c8aa736b1ac07840566f6fb2930bef0b0cdd3eb
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Apr 29 16:32:57 2018 -0400
+
+    Bump build number to 1
+    
+    Needed to include patch to export missing `LLVMInitializeInstCombine`
+    symbol.
+
+commit 2f1d464a2f8a67171f9fc79abdaa4003c496720c
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Apr 29 16:32:47 2018 -0400
+
+    Fix missing `LLVMInitializeInstCombine`
+    
+    Applies an upstream patch to export `LLVMInitializeInstCombine`, which
+    was accidentally not exported as a symbol.
+    
+    xref: https://bugs.llvm.org/show_bug.cgi?id=35947
+    xref: https://reviews.llvm.org/D44140
+
+commit 7aa8404dfad99155c69388d2652bc7d7b94a73f8
+Merge: 81b200b 35a1331
+Author: Andreas Klöckner <inform@tiker.net>
+Date:   Mon Apr 16 13:26:37 2018 -0500
+
+    Merge pull request #33 from jakirkham-feedstocks/drop_unneeded_shortversion
+    
+    Drop unused `shortversion`  [ci skip]
+
+commit 35a1331750d9b6ca6cecf28e132bc56aa4962dea
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Apr 16 11:58:56 2018 -0400
+
+    Drop unused `shortversion`  [ci skip]
+    
+    As `shortversion` is no longer used in the recipe, just drop it from the
+    Jinja definitions.
+
+commit 81b200b111250cd5b7f2aacf237e9f43b7da2bf8
+Merge: 7b717f0 715eefd
+Author: Andreas Klöckner <inform@tiker.net>
+Date:   Fri Mar 9 11:27:53 2018 -0600
+
+    Merge pull request #32 from inducer/master
+    
+    LLVM 6.0
+
+commit 715eefd9dbb2ca1e6e4b93c487739b3dda0ec45e
+Author: Andreas Kloeckner <inform@tiker.net>
+Date:   Thu Mar 8 23:45:02 2018 -0600
+
+    Remove llvm-elf-relocation.patch, 'medium' code model no longer accessible from patch location
+
+commit 361ba631cf01ed77da55a542b5f12de9a111d43d
+Author: Andreas Kloeckner <inform@tiker.net>
+Date:   Thu Mar 8 10:20:20 2018 -0600
+
+    LLVM 6.0
+
+commit 7b717f046f419c7d24d292acc598d8f665f8c42f
+Merge: e3423ec acfb9d0
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Feb 18 20:11:41 2018 -0600
+
+    Merge pull request #31 from xoviat/update-requirements
+    
+    Add llvm-meta to requirements
+
+commit acfb9d00281d3876bb2cbb73f6e2af1d178ea5f6
+Author: xoviat <xoviat@users.noreply.github.com>
+Date:   Sun Feb 18 16:48:24 2018 -0600
+
+    Increment build number
+
+commit efcebb19480418472703043313ba6a187373b1f8
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Feb 18 22:47:17 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 44d1e04b45aa422974a260d7d31404a15eddd50c
+Author: xoviat <xoviat@users.noreply.github.com>
+Date:   Sun Feb 18 16:46:02 2018 -0600
+
+    Use cmake abstraction
+
+commit baa7623dd25d91fb3eb0849fd11e27508203efd4
+Author: xoviat <xoviat@users.noreply.github.com>
+Date:   Sun Feb 18 16:44:59 2018 -0600
+
+    Meta: add llvm-meta to run requirements
+
+commit e3423ecb1509d1ebdda9dd5a1982943afbf61ed2
+Merge: bb522d6 6397dd5
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Nov 10 11:36:06 2017 -0600
+
+    Merge pull request #27 from AnacondaRecipes/fix-m2-m2w64-confusion
+    
+    Use m2w64-xz always
+
+commit 6397dd51a0ba6f9adff4c41b7f58d47ce25c20fb
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Nov 10 13:14:53 2017 +0000
+
+    Use m2w64-xz always
+    
+    That m2-xz was used for win32 and m2w64-xz was used for win64 shows
+    a misunderstanding about what these package prefixes mean.
+    
+    m2-xz is a Cygwin-a-like package (implements FHS, can fork is always GPL)
+    m2w64-xz is a native Windows package (cannot fork, license as per upstream)
+    
+    m2w64 does *not* mean 64-bit. It means a package compiled using mingw-w64
+    which is the 64-bit *capable* fork of mingw.org
+
+commit bb522d6b3e0bc0cbc9f362855f0037d932447fe8
+Merge: 51a1666 d7577b5
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 4 09:59:54 2017 -0500
+
+    Merge pull request #23 from xoviat/update
+    
+    Update to 5.0
+
+commit 51a166667f1300a6a63f3dba9cb9c3b90bfea3c2
+Merge: 0d3bc22 892892a
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Nov 3 17:27:55 2017 -0400
+
+    Merge pull request #24 from isuruf/patch-1
+    
+    [skip ci] [ci skip] Add isuruf to maintainers
+
+commit 892892a0f8dd678c3a86ea4fbf813dd5286db4f1
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Nov 3 16:25:30 2017 -0500
+
+    [skip ci] [ci skip] Add isuruf to maintainers
+
+commit d7577b5d1eba2eea5bbb764648e4c57b3bd57f66
+Author: xoviat <xoviat@users.noreply.github.com>
+Date:   Fri Nov 3 15:39:26 2017 -0500
+
+    [meta] fix build number
+
+commit 82abe4cb37ddd66e2b113ed46aa001b1eaef1d55
+Merge: 8b90897 bace0a1
+Author: xoviat <xoviat@users.noreply.github.com>
+Date:   Fri Nov 3 15:33:53 2017 -0500
+
+    Merge pull request #2 from xoviat/add-patch
+    
+    Add patch
+
+commit bace0a12a851f7874eb1e962b067558870f8aeec
+Merge: 1a70685 8b90897
+Author: xoviat <xoviat@users.noreply.github.com>
+Date:   Fri Nov 3 15:33:45 2017 -0500
+
+    Merge branch 'update' into add-patch
+
+commit 8b908975f73923c0735985632a444a470a44dd59
+Author: xoviat <xoviat@users.noreply.github.com>
+Date:   Fri Nov 3 15:28:00 2017 -0500
+
+    [meta] revert llvm_variant
+
+commit e275f4763f7436f7619987e8f56c6d415bc6878a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Nov 3 20:23:37 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit 216ed0abc8c11bfdeb77c4253cdedfac7b2cc921
+Author: xoviat <xoviat@users.noreply.github.com>
+Date:   Fri Nov 3 15:12:39 2017 -0500
+
+    [meta] reset llvm_variant
+
+commit 264e18cd72c32e2f1f40758776413810b81d67da
+Author: xoviat <xoviat@users.noreply.github.com>
+Date:   Fri Nov 3 15:07:45 2017 -0500
+
+    [meta] update version
+
+commit f868ade729dd78cacb2733e8a09d136bb1bb657f
+Author: xoviat <xoviat@users.noreply.github.com>
+Date:   Fri Nov 3 15:06:51 2017 -0500
+
+    drop cling variant
+
+commit 1a706852c7936326fc22b4a3c8352fa0f5a07a66
+Author: Sourav Singh <souravsingh@users.noreply.github.com>
+Date:   Mon Oct 16 14:32:07 2017 +0530
+
+    Bump build number
+
+commit 3a5e344e45372499487bcffdf2c80c5c06162525
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Oct 13 05:29:21 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit fd29717c6518b8c371212dd4512a3699d9ca48e8
+Author: Sourav Singh <souravsingh@users.noreply.github.com>
+Date:   Wed Oct 11 22:38:48 2017 +0530
+
+    Add patch to recipe
+
+commit 7c47ebb9e8cef88b47e553309cd4dac2e3a743b4
+Author: Sourav Singh <souravsingh@users.noreply.github.com>
+Date:   Wed Oct 11 22:38:05 2017 +0530
+
+    Add LTO patch
+
+commit 0d3bc22e1e9d97b3c9fd80803fecf651eb2499d0
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 21:43:43 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit c1d1ab73bc3149ae221e4a39dad331d4ad1eb63e
+Merge: c411892 7a6aff9
+Author: Andreas Klöckner <inform@tiker.net>
+Date:   Sat May 13 16:18:32 2017 -0500
+
+    Merge pull request #19 from gqmelo/update-4.0
+    
+    Update to 4.0.0
+
+commit 7a6aff9b00d2edbc8659aac5045f66b7381965ff
+Author: Guilherme Quentel Melo <gqmelo@gmail.com>
+Date:   Sun Mar 19 11:15:22 2017 -0300
+
+    Update to 4.0.0
+
+commit c4118923548772a1e2d2da10a3e411ff0644210f
+Merge: 92db06b b94d159
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Sun Feb 19 13:01:26 2017 +0100
+
+    Merge pull request #15 from SylvainCorlay/cling
+    
+    Cling-patches
+
+commit b94d159dec11363c50944f00b7b2840c88708cfb
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Sun Feb 19 13:00:32 2017 +0100
+
+    Bump build number
+
+commit 4a681a278233c9e1a21d27d71f8a897b812c7d6d
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Sat Feb 18 11:21:56 2017 +0100
+
+    Cling-patches
+
+commit 92db06bcd19de1f35629765682b722c54be04c01
+Merge: 1c26840 dc18315
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Sat Feb 11 12:33:54 2017 +0100
+
+    Merge pull request #11 from SylvainCorlay/msvc14
+    
+    Build with VS 2015
+
+commit dc183158eeb6155a458d0b3b88eedc6b204de819
+Merge: eee5c4f 7c5fbaf
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Fri Feb 10 14:05:23 2017 +0100
+
+    Merge pull request #1 from gqmelo/ninja
+    
+    Use ninja to build in parallel
+
+commit 7c5fbaf63104300f14258f5f1d75b55614a5ed07
+Author: Guilherme Quentel Melo <gqmelo@gmail.com>
+Date:   Thu Feb 9 14:21:04 2017 -0200
+
+    Use ninja to build in parallel
+
+commit eee5c4fe6fb5561d0e35144a10f217dbdf4051ad
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Mon Feb 6 20:12:15 2017 +0100
+
+    Switch to msvc 14
+
+commit 1c26840bb9263225c81bce27e3f8bb29d5cd7124
+Merge: b309878 fc8fec8
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Mon Feb 6 08:22:30 2017 +0100
+
+    Merge pull request #10 from SylvainCorlay/simplify-recipe
+    
+    Simplify bld.bat
+
+commit fc8fec89b85979cfc7693fee3649a2702355befb
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Sun Feb 5 18:58:37 2017 +0100
+
+    Simplify recipe
+
+commit bbc50e43f49e578a6638aa3dc949eecda3f88bd2
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Sun Feb 5 18:07:20 2017 +0100
+
+    Accelerate build
+
+commit 33355d3390fd31f0ce67a275ea293d8d9894bdff
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Sun Feb 5 13:44:06 2017 +0100
+
+    Simplify bld.bat
+
+commit b309878612a063d79c762d4306e2b9adf8109ba2
+Merge: 1167012 82f2c25
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Sun Feb 5 03:01:46 2017 +0100
+
+    Merge pull request #9 from SylvainCorlay/build-string
+    
+    Compose build string with build number
+
+commit 82f2c25569087632ddee56bb4a2775415508b223
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Sat Feb 4 23:15:15 2017 +0100
+
+    Compose build string with build number
+
+commit 11670121f8e8c7e98d15f7abd23da048fc957c2e
+Merge: bdc231c 9893e63
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Sat Feb 4 20:26:54 2017 +0100
+
+    Merge pull request #8 from SylvainCorlay/track-feature
+    
+    Always track a feature so that clangdev can select the cling variant
+
+commit 9893e6399ed68b1c30044dfef3133b8248ae5460
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Sat Feb 4 15:42:18 2017 +0100
+
+    Always track a feature so that clangdev can select the cling variant
+
+commit bdc231c92bae7896624a96154ee779f80d6e4f44
+Merge: 26ee540 a7d3efd
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Sat Feb 4 11:31:19 2017 +0100
+
+    Merge pull request #4 from SylvainCorlay/cling
+    
+    Add cling patches for cling packaging
+
+commit a7d3efd9c4f34ea9d7f36b96ec5c26158796d473
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Wed Jan 25 14:24:30 2017 +0100
+
+    Add cling patches and features
+
+commit 26ee54059ed9380949843bc54b034516b5d2127c
+Merge: 17cd493 cd525d7
+Author: Andreas Klöckner <inform@tiker.net>
+Date:   Fri Jan 27 12:01:41 2017 -0600
+
+    Merge pull request #5 from SylvainCorlay/391
+    
+    Release 3.9.1
+
+commit 17cd493c95e1b1ca951504c8ccbcc9d4db5d95e6
+Merge: c27197f d307615
+Author: Andreas Klöckner <inform@tiker.net>
+Date:   Thu Jan 26 10:13:17 2017 -0600
+
+    Merge pull request #2 from inducer/master
+    
+    Add @mattwala and SylvainCorlay as maintainer
+
+commit d307615de97dc8dcd7ee7ca0f5bc3477636b7ef6
+Author: Andreas Kloeckner <inform@tiker.net>
+Date:   Thu Jan 26 10:09:09 2017 -0600
+
+    Add SylvainCorlay as co-maintainer
+
+commit b1dd2c384cb4deb0e66adef987ca4660e6e92a12
+Merge: 9af2320 c27197f
+Author: Andreas Kloeckner <inform@tiker.net>
+Date:   Thu Jan 26 10:07:36 2017 -0600
+
+    Merge branch 'master' of github.com:conda-forge/llvmdev-feedstock
+
+commit cd525d7ac452d1c7dba423f8edc61a2db196132f
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Thu Jan 26 06:36:53 2017 +0100
+
+    Release 3.9.1
+
+commit 9af232056b8d86b44b80476a0a175762f3121266
+Author: Andreas Kloeckner <inform@tiker.net>
+Date:   Thu Dec 1 14:19:30 2016 -0600
+
+    Add @mattwala as maintainer
+
+commit c27197f4798f9f0431e652db4f31c921da02927e
+Merge: 2651990 a34a82c
+Author: Andreas Klöckner <inform@tiker.net>
+Date:   Fri Nov 4 23:26:32 2016 -0500
+
+    Merge pull request #1 from inducer/master
+    
+    Update to 3.9, rerender
+
+commit a34a82c99c724ba68ef5a4935c130cd78f59699c
+Author: Andreas Kloeckner <inform@tiker.net>
+Date:   Thu Nov 3 16:43:18 2016 -0500
+
+    MNT: Re-rendered with conda-smithy 1.4.6
+
+commit 36ae63a3d0eadde1318b10642354a905b7fef032
+Author: Andreas Kloeckner <inform@tiker.net>
+Date:   Wed Nov 2 18:29:55 2016 -0500
+
+    Remove OProfile support (seems broken in LLVM 3.9)
+
+commit 967870925e575d427e28536e69ba5e7f46125b1f
+Author: Andreas Kloeckner <inform@tiker.net>
+Date:   Wed Nov 2 17:25:04 2016 -0500
+
+    Add dev_url
+
+commit 0b80344a1cf94ac8c9632e98dfaf03405c8a15a4
+Author: Andreas Kloeckner <inform@tiker.net>
+Date:   Wed Nov 2 17:05:31 2016 -0500
+
+    Actually rerender, re-add lost appveyor config
+
+commit 1d4dcc5310c2a3edbf225326e0e6a7094ff7909f
+Author: Andreas Kloeckner <inform@tiker.net>
+Date:   Wed Nov 2 16:45:35 2016 -0500
+
+    Remove llvm-parse-fp-constants.patch, applied upstream
+
+commit 86f90a04edee6a4ea7d0c82b29871d7464254621
+Author: Andreas Kloeckner <inform@tiker.net>
+Date:   Wed Nov 2 16:21:49 2016 -0500
+
+    MNT: Re-rendered with conda-smithy 1.3.3
+
+commit 4873ed045ec5a6216d476a15f8ac37f963aef3e7
+Author: Andreas Kloeckner <inform@tiker.net>
+Date:   Wed Nov 2 16:20:41 2016 -0500
+
+    Upgrade to 3.9.0
+
+commit 26519907e417c495c30604385002c53b0bb5f323
+Author: Andreas Kloeckner <inform@tiker.net>
+Date:   Sat Oct 8 15:02:38 2016 -0500
+
+    Bump build number--forgotten on previous commit
+
+commit 994e838424713949dfe9d4c42b15e78a35a6d3d2
+Author: Andreas Kloeckner <inform@tiker.net>
+Date:   Sat Oct 8 15:01:02 2016 -0500
+
+    Enable RTTI
+
+commit 30732fd1dea3847c4dd03c2b7f44dceff894b67c
+Author: Andreas Kloeckner <inform@tiker.net>
+Date:   Sat Oct 8 13:03:40 2016 -0500
+
+    Attempted windows build fix
+
+commit 6ed01d55c84168dd8abb2ed05cc6aa4ea4360f2b
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Oct 8 01:15:25 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit dd669a29f776b81a75776bdb7cca760adf135169
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Oct 8 01:13:53 2016 +0000
+
+    Initial commit of the llvmdev feedstock.

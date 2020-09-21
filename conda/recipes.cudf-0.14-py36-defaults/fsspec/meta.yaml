@@ -1,0 +1,40 @@
+{% set version = "0.8.0" %}
+{% set name = "fsspec" %}
+{% set sha256 = "176f3fc405471af0f1f1e14cffa3d53ab8906577973d068b976114433c010d9d" %}
+
+package:
+  name: fsspec
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  noarch: python
+  script: {{ PYTHON }}  -m pip install . --no-deps --ignore-installed -vv
+
+requirements:
+  host:
+    - python >=3.5
+    - pip
+    - jinja2
+  run:
+    - python >=3.5
+
+test:
+  imports:
+    - fsspec
+
+about:
+  home: https://github.com/martindurant/filesystem_spec
+  license: BSD-3-Clause
+  license_file: LICENSE
+  summary: A specification for pythonic filesystems
+
+extra:
+  recipe-maintainers:
+    - martindurant
+    - TomAugspurger

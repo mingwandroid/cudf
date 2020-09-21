@@ -1,0 +1,587 @@
+commit 469f23311cea04f31081679ec098869dea128682
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat Aug 8 01:22:57 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit 6b9a4c1d10f726625de6b5797cd7e24796609f77
+Merge: 9d1d354 2df63fb
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Fri Jul 31 14:49:46 2020 -0400
+
+    Merge pull request #34 from regro-cf-autotick-bot/0.8.0_h193743
+    
+    filesystem-spec v0.8.0
+
+commit 2df63fb19f1c99309f01778eebaf049d5449dc65
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 31 18:31:21 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.5, and conda-forge-pinning 2020.07.30.14.05.10
+
+commit 88edeadde6d4a86d21fa92936a7ea474b4cb02d9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 31 18:31:14 2020 +0000
+
+    updated v0.8.0
+
+commit 9d1d35411c520424951588f6afc53544a88d595b
+Merge: a34ae89 53d9379
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Wed May 20 11:47:32 2020 -0400
+
+    Merge pull request #33 from regro-cf-autotick-bot/0.7.4_h913710
+    
+    filesystem-spec v0.7.4
+
+commit 53d9379754946a1eab903f2d7c112b4951549ea8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue May 19 22:04:47 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.05.19.19.39.08
+
+commit e44342e489a2cf5622076d8d9cab30516c830996
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue May 19 22:04:23 2020 +0000
+
+    updated v0.7.4
+
+commit a34ae897cc2529f20d0bb67649f847fe299398be
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:12:11 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 9f5e3cd80dd6fad961c6cc123a929486bd7a6562
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat May 16 05:08:31 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit a5dd70fa9685cc6af55fa327dbde4b7643d57eaf
+Merge: 937992a 4d74ac3
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Wed Apr 22 17:05:34 2020 -0400
+
+    Merge pull request #32 from regro-cf-autotick-bot/0.7.3_h34d8e3
+    
+    filesystem-spec v0.7.3
+
+commit 4d74ac3349fd7ce8d7c39058a0b61b63c7e49ad4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Apr 22 21:01:12 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.6.17, and conda-forge-pinning 2020.04.22.03.51.02
+
+commit 566374827fec7f747ab89b74475ae163bf53cb3c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Apr 22 21:00:51 2020 +0000
+
+    updated v0.7.3
+
+commit 937992a63f27fa2d506bdd98a6358b3bb4c9ffba
+Merge: 3719029 e243395
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Tue Apr 7 15:42:58 2020 -0400
+
+    Merge pull request #31 from regro-cf-autotick-bot/0.7.2_hf9920d
+    
+    filesystem-spec v0.7.2
+
+commit e243395645f307c96d34fed0241d9ba9ec67a71d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Apr 7 19:29:26 2020 +0000
+
+    updated v0.7.2
+
+commit 3719029c02dca3db14df0528fd3d52282fc2617f
+Merge: 0c36446 35d3b66
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Mon Mar 30 11:47:36 2020 -0400
+
+    Merge pull request #30 from regro-cf-autotick-bot/0.7.1
+    
+    filesystem-spec v0.7.1
+
+commit 35d3b660e90a1f24c29471563995f76931ceaad1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Mar 30 15:30:59 2020 +0000
+
+    updated v0.7.1
+
+commit 0c364466fe3a8443739eb04c845b30958027ade5
+Merge: 5c6edb0 59654db
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Fri Mar 27 13:04:30 2020 -0400
+
+    Merge pull request #29 from regro-cf-autotick-bot/0.7.0
+    
+    filesystem-spec v0.7.0
+
+commit 59654db94c054d25ed10b342d56aabf029d012d4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 27 16:47:11 2020 +0000
+
+    updated v0.7.0
+
+commit 5c6edb05a236ba0ee8fdf60bff81daa82c415f61
+Merge: 45ab908 e15ade8
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Thu Mar 19 12:37:25 2020 -0400
+
+    Merge pull request #28 from regro-cf-autotick-bot/0.6.3
+    
+    filesystem-spec v0.6.3
+
+commit e15ade8c323e89633fb4121e0b88a28adaecd6a1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Mar 19 16:24:22 2020 +0000
+
+    updated v0.6.3
+
+commit 45ab908c60c93ca3d27eea38ef2485d007e81404
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 19:42:50 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 002e504c745ad5a33063aadac24c20bb95bd14e2
+Merge: ffcb96f 8ce9cb8
+Author: Tom Augspurger <TomAugspurger@users.noreply.github.com>
+Date:   Mon Dec 16 15:27:24 2019 -0600
+
+    Merge pull request #27 from regro-cf-autotick-bot/0.6.2
+    
+    filesystem-spec v0.6.2
+
+commit 8ce9cb86d88290be90dfc33a91fd544a7832d58d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Dec 16 21:17:49 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2019.12.02
+
+commit db0a00f7cd2ec4e8547fae2bed2d2b7e85d1a4fb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Dec 16 21:17:32 2019 +0000
+
+    updated v0.6.2
+
+commit ffcb96f27acd48ff644e23f19e66cf30dea9ab2c
+Merge: df759ee 0152133
+Author: Tom Augspurger <TomAugspurger@users.noreply.github.com>
+Date:   Wed Nov 27 12:43:52 2019 -0600
+
+    Merge pull request #26 from regro-cf-autotick-bot/0.6.1
+    
+    filesystem-spec v0.6.1
+
+commit 0152133c57f343cb4eb521abcf59d77e16565b97
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Nov 27 18:16:29 2019 +0000
+
+    updated v0.6.1
+
+commit df759eebf3cccd6586e824c6a2ede60896ff41df
+Merge: 4cbbe94 f92645e
+Author: Tom Augspurger <TomAugspurger@users.noreply.github.com>
+Date:   Wed Nov 13 11:19:57 2019 -0600
+
+    Merge pull request #24 from TomAugspurger/RLS-0.6.0
+    
+    Rls 0.6.0
+
+commit f92645e81d980428320c86e8b33c1dc5512e128c
+Author: Tom Augspurger <tom.w.augspurger@gmail.com>
+Date:   Wed Nov 13 11:13:32 2019 -0600
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.2, and conda-forge-pinning 2019.11.13
+
+commit 9930514d1875ec144c8d85c8c35046d68c24a936
+Author: Tom Augspurger <tom.w.augspurger@gmail.com>
+Date:   Wed Nov 13 11:12:12 2019 -0600
+
+    RLS: 0.6.0
+
+commit 4cbbe9427dc21f6a8c90349fca0be86284c39ad8
+Merge: 0742e5f 322e6c4
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Sun Oct 6 15:35:52 2019 -0400
+
+    Merge pull request #23 from regro-cf-autotick-bot/0.5.2
+    
+    filesystem-spec v0.5.2
+
+commit 322e6c487f7c85dc74f621950b1bab9c956cd51c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Oct 6 17:14:31 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.5.0, and conda-forge-pinning 2019.10.01
+
+commit 8104f0c97af7e36d889cd3b81c46876a87735270
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Oct 6 17:14:19 2019 +0000
+
+    updated v0.5.2
+
+commit 0742e5f60a43140fb97a7da541de360cb1259bab
+Merge: 42ed93b 354c0ed
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Thu Sep 19 10:36:22 2019 -0400
+
+    Merge pull request #21 from TomAugspurger/RLS-0.5.1
+    
+    RLS: 0.5.1
+
+commit 354c0edeb4b6c2e59b5637a73682828ba9a1cdd2
+Author: Tom Augspurger <tom.w.augspurger@gmail.com>
+Date:   Thu Sep 19 09:04:53 2019 -0500
+
+    add myself
+
+commit d8170cc2209f64fe2682cc49d3f3b8e6bc735421
+Author: Tom Augspurger <tom.w.augspurger@gmail.com>
+Date:   Thu Sep 19 08:54:11 2019 -0500
+
+    RLS: 0.5.1
+
+commit 42ed93b7be859867af2ebfcb302a9095f55ad6de
+Merge: 21b9f2c a532161
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Mon Sep 16 13:29:46 2019 -0400
+
+    Merge pull request #20 from regro-cf-autotick-bot/0.4.5
+    
+    filesystem-spec v0.4.5
+
+commit a532161d59aeea30555cf71f0d7e62bf7f97ef7f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Sep 16 17:16:59 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.6, and conda-forge-pinning 2019.09.08
+
+commit b8a140a43d1592d4cd2fe7895b55eb83598295e7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Sep 16 17:16:33 2019 +0000
+
+    updated v0.4.5
+
+commit 21b9f2caaef8b585f5dff4bf8a99e52f049814c4
+Merge: 85252dc 91741e0
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Tue Sep 3 14:51:07 2019 -0400
+
+    Merge pull request #19 from regro-cf-autotick-bot/0.4.4
+    
+    filesystem-spec v0.4.4
+
+commit 91741e0f7a7b2add9d3a983ca73ffcb5c4989f28
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Sep 3 18:41:28 2019 +0000
+
+    updated v0.4.4
+
+commit 85252dc0ee6fed5baa6090deec90e4b592da4f30
+Merge: f924761 d2844a3
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Tue Aug 27 17:38:25 2019 -0400
+
+    Merge pull request #18 from regro-cf-autotick-bot/0.4.3
+    
+    filesystem-spec v0.4.3
+
+commit d2844a3e5dfc10581542c8edd9308ccaaffd39cd
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Aug 27 21:23:02 2019 +0000
+
+    updated v0.4.3
+
+commit f92476141f8f84fe3568db826c2eb4e2f0eb541c
+Merge: a34b78f 78bca24
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Tue Aug 27 11:39:10 2019 -0400
+
+    Merge pull request #17 from regro-cf-autotick-bot/0.4.2
+    
+    filesystem-spec v0.4.2
+
+commit 78bca240aa754c3d5cda45aeb405dc0e6f6d142d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Aug 27 15:30:08 2019 +0000
+
+    updated v0.4.2
+
+commit a34b78f479cd69e826723bf7410560b4c2cc1d17
+Merge: 1e0dfa1 8008454
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Mon Aug 5 11:44:00 2019 -0400
+
+    Merge pull request #16 from regro-cf-autotick-bot/0.4.1
+    
+    filesystem-spec v0.4.1
+
+commit 80084541c9954a9f818606e1d1578bc5e60f6d5c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Aug 5 15:30:25 2019 +0000
+
+    updated v0.4.1
+
+commit 1e0dfa1f2edc4372de5988b2ef0fd9fc08e4ab4c
+Merge: da87765 e27e558
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Wed Jul 31 11:40:08 2019 -0400
+
+    Merge pull request #15 from regro-cf-autotick-bot/0.4.0
+    
+    filesystem-spec v0.4.0
+
+commit e27e5589c2b6231dc2ac30049349ac6d26f6d3ed
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jul 31 15:33:22 2019 +0000
+
+    updated v0.4.0
+
+commit da87765eaa9215b750ae388313cda51a39edd79c
+Merge: f321a53 228328f
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Thu Jul 25 14:35:43 2019 -0400
+
+    Merge pull request #14 from regro-cf-autotick-bot/0.3.6
+    
+    filesystem-spec v0.3.6
+
+commit 228328fa47fcbc09c9cc873a9922ce7f2b810072
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jul 25 18:31:27 2019 +0000
+
+    updated v0.3.6
+
+commit f321a534639bcd9cbaea1f4ce300ffd5146b1c79
+Merge: b662067 5a472da
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Wed Jul 24 11:34:15 2019 -0400
+
+    Merge pull request #13 from regro-cf-autotick-bot/0.3.5
+    
+    filesystem-spec v0.3.5
+
+commit 5a472dacadd8f87d71460418a415011f95b73682
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jul 24 15:29:42 2019 +0000
+
+    updated v0.3.5
+
+commit b66206752294fb5b1df0382ad843615e368db3ca
+Merge: af569a5 27763df
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Mon Jul 22 15:51:04 2019 -0400
+
+    Merge pull request #12 from regro-cf-autotick-bot/0.3.4
+    
+    filesystem-spec v0.3.4
+
+commit 27763dfe41af417a8ec29593a3e51ec8470a331e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 22 19:26:18 2019 +0000
+
+    updated v0.3.4
+
+commit af569a50a40499c9d10d4b7e1422baaa71689cb9
+Merge: aa76560 a31bbc1
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Thu Jul 18 09:44:43 2019 -0400
+
+    Merge pull request #11 from regro-cf-autotick-bot/0.3.3
+    
+    filesystem-spec v0.3.3
+
+commit a31bbc1f8812cc08e14190113b73c8e095e5c5e7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jul 18 13:27:47 2019 +0000
+
+    updated v0.3.3
+
+commit aa76560c38fd0116b542f5aa2e493d4cc6eeb99f
+Merge: 859532c 459c1bb
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Wed Jul 17 13:03:42 2019 -0400
+
+    Merge pull request #10 from regro-cf-autotick-bot/0.3.2
+    
+    filesystem-spec v0.3.2
+
+commit 459c1bbb52599051608bc2d051a519031972cc48
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jul 17 16:28:07 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.7, conda-smithy 3.4.1, and conda-forge-pinning 2019.07.15
+
+commit 7097bf7f790d3b76cbf0323101601b93c2d33b25
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jul 17 16:27:55 2019 +0000
+
+    updated v0.3.2
+
+commit 859532cf9c13bff8b3006bf445096ce929b01a00
+Merge: 27be0e8 d4ad565
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Tue Jul 9 15:39:35 2019 -0400
+
+    Merge pull request #9 from regro-cf-autotick-bot/0.3.0
+    
+    filesystem-spec v0.3.0
+
+commit d4ad56508d58cb719e22ab80a0396d5af0214190
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jul 9 19:30:24 2019 +0000
+
+    updated v0.3.0
+
+commit 27be0e823919671250338878d94c612eecaf8dfb
+Merge: fbd2fa2 6963dde
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Wed Jul 3 14:40:37 2019 -0400
+
+    Merge pull request #8 from regro-cf-autotick-bot/0.2.3
+    
+    filesystem-spec v0.2.3
+
+commit 6963dde81631b44cafd03ce1272fd293ebef4569
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 1 14:28:14 2019 +0000
+
+    updated v0.2.3
+
+commit fbd2fa2c9b9bf6b4b1fca8d9752779c565324b27
+Merge: 742b6c2 48be4c7
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Sun Jun 30 09:46:35 2019 -0400
+
+    Merge pull request #7 from regro-cf-autotick-bot/0.2.2
+    
+    filesystem-spec v0.2.2
+
+commit 48be4c7a37358151957cb1579987b35beb144133
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jun 30 03:30:41 2019 +0000
+
+    updated v0.2.2
+
+commit 742b6c29b9dae153b68b6cf79f9029883ca45d03
+Merge: 28c3841 3e01024
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Tue Jun 18 12:00:51 2019 -0400
+
+    Merge pull request #6 from regro-cf-autotick-bot/0.2.1
+    
+    filesystem-spec v0.2.1
+
+commit 3e01024b59eaef4e8774d046b2179ef9f21a18b8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jun 18 15:38:18 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.2, conda-smithy 3.3.7, and conda-forge-pinning 2019.06.18
+
+commit 7bb8eab0a9a4262b2383677b5cd67691fc7e8415
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jun 18 15:38:06 2019 +0000
+
+    updated v0.2.1
+
+commit 28c38414d3781a60c9cd7d27c3d25020bf73809d
+Merge: 82e3bb2 112db1d
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Mon Feb 25 10:28:48 2019 -0500
+
+    Merge pull request #5 from martindurant/master
+    
+    update install name
+
+commit 112db1d2d46831e661f55adb0dd2c4a4e6c1069d
+Author: Martin Durant <martin.durant@utoronto.ca>
+Date:   Mon Feb 25 10:24:48 2019 -0500
+
+    update install name
+
+commit 82e3bb2d370dabfd3a023a4b14c17c8e7007e89a
+Merge: e29137f 9ce500f
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Fri Feb 22 14:27:31 2019 -0500
+
+    Merge pull request #4 from regro-cf-autotick-bot/0.2.0
+    
+    filesystem-spec v0.2.0
+
+commit 9ce500fac01fd11b7b6f0ec94497a7cc04e73864
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Feb 22 19:16:42 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.21
+
+commit 67ac86713d057eaa20a1cceede6aceece04f01e8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Feb 22 19:16:32 2019 +0000
+
+    updated v0.2.0
+
+commit e29137f08001c2c61db2ebcfc546503beeffcf8a
+Merge: 969ffb4 c176996
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Mon Feb 11 13:17:42 2019 -0500
+
+    Merge pull request #3 from regro-cf-autotick-bot/0.1.4
+    
+    filesystem-spec v0.1.4
+
+commit c17699682bec79d28c2ed7ed431c87d3fc27677f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Feb 5 19:14:07 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.12, and conda-forge-pinning 2019.01.29
+
+commit 58de39347976275f5dcd9fd1f6e997bd598921d7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Feb 5 19:13:57 2019 +0000
+
+    updated v0.1.4
+
+commit 969ffb451f9a02f3a5ff8bdcc6b869182c41ecb9
+Merge: da6af86 71d3e3c
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Fri Jan 11 09:04:28 2019 +0100
+
+    Merge pull request #2 from regro-cf-autotick-bot/0.1.3
+    
+    filesystem-spec v0.1.3
+
+commit 71d3e3cb09a96cdfbf07065cdef645591827a1d3
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jan 10 18:20:18 2019 +0000
+
+    updated v0.1.3
+
+commit da6af864ad4ab833f69d4716ee4343b80f3af060
+Merge: e9bce09 6217344
+Author: Martin Durant <martindurant@users.noreply.github.com>
+Date:   Tue Jan 8 19:22:42 2019 -0500
+
+    Merge pull request #1 from regro-cf-autotick-bot/0.1.2
+    
+    filesystem-spec v0.1.2
+
+commit 6217344402a81447f9120dc021a98c45bc90af29
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jan 9 00:18:53 2019 +0000
+
+    updated v0.1.2
+
+commit e9bce0974a74d02e680ece51c37af128f5ea520d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Jan 4 18:45:51 2019 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit a25f87f2a1cf9d5946b71dc5470de6feec12d60d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Jan 4 18:21:49 2019 +0000
+
+    Initial feedstock commit with conda-smithy 3.2.2.

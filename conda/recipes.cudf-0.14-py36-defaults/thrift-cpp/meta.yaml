@@ -1,0 +1,69 @@
+{% set version = "0.12.0" %}
+{% set WIN_FLEX_BIZON_VERSION = "2.4.9" %}
+{% set LIBEVENT_VERSION = "2.1.7" %}
+
+package:
+  name: thrift-cpp
+  version: {{ version }}
+
+source:
+  - url: http://archive.apache.org/dist/thrift/{{ version }}/thrift-{{ version }}.tar.gz
+    sha256: c336099532b765a6815173f62df0ed897528a9d551837d627c1f87fadad90428
+    patches:
+      # - unix_workaround-for-boost-1.63.0.patch  # [unix]
+      - realloc-xcode.patch  # [osx]
+      - 0001-disable-qt5.patch
+  {% if win %}
+  - url: https://github.com/lexxmark/winflexbison/releases/download/v.{{ WIN_FLEX_BIZON_VERSION }}/win_flex_bison-{{ WIN_FLEX_BIZON_VERSION }}.zip
+    folder: thirdparty\dist\winflexbison
+  - url: https://github.com/nmathewson/Libevent/archive/release-{{ LIBEVENT_VERSION }}-rc.zip
+    folder: thirdparty\src\libevent
+  {% endif %}
+
+build:
+  number: 1004
+  skip: true  # [win and vc<14]
+  run_exports:
+    - {{ pin_subpackage("thrift-cpp", max_pin="x.x") }}
+
+requirements:
+  build:
+    - {{ compiler("c") }}
+    - {{ compiler("cxx") }}
+    - bison           # [unix]
+    - cmake
+    - flex            # [unix]
+    - libtool         # [unix]
+    - m4              # [unix]
+    - pkg-config      # [unix]
+    - make            # [unix]
+  host:
+    - boost-cpp
+    - libevent        # [unix]
+    - openssl
+    - zlib
+  run:
+    - openssl
+    - zlib
+    - boost-cpp
+
+test:
+  commands:
+    - test -f $PREFIX/bin/thrift                                        # [unix]
+    - test -f $PREFIX/lib/libthrift.a                                   # [unix]
+    - test -f $PREFIX/include/thrift/Thrift.h                           # [unix]
+    - if not exist %PREFIX%\\Library\\include\\thrift\\Thrift.h exit 1  # [win]
+    - if not exist %PREFIX%\\Library\\bin\\thrift.exe exit 1            # [win]
+    - if not exist %PREFIX%\\Library\\lib\\thriftmd.lib exit 1          # [win]
+
+about:
+  home: http://thrift.apache.org
+  license: Apache 2.0
+  summary: 'Compiler and C++ libraries and headers for the Apache Thrift RPC system'
+
+extra:
+  recipe-maintainers:
+    - wesm
+    - msarahan
+    - jakirkham
+    - xhochy

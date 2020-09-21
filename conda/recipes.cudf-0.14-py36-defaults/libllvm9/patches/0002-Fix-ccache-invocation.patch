@@ -1,0 +1,36 @@
+From 43499a32c0ac663a8350ab0f504e461c969687d6 Mon Sep 17 00:00:00 2001
+From: Ray Donnelly <mingw.android@gmail.com>
+Date: Sun, 22 Mar 2020 18:48:10 +0000
+Subject: [PATCH 2/2] Fix ccache invocation
+
+---
+ llvm/CMakeLists.txt | 10 ++++------
+ 1 file changed, 4 insertions(+), 6 deletions(-)
+
+diff --git a/llvm/CMakeLists.txt b/llvm/CMakeLists.txt
+index b9a10685b99..e54fb07bb7d 100644
+--- a/llvm/CMakeLists.txt
++++ b/llvm/CMakeLists.txt
+@@ -124,15 +124,13 @@ if(LLVM_CCACHE_BUILD)
+   if(CCACHE_PROGRAM)
+       set(LLVM_CCACHE_MAXSIZE "" CACHE STRING "Size of ccache")
+       set(LLVM_CCACHE_DIR "" CACHE STRING "Directory to keep ccached data")
+-      set(LLVM_CCACHE_PARAMS "CCACHE_CPP2=yes CCACHE_HASHDIR=yes"
+-          CACHE STRING "Parameters to pass through to ccache")
+-
+-      set(CCACHE_PROGRAM "${LLVM_CCACHE_PARAMS} ${CCACHE_PROGRAM}")
++      set(ENV{CCACHE_CPP2} yes)
++      set(ENV{CCACHE_HASHDIR} yes)
+       if (LLVM_CCACHE_MAXSIZE)
+-        set(CCACHE_PROGRAM "CCACHE_MAXSIZE=${LLVM_CCACHE_MAXSIZE} ${CCACHE_PROGRAM}")
++        set(ENV{CCACHE_MAXSIZE} ${LLVM_CCACHE_MAXSIZE})
+       endif()
+       if (LLVM_CCACHE_DIR)
+-        set(CCACHE_PROGRAM "CCACHE_DIR=${LLVM_CCACHE_DIR} ${CCACHE_PROGRAM}")
++        set(ENV{CCACHE_DIR} ${LLVM_CCACHE_DIR})
+       endif()
+       set_property(GLOBAL PROPERTY RULE_LAUNCH_COMPILE ${CCACHE_PROGRAM})
+   else()
+-- 
+2.24.1
+

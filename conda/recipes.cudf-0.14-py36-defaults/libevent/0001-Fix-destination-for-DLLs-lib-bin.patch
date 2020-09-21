@@ -1,0 +1,25 @@
+From 708e506b99a8a8a87f1c2579490688d002edbc0f Mon Sep 17 00:00:00 2001
+From: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date: Sun, 21 Jun 2020 23:40:55 -0400
+Subject: [PATCH] Fix destination for DLLs lib->bin
+
+---
+ cmake/AddEventLibrary.cmake | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/cmake/AddEventLibrary.cmake b/cmake/AddEventLibrary.cmake
+index 9de4484..dca5a9d 100644
+--- a/cmake/AddEventLibrary.cmake
++++ b/cmake/AddEventLibrary.cmake
+@@ -113,7 +113,7 @@ macro(add_event_library LIB_NAME)
+         EXPORT LibeventTargets
+         LIBRARY DESTINATION "lib" COMPONENT lib
+         ARCHIVE DESTINATION "lib" COMPONENT lib
+-        RUNTIME DESTINATION "lib" COMPONENT lib
++        RUNTIME DESTINATION "bin" COMPONENT lib
+         PUBLIC_HEADER DESTINATION "include/event2"
+         COMPONENT dev
+     )
+-- 
+2.24.1
+

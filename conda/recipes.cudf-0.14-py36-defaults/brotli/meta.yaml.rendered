@@ -1,0 +1,65 @@
+# This file created by conda-build 3.16.2
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/brotli-1.0.7-on-linux_64, last modified Wed Oct 31 02:49:51 2018
+# ------------------------------------------------
+
+package:
+    name: brotli
+    version: 1.0.7
+source:
+    fn: brotli-1.0.7.tar.gz
+    sha256: 4c61bfb0faca87219ea587326c467b95acb25555b53d1a421ffa3c8a9296ee2c
+    url: https://github.com/google/brotli/archive/v1.0.7.tar.gz
+build:
+    number: '0'
+    string: he6710b0_0
+requirements:
+    build:
+        - binutils_impl_linux-64 2.31.1 h6176602_1
+        - binutils_linux-64 2.31.1 h6176602_3
+        - bzip2 1.0.6 h14c3975_5
+        - ca-certificates 2018.03.07 0
+        - cmake 3.12.2 h52cb24c_0
+        - expat 2.2.6 he6710b0_0
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_3
+        - gxx_impl_linux-64 7.3.0 hdf63c60_1
+        - gxx_linux-64 7.3.0 h553295d_3
+        - libcurl 7.61.1 h20c2e04_0
+        - libgcc-ng 8.2.0 hdf63c60_1
+        - libstdcxx-ng 8.2.0 hdf63c60_1
+        - make 4.2.1 h1bed415_1
+        - ncurses 6.1 hf484d3e_0
+        - openssl 1.1.1 h7b6447c_0
+        - rhash 1.3.6 h1ba5d50_0
+        - xz 5.2.4 h14c3975_4
+        - zlib 1.2.11 ha838bed_2
+    host:
+        - libgcc-ng 8.2.0 hdf63c60_1
+        - libstdcxx-ng 8.2.0 hdf63c60_1
+    run:
+        - libgcc-ng >=7.3.0
+        - libstdcxx-ng >=7.3.0
+test:
+    commands:
+        - brotli --help
+        - test -f $PREFIX/lib/libbrotlienc$SHLIB_EXT
+        - test -f $PREFIX/lib/libbrotlienc-static.a
+        - test -f $PREFIX/lib/libbrotlidec$SHLIB_EXT
+        - test -f $PREFIX/lib/libbrotlidec-static.a
+        - test -f $PREFIX/lib/libbrotlicommon$SHLIB_EXT
+        - test -f $PREFIX/lib/libbrotlicommon-static.a
+        - test -f $PREFIX/include/brotli/encode.h
+about:
+    home: http://github.com/google/brotli
+    license: MIT
+    license_file: LICENSE
+    summary: Brotli compression format
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - CJ-Wright
+        - msarahan
+        - wesm
+        - xhochy

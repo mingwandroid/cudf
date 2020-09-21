@@ -1,0 +1,164 @@
+commit 6e4a34dd844f79518eaa91cc44f941de27544be2
+Merge: 3a44faf e1d1e7c
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Wed Jul 10 17:24:55 2019 -0500
+
+    Merge pull request #5 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition1_arch
+    
+    Arch Migrator
+
+commit e1d1e7c0bff0a099889f2e584e3fde45d3a03b69
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Wed Jul 10 17:07:53 2019 -0500
+
+    Update meta.yaml
+
+commit ea70d83b81ae0e2350d28e884a4ed2d87acb629d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jul 4 15:30:25 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.4.0, and conda-forge-pinning 2019.07.01
+
+commit 3d329161ae97cff416d252c3c88d1596f5fabc4f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jul 4 15:30:14 2019 +0000
+
+    bump build number
+
+commit 3a44faffb0e1aad4e4446966e6106a269b8021dd
+Merge: a73748f 47f2811
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Jan 11 19:56:23 2019 -0200
+
+    Merge pull request #4 from xhochy/rerender
+    
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2019.01.09
+
+commit 47f28118e9ee9c0cf752c7ec842e58a1f8a53990
+Author: Korn, Uwe <Uwe.Korn@blue-yonder.com>
+Date:   Fri Jan 11 11:23:36 2019 +0100
+
+    Add @xhochy as a maintainer
+
+commit de2a1ffbf2881a09ccca5e7de15be81cd0e4aff2
+Author: Korn, Uwe <Uwe.Korn@blue-yonder.com>
+Date:   Fri Jan 11 11:23:07 2019 +0100
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2019.01.09
+
+commit a73748f53287e726d3e07f02602f88f0c0e935e2
+Merge: b8b8ce6 6f88ac6
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Oct 29 11:02:12 2018 -0300
+
+    Merge pull request #3 from wesm/windows-support
+    
+    Add Windows build configuration
+
+commit 6f88ac69a09651bc008840fa79473979a0823721
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Oct 29 13:24:25 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.16
+
+commit d155007a24302e36b0db8a50ada9cb9189fd8e37
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Oct 29 10:23:23 2018 -0300
+
+    third time is the charme...
+
+commit f9deb4cd8b46b636794eefb215f18906243bf37c
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Oct 29 13:21:46 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.16
+
+commit ae05301272f2dfe240cb9e80fbb431ffb8922941
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Oct 29 10:20:20 2018 -0300
+
+    Update meta.yaml
+
+commit e61f48ccff82855b79e91ff568847d6ce876564f
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Oct 29 10:18:28 2018 -0300
+
+    Update meta.yaml
+
+commit 727e44117cbe275fed3b51bf858f61f7be75b454
+Author: Wes McKinney <wesm+git@apache.org>
+Date:   Sat Oct 27 11:20:29 2018 -0400
+
+    Fix test conditions
+
+commit 472501feb3323119732695c98ac8052ebc6d0222
+Author: Wes McKinney <wesm+git@apache.org>
+Date:   Sat Oct 27 11:10:56 2018 -0400
+
+    Use nmake directly
+
+commit 3af456afef4bd33807fa0976adba6be497994a47
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Oct 27 14:56:35 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.16
+
+commit 53d68bfef6bf71d836b482a90c3020c20b3a0375
+Author: Wes McKinney <wesm+git@apache.org>
+Date:   Sat Oct 27 10:52:50 2018 -0400
+
+    Add Windows build configuration
+
+commit b8b8ce66083bea7972b4bd4c686869ee4f666c11
+Merge: fd123d5 ebda576
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Oct 23 19:55:50 2018 -0300
+
+    Merge pull request #2 from regro-cf-autotick-bot/1.15.0
+    
+    c-ares v1.15.0
+
+commit ebda5768a66e32f6acac1348b416c5baf06dc252
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 23 21:20:01 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.16
+
+commit d4c82992be52acff3b6a381fc3948b2b6b2428ca
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 23 21:19:57 2018 +0000
+
+    updated v1.15.0
+
+commit fd123d56531e01dc38be8f94edc276cfe93131ce
+Merge: c85ecc5 386aa0b
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Aug 29 17:16:47 2018 -0300
+
+    Merge pull request #1 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit 386aa0b4961184f1b38c954fd135e5cf9673b143
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Aug 29 19:22:17 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.28
+
+commit 87edba6c21ae4d9d914115d339c2c9d4fed8df7e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Aug 29 19:22:10 2018 +0000
+
+    bump build number
+
+commit c85ecc5d935ecaec0dd8190c27205ec5bb195210
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Aug 16 18:01:42 2018 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit c42368fbfd0f541f16e7f2fdfc42c7e9857dc9ab
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Aug 16 18:00:45 2018 +0000
+
+    Initial feedstock commit with conda-smithy 3.1.11.

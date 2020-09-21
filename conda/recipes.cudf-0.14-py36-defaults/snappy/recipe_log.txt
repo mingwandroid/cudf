@@ -1,0 +1,351 @@
+commit f01aaace2b12527ee0ec0a2f488d1d6dfddadac4
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Nov 19 14:15:47 2017 +0000
+
+    Use CRLF for .bat files
+
+commit 29b19bc5729c70d728244fd03745e82507d5b16a
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Nov 27 14:14:07 2017 -0600
+
+    add run_exports
+
+commit 25dea838bdcc0819c6ecd0979f382b1f6f4423fe
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Nov 27 14:13:31 2017 -0600
+
+    commit bld.bat with CRLF
+
+commit cdc63900be544c256d05ea9c969d65b660011fdf
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Nov 19 14:15:47 2017 +0000
+
+    Use CRLF for .bat files
+
+commit d1c0f78994b02b74140edc4dac9e800a91b1e8f4
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Nov 8 14:13:25 2017 -0600
+
+    remove vc features (use run_exports vc pkg instead)
+
+commit 0a9d07aacaf3bab81604ca741f5b7f225b1741b1
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 07:26:06 2017 -0700
+
+    Unset CFLAGS and CXXFLAGS
+
+commit 08fbbc58f88579fcbe63f5a2ca4792372d426adc
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 23 13:08:52 2017 -0500
+
+    Generalize logging
+
+commit 7105ae0eeeb7fd721d7fc8007d75628c8f24430a
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 7 12:04:45 2017 -0500
+
+    Update about section
+
+commit d007e1b612acd4269a6df604c4e92802adc5af67
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 7 12:01:23 2017 -0500
+
+    Simplify recipe for CB3
+
+commit f7fc4649107462f44717449f8419949fd4b9e316
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Aug 24 21:55:33 2017 +0100
+
+    Add cross-compilation support
+
+commit 0516a4a22a612d37588f8b16c62f5af42277a4d3
+Merge: c8bbb8e 87ef331
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Tue Sep 26 03:03:29 2017 +0100
+
+    Merge pull request #16 from dougalsutherland/fix-linux-build
+    
+    don't look for zlib
+
+commit 87ef331eb62136c9d79095ad1aa2d17b16ee282a
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Mon Sep 25 21:51:20 2017 +0100
+
+    don't look for zlib
+
+commit c8bbb8efecb83ea48aefd809518590e7eb9d6a04
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Mon Sep 25 12:28:03 2017 +0100
+
+    empty commit to force build
+    
+    The last commit in https://github.com/conda-forge/snappy-feedstock/pull/14 had CI-skipping messages in it, which apparently made the CIs actually skip the build for the merge commit. Oops. This should rectify that.
+
+commit e014bb5a1f6698dc4684c76ebbbc3802af115fac
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Mon Sep 25 02:11:54 2017 +0100
+
+    update to 1.1.7 (#14)
+    
+    * update to 1.1.7
+    
+    * MNT: Re-rendered with conda-smithy 2.4.0
+    
+    * tell cmake to use lib instead of lib64
+    
+    * explicitly set BUILD_SHARED_LIBS=OFF for static build
+    
+    * also explicitly set BUILD_SHARED_LIBS=OFF on windows
+    
+    * note patch's upstream PR  [skip ci] [ci skip]
+
+commit 44d0eb09f566eff8b75f9e870e5c8ffa4cd2904b
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:33:41 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 39907549735a46fca1c79e6676d77d1276d8c008
+Merge: b16d691 ac522ec
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Jul 25 16:32:44 2017 -0400
+
+    Merge pull request #12 from dougalsutherland/windows-build
+    
+    cmake-based build
+
+commit ac522ecd87c518a6012fcdfac0d6dfbcf4c3f686
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Tue Jul 25 15:50:16 2017 +0100
+
+    add MaxRis as maintainer  [skip ci]
+
+commit 77450e3eb007bb575194556cb40dcd0ada7dc0df
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Tue Jul 25 15:35:40 2017 +0100
+
+    update comment, add myself as maintainer  [skip ci]
+
+commit 31b043260f9d4ee40c1a04de2623d8c98342c182
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Tue Jul 25 14:49:16 2017 +0100
+
+    cmake-based build on unix too
+
+commit 0ef07b7b7a987f356d26e835fc1a33794fcdcf8b
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Tue Jul 25 14:31:14 2017 +0100
+
+    set CMAKE_POSITION_INDEPENDENT_CODE
+
+commit df9702029ae3a46876fbef9311b55674186d6601
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Tue Jul 25 11:07:14 2017 +0100
+
+    add a comment about build-static-lib.patch
+
+commit 49931e357d5f9e30b924a2a9929b9fb0bb1c4706
+Merge: f2f23b2 b66ef19
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Tue Jul 25 11:09:39 2017 +0100
+
+    Merge remote-tracking branch 'MaxRis/windows-build' into windows-build
+
+commit b66ef19e7323b47f13972fb798bf715107d09548
+Author: Max Risuhin <risuhin.max@gmail.com>
+Date:   Tue Jul 25 09:20:46 2017 +0000
+
+    Library static build
+
+commit f2f23b266201df713aac5bae1d4c6e6b373a7f47
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Mon Jul 24 11:06:01 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.3.2
+
+commit 949b9ccd8cdd1df32664b2097515a16e2b91eb3b
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Mon Jul 24 11:00:32 2017 +0100
+
+    skip on py35 to avoid duplicate build
+
+commit 218641987a79803a44fcc5b804a5c12a8c588e73
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Sun Jul 23 21:19:19 2017 +0100
+
+    add test-time requirement
+
+commit 1cef2e693c21de0ce6c7bb8af58d2d5d81240bb3
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Sun Jul 23 21:16:31 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.3.2
+
+commit 21adbde7d29bacffde874f6ac35a3e11bdbe33c9
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Sun Jul 23 21:14:14 2017 +0100
+
+    add vc features / python dep, test for dll
+
+commit 60cb3cd9bd52e465cb5010b4bf792715dbb3b6ca
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Fri Jul 21 22:12:19 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.3.2
+
+commit ae23963e4e9de202a08cd3974ba4344c52f4466b
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Fri Jul 21 22:10:17 2017 +0100
+
+    cmake-based build on windows
+
+commit b16d69111802b5c87a8233f9ad12fcbfffa79cce
+Merge: e1b085b 523f8e6
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Jul 21 16:56:32 2017 -0400
+
+    Merge pull request #11 from dougalsutherland/1.1.6-autotools
+    
+    bump to 1.1.6
+
+commit 523f8e6fff8ed02f110f70e03dd596e1a106bc13
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Thu Jul 20 21:06:05 2017 +0100
+
+    better README error workaround
+
+commit 551b98fd065154cad7c5fe278f2ccc16f68d4f07
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Thu Jul 20 15:30:33 2017 +0100
+
+    hack around broken autotools build
+
+commit fa03d49a08ed00995f95fecc24294e9cb75aa456
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Thu Jul 20 15:20:57 2017 +0100
+
+    snappy: bump to 1.1.6
+
+commit e1b085b6b290f3124e9844a38f283d21e9b2edc7
+Merge: 5324ae7 732f5ef
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Apr 4 00:34:24 2017 -0400
+
+    Merge pull request #9 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 732f5ef51026f165631e5d042ab31a26fc6de678
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Apr 4 01:36:59 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.2.2.
+
+commit 5324ae7a43abff0d90537f6576ef784cf9250c04
+Merge: 1807724 775e1df
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Feb 11 17:47:52 2017 -0500
+
+    Merge pull request #8 from jakirkham/add_maintainers
+    
+    Add @wesm and @xhochy
+
+commit 775e1df52a132b68e818908b15744c108830a973
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Feb 11 14:57:03 2017 -0500
+
+    Add @wesm and @xhochy as maintainers.
+    
+    [ci skip]
+
+commit 1807724f30374205486534b8b4890688bb387e62
+Merge: 8424024 73c2500
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Feb 11 14:54:34 2017 -0500
+
+    Merge pull request #7 from xhochy/build-with-optimizations
+    
+    Update to 1.1.4, use -O1
+
+commit 73c250012755cf7cc57ad6b64489e496cc49b2e9
+Author: Korn, Uwe <Uwe.Korn@blue-yonder.com>
+Date:   Fri Feb 10 13:55:03 2017 +0100
+
+    Conditionally build on Linux with -O2
+
+commit 2eb3dd4d9ddad69b37f1d739a59f05ca42c494c4
+Author: Korn, Uwe <Uwe.Korn@blue-yonder.com>
+Date:   Fri Feb 10 13:31:26 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit 08fa2c5cce5075853e0bcf7eabbfbd6f8e2cf66f
+Author: Korn, Uwe <Uwe.Korn@blue-yonder.com>
+Date:   Tue Feb 7 08:24:23 2017 +0100
+
+    Update to 1.1.4
+
+commit 690594f62ab20681b4e0ae15c941aa05eac2e595
+Author: Wes McKinney <wes.mckinney@twosigma.com>
+Date:   Wed Jan 25 10:43:36 2017 -0500
+
+    Build on Linux/OS X with -O2
+
+commit 84240241843d3cbae4b990e4d94da468b2964675
+Merge: 414ab11 78f1c05
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jun 5 11:55:50 2016 -0400
+
+    Merge pull request #3 from xhochy/link-against-libc++-on-osx
+    
+    Link against libc++ on OSX
+
+commit 78f1c057976bd75748dddfce7d81073682331811
+Author: Korn, Uwe <Uwe.Korn@blue-yonder.com>
+Date:   Sun Jun 5 16:12:15 2016 +0200
+
+    Use the `toolchain` from `conda-forge` to set compilers.
+
+commit 414ab11eaf719b5b601aeaabdfcdba25dfefa9c4
+Merge: 8e7bd84 7b5697b
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon May 16 17:15:12 2016 -0400
+
+    Merge pull request #1 from wesm/compile-with-fpic
+    
+    Snappy must be compiled with -fPIC for static linking
+
+commit 8e7bd84794086eefae14c72d5d3081bc765e9374
+Merge: 33f72d4 2321c30
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat May 14 16:53:52 2016 -0400
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 2321c306938454b48c2a749bd94b64830810f855
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat May 14 09:43:39 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit 7b5697b089218ed17020bffa262d822f2ee0e84c
+Author: Wes McKinney <wesm@apache.org>
+Date:   Thu May 12 19:27:47 2016 -0700
+
+    Snappy must be compiled with -fPIC for static linking
+
+commit 33f72d489178e311f8f8c47cde35df5306fc13fb
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Apr 27 11:29:59 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 86cd0759731040f6692f83519182984907fb0920
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Apr 27 11:29:25 2016 +0000
+
+    Initial commit of the snappy feedstock.

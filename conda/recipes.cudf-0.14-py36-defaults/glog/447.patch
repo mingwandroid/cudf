@@ -1,0 +1,200 @@
+From 8b5b912c38bd2b2aedba204711f8ac9dee28bfb9 Mon Sep 17 00:00:00 2001
+From: "Uwe L. Korn" <uwelk@xhochy.com>
+Date: Mon, 29 Apr 2019 17:40:28 +0200
+Subject: [PATCH 1/3] Fix indeterministic logging tests
+
+Printing the content of hash-based containers doesn't lead always to the same string as their ordering is not fixed. Luckily the number of possible permutations is so small that we can enumerate all of them.
+
+Fixes #201.
+---
+ src/stl_logging_unittest.cc | 23 ++++++++++++++++++++---
+ 1 file changed, 20 insertions(+), 3 deletions(-)
+
+diff --git a/src/stl_logging_unittest.cc b/src/stl_logging_unittest.cc
+index 269094c0..6bf924a1 100644
+--- a/src/stl_logging_unittest.cc
++++ b/src/stl_logging_unittest.cc
+@@ -100,6 +100,10 @@ static void TestSTLLogging() {
+ 
+ #ifdef GLOG_STL_LOGGING_FOR_EXT_HASH
+   {
++    // hash_set doesn't have an ordering, so there are many options for the output.
++    vector<string> permutations{
++      "10 20 30", "10 30 20", "20 10 30", "20 30 10", "30 10 20", "30 20 10"
++    };
+     // Test a hashed simple associative container.
+     hash_set<int> hs;
+     hs.insert(10);
+@@ -107,7 +111,7 @@ static void TestSTLLogging() {
+     hs.insert(30);
+     ostringstream ss;
+     ss << hs;
+-    EXPECT_EQ(ss.str(), "10 20 30");
++    EXPECT_TRUE(std::find(std::begin(permutations), std::end(permutations), ss.str()) != std::end(permutations));
+     hash_set<int> copied_hs(hs);
+     CHECK_EQ(hs, copied_hs);  // This must compile.
+   }
+@@ -115,6 +119,15 @@ static void TestSTLLogging() {
+ 
+ #ifdef GLOG_STL_LOGGING_FOR_EXT_HASH
+   {
++    // hash_set doesn't have an ordering, so there are many options for the output.
++    vector<string> permutations{
++      "(10, ten) (20, twenty) (30, thirty)",
++      "(10, ten) (30, thirty) (20, twenty)",
++      "(20, twenty) (10, ten) (30, thirty)",
++      "(20, twenty) (30, thirty) (10, ten)",
++      "(30, thirty) (10, ten) (20, twenty)",
++      "(30, thirty) (20, twenty) (10, ten)"
++    };
+     // Test a hashed pair associative container.
+     hash_map<int, string> hm;
+     hm[10] = "ten";
+@@ -122,7 +135,7 @@ static void TestSTLLogging() {
+     hm[30] = "thirty";
+     ostringstream ss;
+     ss << hm;
+-    EXPECT_EQ(ss.str(), "(10, ten) (20, twenty) (30, thirty)");
++    EXPECT_TRUE(std::find(std::begin(permutations), std::end(permutations), ss.str()) != std::end(permutations));
+     hash_map<int, string> copied_hm(hm);
+     CHECK_EQ(hm, copied_hm);  // this must compile
+   }
+@@ -162,6 +175,10 @@ static void TestSTLLogging() {
+ 
+ #ifdef GLOG_STL_LOGGING_FOR_EXT_HASH
+   {
++    // hash_set doesn't have an ordering, so there are many options for the output.
++    vector<string> permutations{
++      "10 20 30", "10 30 20", "20 10 30", "20 30 10", "30 10 20", "30 20 10"
++    };
+     // Test a hashed simple associative container.
+     // Use a user defined hash function.
+     hash_set<int, user_hash> hs;
+@@ -170,7 +187,7 @@ static void TestSTLLogging() {
+     hs.insert(30);
+     ostringstream ss;
+     ss << hs;
+-    EXPECT_EQ(ss.str(), "10 20 30");
++    EXPECT_TRUE(std::find(std::begin(permutations), std::end(permutations), ss.str()) != std::end(permutations));
+     hash_set<int, user_hash> copied_hs(hs);
+     CHECK_EQ(hs, copied_hs);  // This must compile.
+   }
+
+From fadecb08a455f99175b38b4068c4a93d780af31f Mon Sep 17 00:00:00 2001
+From: "Uwe L. Korn" <uwelk@xhochy.com>
+Date: Mon, 29 Apr 2019 18:47:28 +0200
+Subject: [PATCH 2/3] Add iterator header
+
+---
+ src/stl_logging_unittest.cc | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/stl_logging_unittest.cc b/src/stl_logging_unittest.cc
+index 6bf924a1..f3c3cda8 100644
+--- a/src/stl_logging_unittest.cc
++++ b/src/stl_logging_unittest.cc
+@@ -33,6 +33,7 @@
+ 
+ #include <functional>
+ #include <iostream>
++#include <iterator>
+ #include <map>
+ #include <ostream>
+ #include <string>
+
+From 4c6f863dc3447b4f408784679d33536da3e3cbc9 Mon Sep 17 00:00:00 2001
+From: "Uwe L. Korn" <uwe.korn@quantco.com>
+Date: Mon, 29 Apr 2019 22:07:24 +0200
+Subject: [PATCH 3/3] Don't use std::end
+
+---
+ src/stl_logging_unittest.cc | 41 ++++++++++++++++++++++---------------
+ 1 file changed, 24 insertions(+), 17 deletions(-)
+
+diff --git a/src/stl_logging_unittest.cc b/src/stl_logging_unittest.cc
+index f3c3cda8..4abb2d88 100644
+--- a/src/stl_logging_unittest.cc
++++ b/src/stl_logging_unittest.cc
+@@ -102,9 +102,13 @@ static void TestSTLLogging() {
+ #ifdef GLOG_STL_LOGGING_FOR_EXT_HASH
+   {
+     // hash_set doesn't have an ordering, so there are many options for the output.
+-    vector<string> permutations{
+-      "10 20 30", "10 30 20", "20 10 30", "20 30 10", "30 10 20", "30 20 10"
+-    };
++    vector<string> permutations;
++    permutations.push_back("10 20 30");
++    permutations.push_back("10 30 20");
++    permutations.push_back("20 10 30");
++    permutations.push_back("20 30 10");
++    permutations.push_back("30 10 20");
++    permutations.push_back("30 20 10");
+     // Test a hashed simple associative container.
+     hash_set<int> hs;
+     hs.insert(10);
+@@ -112,7 +116,7 @@ static void TestSTLLogging() {
+     hs.insert(30);
+     ostringstream ss;
+     ss << hs;
+-    EXPECT_TRUE(std::find(std::begin(permutations), std::end(permutations), ss.str()) != std::end(permutations));
++    EXPECT_TRUE(std::find(permutations.begin(), permutations.end(), ss.str()) != permutations.end());
+     hash_set<int> copied_hs(hs);
+     CHECK_EQ(hs, copied_hs);  // This must compile.
+   }
+@@ -121,14 +125,13 @@ static void TestSTLLogging() {
+ #ifdef GLOG_STL_LOGGING_FOR_EXT_HASH
+   {
+     // hash_set doesn't have an ordering, so there are many options for the output.
+-    vector<string> permutations{
+-      "(10, ten) (20, twenty) (30, thirty)",
+-      "(10, ten) (30, thirty) (20, twenty)",
+-      "(20, twenty) (10, ten) (30, thirty)",
+-      "(20, twenty) (30, thirty) (10, ten)",
+-      "(30, thirty) (10, ten) (20, twenty)",
+-      "(30, thirty) (20, twenty) (10, ten)"
+-    };
++    vector<string> permutations;
++    permutations.push_back("(10, ten) (20, twenty) (30, thirty)");
++    permutations.push_back("(10, ten) (30, thirty) (20, twenty)");
++    permutations.push_back("(20, twenty) (10, ten) (30, thirty)");
++    permutations.push_back("(20, twenty) (30, thirty) (10, ten)");
++    permutations.push_back("(30, thirty) (10, ten) (20, twenty)");
++    permutations.push_back("(30, thirty) (20, twenty) (10, ten)");
+     // Test a hashed pair associative container.
+     hash_map<int, string> hm;
+     hm[10] = "ten";
+@@ -136,7 +139,7 @@ static void TestSTLLogging() {
+     hm[30] = "thirty";
+     ostringstream ss;
+     ss << hm;
+-    EXPECT_TRUE(std::find(std::begin(permutations), std::end(permutations), ss.str()) != std::end(permutations));
++    EXPECT_TRUE(std::find(permutations.begin(), permutations.end(), ss.str()) != permutations.end());
+     hash_map<int, string> copied_hm(hm);
+     CHECK_EQ(hm, copied_hm);  // this must compile
+   }
+@@ -177,9 +180,13 @@ static void TestSTLLogging() {
+ #ifdef GLOG_STL_LOGGING_FOR_EXT_HASH
+   {
+     // hash_set doesn't have an ordering, so there are many options for the output.
+-    vector<string> permutations{
+-      "10 20 30", "10 30 20", "20 10 30", "20 30 10", "30 10 20", "30 20 10"
+-    };
++    vector<string> permutations;
++    permutations.push_back("10 20 30");
++    permutations.push_back("10 30 20");
++    permutations.push_back("20 10 30");
++    permutations.push_back("20 30 10");
++    permutations.push_back("30 10 20");
++    permutations.push_back("30 20 10");
+     // Test a hashed simple associative container.
+     // Use a user defined hash function.
+     hash_set<int, user_hash> hs;
+@@ -188,7 +195,7 @@ static void TestSTLLogging() {
+     hs.insert(30);
+     ostringstream ss;
+     ss << hs;
+-    EXPECT_TRUE(std::find(std::begin(permutations), std::end(permutations), ss.str()) != std::end(permutations));
++    EXPECT_TRUE(std::find(permutations.begin(), permutations.end(), ss.str()) != permutations.end());
+     hash_set<int, user_hash> copied_hs(hs);
+     CHECK_EQ(hs, copied_hs);  // This must compile.
+   }

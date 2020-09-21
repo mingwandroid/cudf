@@ -1,0 +1,75 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/fastavro-0.23.5-python_3.6-on-linux_64, last modified Tue Jun 30 02:20:35 2020
+# ------------------------------------------------
+
+package:
+    name: fastavro
+    version: 0.23.5
+source:
+    sha256: 2e283274bb79e6b8101a2f97fa519b392512ac013afdc5ebd1f698c7ec087fa4
+    url: https://pypi.io/packages/source/f/fastavro/fastavro-0.23.5.tar.gz
+build:
+    entry_points:
+        - fastavro = fastavro.__main__:main
+    number: '0'
+    script:
+        - export FASTAVRO_USE_CYTHON=1
+        - /tmp/build/80754af9/fastavro_1593483734635/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+            -m pip install . --no-deps -vv
+    string: py36h7b6447c_0
+requirements:
+    build:
+        - _libgcc_mutex 0.1 main
+        - binutils_impl_linux-64 2.33.1 he6710b0_7
+        - binutils_linux-64 2.33.1 h9595d00_15
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_15
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py36_0
+        - cython 0.29.20 py36he6710b0_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20191231 h7b6447c_0
+        - libffi 3.3 he6710b0_1
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.1.1 py36_1
+        - python 3.6.10 h7579374_2
+        - readline 8.0 h7b6447c_0
+        - setuptools 47.3.1 py36_0
+        - sqlite 3.32.3 h62c20be_0
+        - tk 8.6.10 hbc83047_0
+        - wheel 0.34.2 py36_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - libgcc-ng >=7.3.0
+        - python >=3.6,<3.7.0a0
+        - pytz
+test:
+    imports:
+        - fastavro
+    requires:
+        - flake8
+        - nose
+about:
+    dev_url: https://github.com/fastavro/fastavro
+    home: https://github.com/fastavro/fastavro
+    license: MIT
+    license_file: LICENSE
+    summary: Fast read/write of AVRO files
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - cpcloud
+        - mariusvniekerk
+        - scottbelden
+        - tebeka

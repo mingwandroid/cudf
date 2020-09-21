@@ -1,0 +1,57 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/fsspec-0.8.0-on-linux_64, last modified Thu Aug 20 17:14:20 2020
+# ------------------------------------------------
+
+package:
+    name: fsspec
+    version: 0.8.0
+source:
+    fn: fsspec-0.8.0.tar.gz
+    sha256: 176f3fc405471af0f1f1e14cffa3d53ab8906577973d068b976114433c010d9d
+    url: https://pypi.io/packages/source/f/fsspec/fsspec-0.8.0.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/fsspec_1597944003862/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/bin/python  -m
+        pip install . --no-deps --ignore-installed -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py38_0
+        - jinja2 2.11.2 py_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20191231 h14c3975_1
+        - libffi 3.3 he6710b0_2
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - markupsafe 1.1.1 py38h7b6447c_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.2.2 py38_0
+        - python 3.8.5 hcff3b4d_0
+        - readline 8.0 h7b6447c_0
+        - setuptools 49.6.0 py38_0
+        - sqlite 3.33.0 h62c20be_0
+        - tk 8.6.10 hbc83047_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python >=3.5
+test:
+    imports:
+        - fsspec
+about:
+    home: https://github.com/martindurant/filesystem_spec
+    license: BSD-3-Clause
+    license_file: LICENSE
+    summary: A specification for pythonic filesystems
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - TomAugspurger
+        - martindurant

@@ -1,0 +1,104 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /jenkins/workspace/rapidsai/gpuci/cudf/branches/cudf-cpu-branch-build/conda/recipes/cudf, last modified Wed Jun  3 15:24:39 2020
+# ------------------------------------------------
+
+package:
+    name: cudf
+    version: 0.14.0
+source:
+    path: /jenkins/workspace/rapidsai/gpuci/cudf/branches/cudf-cpu-branch-build
+build:
+    number: '0'
+    script_env:
+        - VERSION_SUFFIX
+    string: py36_0
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_llvm
+        - arrow-cpp 0.15.0 py36h090bef1_2
+        - boost-cpp 1.70.0 h8e57a91_2
+        - brotli 1.0.7 he1b5a44_1002
+        - bzip2 1.0.8 h516909a_2
+        - c-ares 1.15.0 h516909a_1001
+        - ca-certificates 2020.4.5.1 hecc5488_0
+        - certifi 2020.4.5.1 py36h9f0ad1d_0
+        - cudatoolkit 10.0.130 0
+        - cython 0.29.19 py36h831f99a_0
+        - dlpack 0.2 he1b5a44_1
+        - double-conversion 3.1.5 he1b5a44_2
+        - gflags 2.2.2 he1b5a44_1002
+        - glog 0.4.0 h49b9bf7_3
+        - grpc-cpp 1.23.0 h18db393_0
+        - icu 64.2 he1b5a44_1
+        - ld_impl_linux-64 2.34 h53a641e_4
+        - libblas 3.8.0 16_openblas
+        - libcblas 3.8.0 16_openblas
+        - libcudf 0.14.0 cuda10.0_0
+        - libevent 2.1.10 h72c5cf5_0
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgfortran-ng 7.5.0 hdf63c60_6
+        - liblapack 3.8.0 16_openblas
+        - libllvm8 8.0.1 hc9558a2_0
+        - libnvstrings 0.14.0 cuda10.0_0
+        - libopenblas 0.3.9 h5ec1e0e_0
+        - libprotobuf 3.8.0 h8b12597_0
+        - librmm 0.14.0 cuda10.0_0
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - llvm-openmp 10.0.0 hc9558a2_0
+        - llvmlite 0.32.0 py36hfa65bc7_0
+        - lz4-c 1.8.3 he1b5a44_1001
+        - ncurses 6.1 hf484d3e_1002
+        - numba 0.49.1 py36h830a2c2_0
+        - numpy 1.17.5 py36h95a1406_0
+        - openssl 1.1.1g h516909a_0
+        - pandas 1.0.4 py36h830a2c2_0
+        - parquet-cpp 1.5.1 2
+        - pip 20.1.1 py_1
+        - pyarrow 0.15.0 py36h8b68381_1
+        - python 3.6.10 h8356626_1011_cpython
+        - python-dateutil 2.8.1 py_0
+        - python_abi 3.6 1_cp36m
+        - pytz 2020.1 pyh9f0ad1d_0
+        - re2 2020.04.01 he1b5a44_0
+        - readline 8.0 hf8c457e_0
+        - rmm 0.14.0 py36_0
+        - setuptools 47.1.1 py36h9f0ad1d_0
+        - six 1.15.0 pyh9f0ad1d_0
+        - snappy 1.1.8 he1b5a44_1
+        - spdlog 1.6.1 hc9558a2_0
+        - sqlite 3.30.1 hcee41ef_0
+        - thrift-cpp 0.12.0 hf3afdfd_1004
+        - tk 8.6.10 hed695b0_0
+        - uriparser 0.9.3 he1b5a44_1
+        - wheel 0.34.2 py_1
+        - xz 5.2.5 h516909a_0
+        - zlib 1.2.11 h516909a_1006
+        - zstd 1.4.3 h3b9ef0a_0
+    run:
+        - cupy >=6.6.0,<8.0.0a0,!=7.1.0
+        - dlpack
+        - fastavro >=0.22.0
+        - fsspec>=0.6.0
+        - libcudf >=0.14.0,<0.15.0a0
+        - numba >=0.49.0
+        - nvstrings 0.14.*
+        - pandas >=0.25,<0.26
+        - pyarrow 0.15.0.*
+        - python >=3.6,<3.7.0a0
+        - python_abi 3.6.* *_cp36m
+        - rmm 0.14.*
+test:
+    commands:
+        - python -c "import cudf"
+about:
+    home: http://rapids.ai/
+    license: Apache-2.0
+    license_family: Apache
+    license_file: LICENSE
+    summary: cuDF GPU DataFrame core library
+extra:
+    copy_test_source_files: true
+    final: true

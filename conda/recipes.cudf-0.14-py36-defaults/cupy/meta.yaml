@@ -1,0 +1,89 @@
+{% set name = "cupy" %}
+{% set version = "7.8.0" %}
+{% set sha256 = "d35b79e9d4f6f5b9069daa92a37c4574108dba80c2404b470934247e155080ce" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  - url: https://github.com/cupy/cupy/archive/v{{ version }}.tar.gz
+    sha256: {{ sha256 }}
+
+  # CUB support has too many bugs, let us wait for a bit longer
+  ## 1. The CUB support has been extensively tested with v1.8.0, so we should pin it here
+  ## 2. This dependency should be removed once CuPy bundles CUB (cupy/cupy#2584)
+  #- url: https://github.com/NVlabs/cub/archive/v1.8.0.tar.gz
+  #  sha256: 025658f4c933cd2aa8cc88a559d013338d68de3fa639cc1f2b12cf61dc759667
+  #  folder: cub_v1.8.0  # so the source code is in cupy/cub_v1.8.0
+
+build:
+  number: 0
+  skip: true  # [cuda_compiler_version in (undefined, "None")]
+  script:
+    #- export CUB_PATH=${PWD}/cub_v1.8.0  # TODO(leofang): remove this
+    - {{ PYTHON }} -m pip install . -vv
+
+    # copy activate/deactivate scripts
+    - mkdir -p "${PREFIX}/etc/conda/activate.d"
+    - cp "${RECIPE_DIR}/activate.sh" "${PREFIX}/etc/conda/activate.d/cupy_activate.sh"
+    - mkdir -p "${PREFIX}/etc/conda/deactivate.d"
+    - cp "${RECIPE_DIR}/deactivate.sh" "${PREFIX}/etc/conda/deactivate.d/cupy_deactivate.sh"
+  missing_dso_whitelist:
+    - '*/libcuda.*'
+
+requirements:
+  build:
+    - {{ compiler("c") }}
+    - {{ compiler("cxx") }}
+    - {{ compiler("cuda") }}
+
+  host:
+    - python
+    - pip
+    - setuptools
+    - cython >=0.24.0
+    - fastrlock >=0.3
+    - cudnn
+    - nccl
+
+  run:
+    - python
+    - setuptools
+    - fastrlock >=0.3
+    - numpy >=1.9.0
+    - six >=1.9.0
+    # - cudnn  <-- added via run_export
+    # - nccl   <-- added via run_export
+
+test:
+  requires:
+    - pytest
+    - mock
+    - {{ compiler("c") }}
+    - {{ compiler("cxx") }}
+    - {{ compiler("cuda") }}  # tests need nvcc
+    #- scipy >=1.0,<1.1  <-- cause error
+
+  source_files:
+    - tests
+
+about:
+  home: https://cupy.dev/
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: CuPy is an implementation of a NumPy-compatible multi-dimensional array on CUDA.
+  dev_url: https://github.com/cupy/cupy/
+  doc_url: https://docs.cupy.dev/en/stable/
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - leofang
+    - kmaehashi
+    - beam2d
+    - asi1024
+    - emcastillo
+    - hvy
+    - toslunar

@@ -1,0 +1,178 @@
+commit 542d28238b48e4fb790c562c4cfd0f7fe9961035
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu May 24 14:49:08 2018 +0100
+
+    Fix cross compilation support (remove uname)
+
+commit 9c835856e4fe1d518c66ecc3eafeb6ea47de50a6
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Dec 8 14:43:27 2017 -0600
+
+    sync with anaconda recipe
+    
+    * update for conda-build 3
+    * add windows support
+    * add ppc64le support
+
+commit 9dec729ab510e0c1143f1eb7b3911f48abd0d000
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:10:40 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 72186bcc9cb7c30db8b12b75627ced3a5f495d84
+Merge: 9b61230 38e31a7
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jun 25 19:34:50 2017 -0400
+
+    Merge pull request #6 from jakirkham/release_0.3.5
+    
+    Release 0.3.5
+
+commit 38e31a708ff183dfba9277c8658e6dcbb875fda9
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Jun 25 19:23:22 2017 -0400
+
+    Release 0.3.5
+
+commit 9b61230cd0701c6e1a328b385cc899b7682f903a
+Merge: 5338280 b5ccf49
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jun 25 19:22:46 2017 -0400
+
+    Merge pull request #5 from jakirkham/re-render__master__2.3.2
+    
+    MNT: Re-rendered with conda-smithy 2.3.2 [ci skip]
+
+commit b5ccf49ab0652980114593c825982d4b685a28f8
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Jun 25 19:16:48 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.2
+
+commit 533828048b6604aa507453bff45328c2187d116b
+Merge: c67094e 85e29c9
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Apr 6 22:50:27 2017 -0400
+
+    Merge pull request #4 from jakirkham/minor_cleanup
+    
+    Minor cleanup
+
+commit 85e29c9e6509eab7febeae7530d2fbf8e98859b1
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Apr 6 22:44:22 2017 -0400
+
+    Bump build number to 1
+
+commit a0761968262f6177337bd16f0802a96e29aa1724
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Apr 6 22:42:02 2017 -0400
+
+    Drop the no thread library tests
+    
+    Seems we weren't building these after all. So dropping these tests for
+    now. Can add them back when we build these libraries.
+
+commit f8a55127616bf159674b02d299abda2b55c033fa
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Apr 6 22:35:14 2017 -0400
+
+    Drop `exit` from `test` calls
+
+commit 152fd61861078e49b9b95a9097e4dc714458fa4f
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Apr 6 22:19:20 2017 -0400
+
+    Switch to the sha256 checksum
+
+commit 6597aefad0714d23545dedba2e419828f89c03b9
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Apr 6 22:14:17 2017 -0400
+
+    Use the toolchain
+
+commit 2f1c8a4f860a589e9518e6032ba27c42d78c462e
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Apr 6 22:14:01 2017 -0400
+
+    Package the license file
+
+commit df3a654ee49bb68a27481e739c8dbcc37065116f
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Apr 6 22:12:25 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.2.2
+    
+    Re-render to propagate the license metadata update to the README.
+
+commit 882fec79b9ff1d138a6f2546d7a36a4a7b9aef76
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Apr 6 22:11:48 2017 -0400
+
+    Specify license version
+
+commit 115392e5b68ed3440cbb18b5dde252730a87aaaf
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Apr 6 22:06:16 2017 -0400
+
+    Include package name in tarball filename
+
+commit c67094eaac5ce2d6548ea4e18488747139716616
+Merge: c087ac3 e3b5216
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Apr 4 22:07:03 2017 -0400
+
+    Merge pull request #3 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit e3b5216548a890cc2774d512c6cb14d2536bae04
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Apr 5 01:40:31 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.2.2.
+
+commit c087ac3e31ea02b704e7a6777f1977e45d61087a
+Merge: 728422f 3a89c29
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Jan 4 02:52:02 2017 -0500
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 3a89c297daa949b679fe9336c2de892630e7346f
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Dec 16 01:45:50 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.7.0.
+
+commit 728422fdb47fa15813f9fcb585b7b198c6a9554a
+Merge: be48811 005d99c
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun May 15 21:14:03 2016 -0400
+
+    Merge pull request #1 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 005d99c646012ca5ee258bebd5b68acd5ea650cc
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon May 16 00:43:52 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit be48811503beefa127f94109dd4434335db2320b
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Mar 19 07:21:39 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 616cef09f3fb89fb36f7dad3f958a764e8c59bdf
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Mar 19 07:21:20 2016 +0000
+
+    Initial commit of the glog feedstock.

@@ -1,0 +1,98 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Aug 21 04:21:22 2020
+# ------------------------------------------------
+
+package:
+    name: libevent
+    version: 2.1.10
+source:
+    fn: libevent-2.1.10.tar.gz
+    patches:
+        - 0001-Fix-destination-for-DLLs-lib-bin.patch
+        - 0374b55942e533a3c3997439481a8d05d6c8f729.patch
+    sha256: 52c9db0bc5b148f146192aa517db0762b2a5b3060ccc63b2c470982ec72b9a79
+    url: https://github.com/libevent/libevent/archive/release-2.1.10-stable.tar.gz
+build:
+    number: '2'
+    run_exports:
+        - libevent >=2.1.10,<2.1.11.0a0
+    string: hcdb4288_2
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - autoconf 2.69 pl526h14c3975_9
+        - automake 1.16.2 pl526_1
+        - binutils_impl_linux-64 2.34 h2122c62_9
+        - binutils_linux-64 2.34 h47ac705_27
+        - ca-certificates 2020.6.20 hecda079_0
+        - gcc_impl_linux-64 7.5.0 hda68d29_13
+        - gcc_linux-64 7.5.0 hf34d7eb_27
+        - kernel-headers_linux-64 2.6.32 h77966d4_13
+        - ld_impl_linux-64 2.34 hc38a660_9
+        - libgcc-ng 9.3.0 h24d8f2e_15
+        - libgomp 9.3.0 h24d8f2e_15
+        - libstdcxx-ng 9.3.0 hdf63c60_15
+        - libtool 2.4.6 h516909a_1003
+        - m4 1.4.18 h14c3975_1001
+        - make 4.3 h516909a_0
+        - openssl 1.1.1g h516909a_1
+        - perl 5.26.2 h516909a_1006
+        - pkg-config 0.29.2 h516909a_1006
+        - sysroot_linux-64 2.12 h77966d4_13
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - ca-certificates 2020.6.20 hecda079_0
+        - libgcc-ng 9.3.0 h24d8f2e_15
+        - libgomp 9.3.0 h24d8f2e_15
+        - openssl 1.1.1g h516909a_1
+    run:
+        - libgcc-ng >=7.5.0
+        - openssl >=1.1.1g,<1.1.2a
+test:
+    commands:
+        - test -d "${PREFIX}/include/event2"
+        - test ! -f "${PREFIX}/lib/libevent.a"
+        - test -f "${PREFIX}/lib/libevent.so"
+        - test ! -f "${PREFIX}/lib/libevent_core.a"
+        - test -f "${PREFIX}/lib/libevent_core.so"
+        - test ! -f "${PREFIX}/lib/libevent_extra.a"
+        - test -f "${PREFIX}/lib/libevent_extra.so"
+        - test ! -f "${PREFIX}/lib/libevent_openssl.a"
+        - test -f "${PREFIX}/lib/libevent_openssl.so"
+        - test ! -f "${PREFIX}/lib/libevent_pthreads.a"
+        - test -f "${PREFIX}/lib/libevent_pthreads.so"
+        - test -f "${PREFIX}/lib/pkgconfig/libevent.pc"
+        - test -f "${PREFIX}/lib/pkgconfig/libevent_openssl.pc"
+        - test -f "${PREFIX}/lib/pkgconfig/libevent_pthreads.pc"
+        - python event_rpcgen.py test/regress.rpc test/regress.gen.h test/regress.gen.c
+    requires:
+        - python 3.6.*
+    source_files:
+        - event_rpcgen.py
+        - test/
+about:
+    description: 'The libevent API provides a mechanism to execute a callback function
+        when
+
+        a specific event occurs on a file descriptor or after a timeout has been
+
+        reached. Furthermore, libevent also supports callbacks due to signals or
+
+        regular timeouts.
+
+        '
+    dev_url: https://github.com/libevent/libevent
+    doc_url: http://www.wangafu.net/~nickm/libevent-1.4/doxygen/html/
+    home: http://libevent.org/
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: An event notification library.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham

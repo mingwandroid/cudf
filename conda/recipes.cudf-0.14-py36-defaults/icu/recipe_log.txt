@@ -1,0 +1,314 @@
+commit 9b23f83e14ac03adcabe6667f79737375c0e2498
+Author: Cheng H. Lee <clee@anaconda.com>
+Date:   Mon Apr 27 15:53:15 2020 -0500
+
+    Apply patches for additional CVEs
+    
+    - CVE-2017-7867
+    - CVE-2017-7868
+    - CVE-2017-14952
+    - CVE-2017-15396
+    - CVE-2017-15422
+
+commit b1fd5a6444607ac7db50819d42ffc1569d20cb92
+Author: Cheng H. Lee <clee@anaconda.com>
+Date:   Wed Apr 22 15:58:11 2020 -0500
+
+    Apply patch for CVE-2020-10531
+
+commit 536123484d9f0ee93e6758b6ff3def384c5fc385
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Nov 16 16:10:26 2017 -0600
+
+    remove vc feature; fix win build (prefix issue somehow)
+
+commit 3f76b34a4c19ac76996f100d10b99e548b868882
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Oct 13 08:15:22 2017 -0700
+
+    Win-32 build workaround for _uconvmsg_dat being missing
+
+commit c235c7112eb6f3318d4b237dad9c7a60bbcae374
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Aug 29 03:32:48 2017 -0700
+
+    Work around libtool bug
+
+commit 8953f24e1b042d233969b3992ad2b0e09d276209
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Aug 28 14:16:22 2017 +0100
+
+    (WIP) Hack LD_LIBRARY_PATH until strong run-epxorts install to host prefix during builds
+
+commit 16c8549bb5834c9c6dbfff6564a7abb56becbb0b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Aug 27 01:35:22 2017 +0100
+
+    Generalize logging
+
+commit bc3998c7a2e3d94ff08cbc80512d292cb6b4be0b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Aug 26 21:11:12 2017 +0100
+
+    Update to 58.2 and generalized pinnings
+
+commit cbe7bc5c362d4dc986854562cb7c409bb7eedea0
+Merge: 7a73b44 5de40ec
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Aug 25 19:00:32 2017 +0100
+
+    Merge pull request #1 from msarahan/cb3
+    
+    simplify recipe for cb3
+
+commit 5de40ec218c5477acb028bebaa9c576e45653744
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Sun Aug 20 19:45:25 2017 -0500
+
+    simplify recipe for cb3
+
+commit 7a73b44f6c071923f9c6b2acb51f8909995c62e9
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Jul 31 16:36:16 2017 +0000
+
+    Update about section
+
+commit 30ae59d2c8537d3b0fdea4fafa342a3778859088
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Jul 31 16:33:58 2017 +0000
+
+    Make recipe cross-compile capable
+
+commit d28f9504045957549cc103b68bbe3343c133b45e
+Merge: 4134ca9 b6afcf3
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sun Feb 12 16:44:52 2017 +0100
+
+    Merge pull request #16 from gillins/master
+    
+    Attempt to fix VS2008 build
+
+commit b6afcf396c463cdccbbe7089b4b788da6418eb74
+Author: Sam Gillingham <gillingham.sam@gmail.com>
+Date:   Sat Feb 4 17:07:30 2017 +1000
+
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit 1998e348e32401df996fa1e82b625b8887038a33
+Author: Sam Gillingham <gillingham.sam@gmail.com>
+Date:   Sat Feb 4 17:04:56 2017 +1000
+
+    Get files in right place and enable tests for Windows
+
+commit 2df1eac9da9ae23cedf132974b04d30f64995cd0
+Author: Sam Gillingham <gillingham.sam@gmail.com>
+Date:   Sat Feb 4 09:01:55 2017 +1000
+
+    skip py36 on Win and fix rc.exe/msys2 timing issue
+
+commit c12993fafd67cd56c8657d537121d30cdeedcc58
+Author: Sam Gillingham <gillingham.sam@gmail.com>
+Date:   Fri Feb 3 17:30:29 2017 +1000
+
+    set MSYS_RC_MODE so rc.exe runs
+
+commit 6ce1ff41c3aa06f1e9f39986e283deb1f0165cd6
+Author: Sam Gillingham <gillingham.sam@gmail.com>
+Date:   Fri Feb 3 17:14:11 2017 +1000
+
+    attempt to use the msys2 based configure stuff instead
+
+commit 834906788095becd14732c5fc45ca9689a0ec005
+Author: Sam Gillingham <gillingham.sam@gmail.com>
+Date:   Fri Feb 3 12:51:58 2017 +1000
+
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit 454382a6446d3f342a285392a9c57f300d70371c
+Author: Sam Gillingham <gillingham.sam@gmail.com>
+Date:   Fri Feb 3 12:48:27 2017 +1000
+
+    Attempt to fix VS2008 build by copying a more recent msbuild like xerces-c
+
+commit 4134ca9d2ece56428e269504820194c2ae4415df
+Merge: 2776ebc 75b2098
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Jan 18 04:04:47 2017 -0300
+
+    Merge pull request #15 from ocefpaf/win
+    
+    Win
+
+commit 75b20987ab53f64c82acbb7a9e3e7415556f76fe
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Jan 17 12:43:08 2017 -0300
+
+    rerender with auto
+
+commit 297068ff5a84d175e91930eae0cfa35081a7abe4
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Oct 31 14:20:17 2016 -0300
+
+    Update to 58.1
+    
+    ?
+
+commit 2776ebca3751721ca06329b958e059c4601a1bac
+Merge: 2509fd2 965cb61
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Nov 1 11:20:00 2016 -0300
+
+    Merge pull request #14 from ocefpaf/update
+    
+    Update
+
+commit 965cb61aa1430f31362e8b0c83a20c7ac0e88b70
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Oct 31 14:20:17 2016 -0300
+
+    update to 58.1
+
+commit ec770c65e646e2171c7745094cf4eaa23128a264
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Oct 31 14:20:05 2016 -0300
+
+    rerender
+
+commit 2509fd29e8564066a7f6009b300b6a9f8e09b42c
+Merge: 9c3f042 e19698e
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Jun 29 10:20:37 2016 -0400
+
+    Merge pull request #10 from jakirkham/rm_activation_scripts
+    
+    Remove symlinks
+
+commit e19698e63fcea79eb08d1144e12a7119cedf5756
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Jun 28 14:24:50 2016 -0400
+
+    recipe: Bump build number so we can get a new release.
+
+commit 08a1c5f54abe854f20b67c39f93cbc44ead53d06
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Jun 28 14:24:17 2016 -0400
+
+    travis: Unpin `conda-build` to avoid packaging activation scripts.
+
+commit 9c3f04255e194ae328b2157ddb912c4ca79560f2
+Merge: 0355f30 6cfe4e5
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jun 26 19:29:46 2016 -0400
+
+    Merge pull request #8 from gillins/master
+    
+    added toolchain support
+
+commit 6cfe4e5731d96c7828719fb88ca6871b312fc38c
+Author: Sam Gillingham <gillingham.sam@gmail.com>
+Date:   Fri Jun 24 10:08:38 2016 +1000
+
+    added toolchain
+
+commit 0355f30436b9cfa4242130547887f1acf0a583c3
+Merge: 46a8bfd 2f22ed4
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jun 5 22:50:28 2016 -0400
+
+    Merge pull request #7 from jakirkham/rerender_master_0_10_4
+    
+    Re-render with conda-smithy 0.10.4
+
+commit 2f22ed4e342a56911b8ad7d9945324dd3a58ef81
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Jun 5 22:25:37 2016 -0400
+
+    Re-render with conda-smithy 0.10.4.
+
+commit 46a8bfd42df568c3123c42a13533389d00e842d4
+Merge: 02908bb 62c3409
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Apr 5 20:13:25 2016 -0400
+
+    Merge pull request #4 from jakirkham/fix_linux_linking
+    
+    Only enable rpath support on Mac
+
+commit 62c34093d90d8b9366557f08aa4640ce821f6385
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Apr 5 19:56:25 2016 -0400
+
+    recipe: Fix Linux build to not enable rpath support.
+
+commit 02908bbec7fe0ad7e2dfc0ddc12689b4c84af566
+Merge: 0cebe24 a1f5220
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Apr 5 19:33:00 2016 -0400
+
+    Merge pull request #3 from jakirkham/data_link_rerender_0_8_3
+    
+    Fix linking issue, use Python on Windows only and Re-render
+
+commit a1f52200d5268ad75288d089f4f2aa3fb4a2293f
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Apr 5 02:00:13 2016 -0400
+
+    Re-render feedstock using conda-smithy 0.8.3.
+
+commit 3a9ca64dffb4eff8a4c92af6f2f40b611830930e
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Apr 5 18:44:34 2016 -0400
+
+    recipe: Require Python on Windows only during build.
+
+commit a4dcc9bf95cf2b3d03238d659988c58d0f83efc7
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Apr 5 18:30:19 2016 -0400
+
+    recipe: Use 2 spaces between selectors and other stuff.
+
+commit 63677826e7bf27c4b74e491af54eb9a20d596a0c
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Apr 5 16:40:32 2016 -0400
+
+    recipe: Fix naming issue with `libicudata.*.*.dylib` on Mac.
+    
+    Previously, the `libicudata.*.*.dylib` library on Mac would keep a
+    relative path to itself. In particular, it had a path to
+    `../lib/libicudata.*.*.dylib`, which was a bit strange and caused
+    linking errors for any binary or library that linked against it. As it
+    was a relative path, `conda-build` didn't pick up on the fact that this
+    should be changed to use `@rpath` as it would normally. Here we add the
+    flag `--enable-rpath`, which seems to force `libicudata.*.*.dylib` to
+    embed the full path to itself. This should correct that problem and end
+    the linking issues that every other package has experienced with this
+    library on Mac.
+
+commit 0cebe241967c0b1b4af83e18833c190a16e3a423
+Merge: 6e88c5a 754dc51
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Mar 27 00:16:53 2016 -0400
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 754dc519ad14a36cd557c27b07ef3601cf4f940e
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Mar 27 00:30:18 2016 +0100
+
+    MNT: Updated the feedstock for conda-smithy version 0.7.1.
+    
+    [ci skip]
+
+commit 6e88c5a5129fac86496f1da13c9c03c2e3958076
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Mar 25 19:49:16 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 34f2c891167218f85f7feac717eeb07701befe68
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Mar 25 19:48:37 2016 +0000
+
+    Initial commit of the icu feedstock.

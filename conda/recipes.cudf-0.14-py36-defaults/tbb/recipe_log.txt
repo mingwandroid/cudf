@@ -1,0 +1,918 @@
+commit 47686359bfe71b7dafff7eabae9bdf754790ded4
+Author: Megan Yancy <myancy@anaconda.com>
+Date:   Fri Aug 21 15:29:48 2020 -0500
+
+    tbb:2020.1
+
+commit 773728247649ad607accd3458db83b8aad30e6cc
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Feb 5 16:36:57 2020 -0600
+
+    use nmake for tests on windows
+    
+    cmake has issues with win-32 vs win-64
+
+commit c0e7c52101b58432752a2ac95483b3d3b2150792
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Feb 5 09:43:01 2020 -0600
+
+    adjust vinterface version for 2020.0
+
+commit 3dfb9ff2070e2e60567d78c8cbd971cbff5e6bef
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Feb 5 09:41:57 2020 -0600
+
+    pin tests to python <3.8
+    
+    On Windows Python 3.8 does not use PATH when loading libraries using
+    ctypes.  Avoid this version for the test.
+
+commit dbb4f5ead20648262de9ee08a9aa958b69e135d6
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Feb 5 09:41:45 2020 -0600
+
+    update to 2020.0
+
+commit decdde7e4d98c1ce3b7d8112e0040dbacc249609
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Nov 29 20:03:03 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.3, and conda-forge-pinning 2019.11.26
+
+commit ae9dbc39519854eba71dd9566e8409d45244c20e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 1 16:24:01 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.10, conda-smithy 3.6.0, and conda-forge-pinning 2019.11.01
+
+commit 5e88eea1f58ba52985200cd6d275f3618ac6fd19
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 1 16:23:32 2019 +0000
+
+    bump build number
+
+commit cb1e05989ed4014c0826c8d54ee45efad1ba91e1
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Oct 11 02:15:14 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.5.0, and conda-forge-pinning 2019.10.08
+
+commit 1be6ad60285e95f47d782df764334552ab380007
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Thu Oct 10 21:12:30 2019 -0500
+
+    Disabled vs2008 as dropped by TBB
+
+commit 01de131e5df929ca92bb7df9716760bbd9ab7b7a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 10 10:18:42 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.5.0, and conda-forge-pinning 2019.10.08
+
+commit e08c62b3b26bf993e8662a5e944607acee5ea551
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 10 10:18:10 2019 +0000
+
+    updated v2019.9
+
+commit 69b84e4800aa3941ee2ccaee8622596ba29f4f3b
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:34:01 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 6a8cebffad4948de7179c367a84ae673f9847a50
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Sep 2 09:46:47 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.27
+
+commit de4419203dd5e5dfff156fb48e23dfdef6b550b2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Sep 2 09:46:14 2019 +0000
+
+    bump build number
+
+commit 91ced61974a5725d3accae6b9bc14f46f44f912a
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Wed Aug 28 14:24:27 2019 -0500
+
+    Update meta.yaml
+
+commit 1ee64bcaa42fec37e00971f13d9837740af5941d
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Wed Aug 28 13:29:38 2019 -0500
+
+    fun attempts to find an intersection between platforms
+
+commit 40a91f0f0ba1cb93f036a557ad3c22de05894499
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Wed Aug 28 12:46:06 2019 -0500
+
+    another attempt
+
+commit 686cbb4229594f0bbd200fb8883c9831f148eb0f
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Wed Aug 28 11:50:42 2019 -0500
+
+    attempting to fix windows
+
+commit 7d2cb8f655837c2d0510c4bf40ad50a8ac23b9a9
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Wed Aug 28 10:16:21 2019 -0500
+
+    fixing windows and disabling osx tests
+
+commit e937d32550e9d8a31bb849b627a2c8bb4522f754
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Aug 28 14:10:43 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.22
+
+commit a043c1c751da3a87dcf852b1fb789fe226d38de4
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Wed Aug 28 09:08:10 2019 -0500
+
+    Update meta.yaml
+
+commit 56856e2195ee99ddd75d3be63d15e3ae232ef2c7
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Sun May 26 23:33:10 2019 +0300
+
+    Update meta.yaml
+
+commit 430b2da252a602c9025bfc5dbf45097db4202957
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Sun May 26 11:39:41 2019 +0300
+
+    trying without -A x64 option
+
+commit 606dc45238ab832fafa6bd4449be454e02a955a4
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Sat May 25 23:07:10 2019 +0300
+
+    include cmake configs and rely on it for testing
+
+commit 147acfa91120afe74cced69d34ef30e215175ed5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu May 23 16:38:16 2019 +0000
+
+    updated v2019.7
+
+commit 5294e44c114f699bf1eede6b4729ea897b5a572b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue May 7 16:40:06 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.06
+
+commit 26fbc8ac5ea83bd23e7d4ce3bf65562881b49e70
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue May 7 16:39:52 2019 +0000
+
+    updated v2019.6
+
+commit bb6500c9c65337c68d7f1f8a8f6d10626561e833
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Mar 21 16:26:46 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.2, and conda-forge-pinning 2019.03.17
+
+commit 995858a03caac24eb2d076dea02dda4401bf3a90
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Mar 21 16:26:31 2019 +0000
+
+    updated v2019.5
+
+commit e75b668d11061e5c48199df1891711ce9d669fd5
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Mar 15 16:15:47 2018 -0500
+
+    Add make as build dep
+
+commit fa99d9486236447b231aadc5fe50e15c79b37f66
+Merge: 4f472da e3d07d1
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Fri Mar 1 17:52:19 2019 -0600
+
+    Merge pull request #46 from regro-cf-autotick-bot/2019.4
+    
+    tbb v2019.4
+
+commit e3d07d17170498b5533a14d5eeddcbfb20b0ec59
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 1 15:25:32 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.24
+
+commit e01b1b995b6983a00fa078be647fb8f5cd47c57a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 1 15:25:18 2019 +0000
+
+    updated v2019.4
+
+commit 4f472da4c479a9176dd51b812d526867a5d8df08
+Merge: e180c5e cae55a8
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Wed Dec 5 19:48:17 2018 -0600
+
+    Merge pull request #45 from regro-cf-autotick-bot/2019.3
+    
+    tbb v2019.3
+
+commit cae55a8bda9115164128506c08593adea5d96127
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Dec 6 01:13:44 2018 +0000
+
+    updated v2019.3
+
+commit e180c5e729dc57280bc522f5b9dadc8cbb0233cb
+Merge: 53ad881 c0c476b
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Fri Nov 9 09:49:05 2018 -0600
+
+    Merge pull request #43 from regro-cf-autotick-bot/2019.2
+    
+    tbb v2019.2
+
+commit c0c476bbe76db5f59e84a99d657d457e07dbc216
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 9 10:14:44 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.11.3
+
+commit afae1e9010c247ec1bf17de40dfa71450cc6ca78
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 9 10:14:38 2018 +0000
+
+    updated v2019.2
+
+commit 53ad8817266f6e4266ea270d5fd09ca6d3ad8dfe
+Merge: 115fcdb 98bd31b
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Sat Oct 6 19:25:53 2018 -0500
+
+    Merge pull request #39 from regro-cf-autotick-bot/rebuild
+    
+    TBB 2019.1, re-rendered for Python 3.7, GCC 7
+
+commit 98bd31b8cad5433b44471b08a810d07c07fa7e6f
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Thu Oct 4 20:17:53 2018 -0500
+
+    $CPPFLAGS doesn't contain -I directories
+    
+    it works with toolchain but does not work with new Anaconda compiler packages
+
+commit 926ddd451d90d588073b4c816ef885b9ec3e5cd5
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Thu Oct 4 09:20:51 2018 -0500
+
+    updated to 2019.1 which fixes compilation
+
+commit 03976ed5e3173522d9720ed7b2d82342d077c3d2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Sep 23 07:10:41 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.20
+
+commit 234bffa49ae53fc9e888c70781cc7cd2c4052e36
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Sep 23 07:10:31 2018 +0000
+
+    bump build number
+
+commit 115fcdbc55f97c8d80a424013f6f06928004b466
+Merge: dd2ace6 e20c374
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Thu Sep 20 13:37:05 2018 -0500
+
+    Merge pull request #35 from anton-malakhov/master
+    
+    TBB 2019.0
+
+commit e20c374bb2529bd2fc17549190ffe277dbb8e660
+Merge: 42eb7b3 9dee1e2
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Wed Sep 19 14:35:30 2018 -0500
+
+    Merge branch 'master' of https://github.com/anton-malakhov/tbb-feedstock
+
+commit 42eb7b3540ce18fd0d73e2ee83b8a0a627a53e35
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Wed Sep 19 14:33:40 2018 -0500
+
+    Override C/CXXFLAGS on [win] to fix #36
+
+commit 9dee1e21573307eac5afccece97879695d703e02
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Tue Sep 18 23:08:17 2018 -0500
+
+    fixing compilation v3.0
+
+commit d1690800c2515ee4ad33434ebd975cbf14c039ec
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Tue Sep 18 22:58:51 2018 -0500
+
+    Fixing rpath on OS X
+
+commit a66a2ede6ddd1286a7c8c9968600afba8a598419
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Tue Sep 18 22:43:33 2018 -0500
+
+    Fixed test compilation env
+
+commit 5a19b8799bddca14855377fcc18c73d090a93635
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Tue Sep 18 22:10:26 2018 -0500
+
+    Adding real testing for tbb-devel package
+    Removing python-tbb entry point - it behaves incorrectly yet
+
+commit 86f9ee8e8fc770e8dc947b9ed7537fdf854d6037
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Tue Sep 18 18:48:00 2018 -0500
+
+    Adding workaround for compilation on VS2008
+
+commit 355b38a4e48b939ae232283d0ffeacdcdcb51c6c
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Thu Sep 13 18:33:39 2018 -0500
+
+    len() does not work with jinja2?
+
+commit 00ea950622a7d79815887f02ff3d05ff2c6cc7da
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Thu Sep 13 18:25:37 2018 -0500
+
+    New versioning scheme, add run_exports
+    
+    the VC2008 issue is still there
+
+commit ef317c3099605c2f6de29c3a696c7185f6382977
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 12 14:12:22 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.11
+
+commit 764b669292ff18a9198cfcab046a81d7e607bc21
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 12 14:11:56 2018 +0000
+
+    updated v2019.0.0
+
+commit dd2ace6d12f4bd32481b859e7858c9d92fea9a9b
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:12:56 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 210f75f048d33326527ecc0c32c6f03cbd60fcee
+Merge: a06df39 ba9fc32
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Thu Jun 28 10:18:53 2018 -0500
+
+    Merge pull request #32 from anton-malakhov/master
+    
+    Supporting the auto-PR bot
+
+commit ba9fc32ad779b76a9bcf1e0ba2495fa29c77dd3c
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Wed Jun 27 15:34:56 2018 -0500
+
+    Suporting the auto-PR bot
+
+commit a06df39779c50eb1e68a90b18f11c7bb5c92dcd8
+Merge: b916f79 bce65aa
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Wed Jun 27 13:43:06 2018 -0500
+
+    Merge pull request #30 from conda-forge/2018_U5
+    
+    Update to 2018 U5
+
+commit bce65aac08b5a4ef5d83c19678bc9f85ca5c2e92
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Jun 27 16:59:31 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.19
+
+commit b8ef00aabcac7f2915bbf9f8d67a9c4ea8d26e4a
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Wed Jun 27 11:35:17 2018 -0500
+
+    updating sha
+
+commit 87cdba5fad396e2cd2aaade979e3cbccb5cf7950
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Wed Jun 27 11:19:44 2018 -0500
+
+    Update to 2018 U5
+    
+    also removing CFLAGS/CXXFLAGS cleaning because it is expected to be fixed
+
+commit b916f79d3ba1a72e518e366852bea7e498799fa9
+Merge: 2372eac 2e4f6b6
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Mon Jun 4 21:22:30 2018 -0500
+
+    Merge pull request #28 from anton-malakhov/master
+    
+    TBB 2018 U4, splitting into tbb & tbb-devel packages, introducing Python module tbb4py
+
+commit 2e4f6b62ee1fcf5f1b4ffad01a7f2dc0e215c18b
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Sun Jun 3 15:32:57 2018 -0500
+
+    Update meta.yaml
+
+commit 404e98318ac6ac238f45e245d847f7e06df1a4db
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Fri Jun 1 11:41:59 2018 -0500
+
+    the build number should be reset for new versions
+
+commit 7c15a1f4a0239ee9e8670d1ee63c11bdfbe614c0
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Wed May 30 16:33:05 2018 -0500
+
+    reverted sha variable back, strange
+
+commit 41953adf959513e3fd764c6105a9ce36405f2bc3
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Wed May 30 16:24:51 2018 -0500
+
+    Switching to U4 release
+
+commit 6b0b4ffe1fa55aef5a75495965bf4ae28fcfa8b5
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat May 26 12:06:36 2018 -0600
+
+    MNT: Re-rendered with conda-smithy 3.1.5.post.dev1 and pinning 2018.05.22
+
+commit 133c10359c64b0ac773987e0956dd850b43e5cf6
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat May 26 11:29:47 2018 -0600
+
+    MNT: Re-rendered with conda-smithy 3.1.5.post.dev1 and pinning 2018.05.22
+
+commit 6a6ad98cb396391ed1f8c8ae72723aa55d31f35b
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed May 23 23:28:37 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.4 and pinning 2018.05.07
+
+commit 2fc2d4b104850029fcd53e77582867aeaf8a795f
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Wed May 23 18:08:27 2018 -0500
+
+    Clarified host/build sections for requirements, fixed windows test
+
+commit a88bc527e0a7b0a08499afa8d35ea63d2d417473
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Wed May 23 16:19:30 2018 -0500
+
+    Removing toolchaing and using default {{ compiler }}
+    This required resetting CXXFLAGS env var since conda-build sets
+     -std=c++17 which is not yet supported by TBB
+
+commit 73c23a134babed5aa9579110f9f2fdeb211e94d3
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed May 23 15:13:00 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.4 and pinning 2018.05.07
+
+commit 8cb940f36a3aa44ae4f4045cae365e47adc4e477
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Wed May 23 10:09:48 2018 -0500
+
+    removed [win] selector from dependence on compiler
+    
+    @conda-forge-admin, please rerender.
+
+commit 3ae6e5e674a316d7ba3b17cfe74abf82135a54c4
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue May 22 22:30:29 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.4 and pinning 2018.05.07
+
+commit c5f5b1a6c7cebe1de36f460703bdb92eb6d1c0ec
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu May 3 21:30:21 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.28
+
+commit 3e471750dfc1bcec04b784578c61ada7b86b0f6b
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Apr 28 00:15:56 2018 -0500
+
+    Fix recipe
+
+commit 5119c77c5f2515eed79f6192baf1d59449f2e55d
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Apr 28 00:15:42 2018 -0500
+
+    MNT: Re-rendered with conda-smithy 3.1.2.post.dev7 and pinning 2018.04.26
+
+commit 7ba444cbb9bbcc3a898b02ef373622185609f636
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Apr 28 04:52:38 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.26
+
+commit 606039753832ca443b4506dbaa52e3474f032152
+Author: anton-malakhov <Anton.Malakhov@intel.com>
+Date:   Fri Apr 27 22:20:12 2018 -0500
+
+    Fixing py27win manually as I havn't master conda smithy yet
+
+commit 128d48064568e8bb6ee7c78718f9e253a6b1d412
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Fri Apr 27 20:42:40 2018 -0500
+
+    Update meta.yaml
+
+commit 21a89a9c9ef0044a15112e2d6f3efb79a2f05c3d
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Fri Apr 27 19:00:41 2018 -0500
+
+    Trying to add spaces for the linter.. though there were enough already
+
+commit a7effc326d15d44fafe5414f073f50861215bcc7
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Fri Apr 27 18:57:09 2018 -0500
+
+    Satisfying linter 2
+
+commit f67fdfc6286c61975d6884915eff1a543999f92c
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Fri Apr 27 18:14:53 2018 -0500
+
+    Satisfying linter
+
+commit 83ac7ad6f79122f770943aaadee8ef2166427222
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Fri Apr 27 18:04:57 2018 -0500
+
+    bumping build number since we are technically working on the same package version
+
+commit 3e15b644bb9c14714250b293c628bae4d5de2d7a
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Fri Apr 27 17:33:24 2018 -0500
+
+    Using conda-build 3 features to split into 3 packages adding Python module as a separate one
+
+commit 2372eac611d3fa11f5d02f410ffdace19527aaf3
+Merge: fe2ad1f 6e48364
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Apr 26 17:42:07 2018 -0400
+
+    Merge pull request #27 from conda-forge-linter/conda_forge_admin_26
+    
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.26
+
+commit 6e4836454726c1693f6d418ffc4ef150642f1d86
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Apr 26 21:18:17 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.26
+
+commit fe2ad1f1516bd4274496cea7e4c6988bae92ae4b
+Merge: ebe77f7 0292e0d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Apr 25 15:35:29 2018 -0400
+
+    Merge pull request #21 from anton-malakhov/master
+    
+    TBB 2018 U3 release, integrating new TBB's package builder
+
+commit 0292e0deb541de9d117bf884d8e919d6e47e5b7b
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Mon Apr 2 16:29:05 2018 -0500
+
+    Fixing Linter issues (#1)
+
+commit b0fccb99ca466b535ce6004b8134370c86b35ebd
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Mon Apr 2 12:00:58 2018 -0500
+
+    Trying to satisfy lint and recent conda-build versions
+
+commit b5c76afa59e63764e112af18dcbb9be6c8b1cd6d
+Merge: b660977 ebe77f7
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Fri Mar 30 14:31:48 2018 -0500
+
+    Merge branch 'master' into master
+
+commit ebe77f7c285365e781e1110eb31ea9d750e1ed6a
+Merge: 6203a56 ef79976
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Thu Jan 4 15:45:00 2018 +0100
+
+    Merge pull request #22 from jschueller/u2
+    
+    Update to 2018_20171205
+
+commit ef79976ce08f5a0454dab5631945a89393e2e6f0
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Jan 4 14:08:05 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit e00331593571863737780357a7214f1d0bb4e4b0
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Thu Jan 4 15:03:34 2018 +0100
+
+    Update to 2018_20171205
+
+commit b660977eea95b04d5223294c5fb8cda79668cf0e
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Tue Dec 19 21:06:48 2017 -0600
+
+    addressing comments, turning tbb4py off
+
+commit 949a7ae7f5f9ab7e09305070cab49b27d499d40f
+Author: Anton <anton-malakhov@users.noreply.github.com>
+Date:   Sat Dec 16 11:13:15 2017 -0600
+
+    fixed macos deployment target
+
+commit 60a5527c92919b6b036a8bac5c5e5ec66259a5db
+Author: Anton Malakhov <Anton.Malakhov@intel.com>
+Date:   Fri Dec 15 16:50:07 2017 -0600
+
+    Integrating new TBB's package builder and Python module
+
+commit 6203a56bc63dc3eb8cf85ff013c92ea62f4bb66f
+Merge: 4bd36f3 9ad88f5
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Tue Sep 26 13:25:14 2017 +0200
+
+    Merge pull request #19 from jschueller/ctest
+    
+    Enable ctest on win32
+
+commit 4bd36f34ba510b3cd7bf5e1289e343b8ee235fe1
+Merge: 46c64e1 a395e34
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Tue Sep 26 11:39:19 2017 +0200
+
+    Merge pull request #20 from jschueller/2018_20170919
+    
+    Update to 2018_20170919
+
+commit a395e34f588d9b5398a10403e926e3ad08b8ca4a
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Tue Sep 26 10:57:56 2017 +0200
+
+    Update to 2018_20170919
+
+commit 9ad88f51096d63ef3abf9550d278f928bf708871
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Tue Sep 26 10:21:22 2017 +0200
+
+    Enable ctest on win
+
+commit 46c64e18823dfa5014390d16cdd1ecccc3476f85
+Merge: dcb9268 61e689d
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Mon Sep 18 10:58:11 2017 +0200
+
+    Merge pull request #17 from jschueller/2018
+    
+    Update to 2018_20170726
+
+commit 61e689d81332f76ca1b96461fdd46b327b8534dd
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Mon Sep 18 10:18:21 2017 +0200
+
+    Update to 2018_20170726
+
+commit dcb9268fc1a9749d152e368e57a14593c6af4b23
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Aug 22 13:57:10 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit d01546415dafd72df44376ba923d3879fbacb91a
+Merge: 87913da 4757157
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Fri Jun 30 09:54:08 2017 +0200
+
+    Merge pull request #16 from jschueller/no-tests
+    
+    Disable tests
+
+commit 47571577a7b70a57ab2ff92be028ad068d833c30
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Fri Jun 30 09:49:05 2017 +0200
+
+    update CMakeLists
+
+commit 512e14d85566b984a31f5df9563baf629a9cfdac
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Fri Jun 30 09:45:13 2017 +0200
+
+    Disable tests
+
+commit 87913da6eee0cce2435b49f25e793aa00a095a65
+Merge: ca391db 56d1d4c
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Fri Jun 30 09:31:07 2017 +0200
+
+    Merge pull request #15 from jschueller/release
+    
+    Use CMAKE_CONFIG
+
+commit 56d1d4c8e6105ada6200860e9c2240cff32b0710
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Fri Jun 30 08:37:07 2017 +0200
+
+    Use CMAKE_CONFIG
+
+commit ca391db383c8dda24728acc4a31c305815724c58
+Merge: 7d0c4c7 dfe1fbf
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Mon Jun 26 08:23:56 2017 +0200
+
+    Merge pull request #14 from nehaljwani/patch-1
+    
+    tbb: bump version to update 7
+
+commit dfe1fbf8300231099e236bc9425d23b186f1449a
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Jun 26 00:37:23 2017 +0530
+
+    tbb: bump version to update 7
+
+commit 7d0c4c785996a2f3f4e44a35563e9d87debe0084
+Merge: 3abd3c1 12357b4
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Mon May 29 09:07:10 2017 +0200
+
+    Merge pull request #12 from jschueller/u6
+    
+    Update 6 20170412
+
+commit 12357b464bd3536a1f949b0807e6b245d4ac20bb
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Mon May 29 08:26:03 2017 +0200
+
+    Update 6 20170412
+
+commit 3abd3c16600244b449cd8ac060ede78a282496a3
+Merge: 9c3f364 94df5c2
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Mon Apr 24 08:38:28 2017 +0200
+
+    Merge pull request #10 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 94df5c20e937e2e78fabc34fcf95520691db21e9
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Apr 24 01:46:11 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.3.0.
+
+commit 9c3f3646f1ff39864215d621dff0ff78c3d23c8d
+Merge: 90a4fad 36348cb
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Fri Mar 10 09:11:09 2017 +0100
+
+    Merge pull request #9 from jschueller/u5
+    
+    Update 5 20170226
+
+commit 36348cbd8a4f9743a2e8a75e79ad1fa9f9c9c818
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Thu Mar 9 09:15:45 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit 719ef47beda395c0a17737d86b0b333908c1be2c
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Thu Mar 9 09:11:56 2017 +0100
+
+    Update5
+
+commit 90a4fadcd5f4686627214fede1f0b74ea5630272
+Merge: 9981aeb eb2defb
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Sun Jan 1 23:34:12 2017 +0100
+
+    Merge pull request #8 from jschueller/u3
+    
+    Update to 20161128
+
+commit eb2defb7f4800fd1fd352f2cfa61f8fad146d632
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Sun Jan 1 23:03:14 2017 +0100
+
+    Update to 20161128
+
+commit 9981aeb8c81b2ea75e79824ee4c7ef5ac3ae1c4e
+Merge: 4619739 093d078
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Fri Nov 4 09:30:06 2016 +0100
+
+    Merge pull request #7 from jschueller/v2017_20161004
+    
+    V2017 20161004
+
+commit 093d0787881f9c6e25c9b5ddc35d9d31ef70c136
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Thu Nov 3 19:13:21 2016 +0100
+
+    MNT: Re-rendered with conda-smithy 1.4.6
+
+commit 42f3550f13cc520d45395e9dc9613263a3dcdf9a
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Thu Nov 3 19:11:49 2016 +0100
+
+    Update to 2017_20161004
+
+commit 4619739ae3c0d5b2e64ebd5051d3fcd2c36f2ca1
+Merge: df8e397 ffa1b20
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Mon Sep 26 16:07:03 2016 +0200
+
+    Merge pull request #6 from jschueller/2017_20160916
+    
+    Update to 2017_20160916
+
+commit ffa1b20dbb98dc963b23a871eb7bb1889d3fca31
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Mon Sep 26 14:03:28 2016 +0200
+
+    Update to 2017_20160916
+
+commit df8e397fa93da85be2e27705628175c77c410aaf
+Merge: 2512ab1 21da09c
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Thu Sep 22 12:18:36 2016 +0200
+
+    Merge pull request #5 from jschueller/2017
+    
+    Update to 2017_20160722
+
+commit 21da09c25f13d7697408722ce79003fcd42d7252
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Thu Sep 22 10:02:42 2016 +0200
+
+    rerender
+
+commit a556c6934f63e7c2a597b327e8077842887231ce
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Thu Sep 22 09:51:33 2016 +0200
+
+    Update to 2017_20160722
+
+commit 2512ab12bd4f553c2151d79d34bf70707b992b91
+Merge: f8f2c7f 2e1c125
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Sat Aug 27 18:17:02 2016 +0200
+
+    Merge pull request #4 from jschueller/toolchain
+    
+    Use toolchain
+
+commit 2e1c1255fb73d7efe39192ab92f69aa8aa31886b
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Sat Aug 27 17:48:02 2016 +0200
+
+    rerender
+
+commit a2527271f3f888f43f5e0b9573c039fdbda0c476
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Thu Aug 18 10:13:28 2016 +0200
+
+    Use toolchain
+
+commit f8f2c7f72bdd8175d1d5d36d984fd65e73948267
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Tue Jun 14 18:24:55 2016 +0200
+
+    Update to 4.4_20160526 (#2)
+
+commit 85daf3d16bc8050b613f499e576aeb9a112192d4
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Jun 1 10:42:17 2016 -0400
+
+    Fix Windows builds (#1)
+    
+    Fix Windows builds to use Python as a dependency for VC support.
+
+commit bf31bc2c7e5ab346e22518efea82d7c13aaf0c4e
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue May 17 16:47:50 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 0d1a413514467ecc12c8eaf6571dc5bd25da9076
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue May 17 16:46:25 2016 +0000
+
+    Initial commit of the tbb feedstock.

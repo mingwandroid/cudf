@@ -1,0 +1,77 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/pandas-0.25.3-python_3.6-on-linux_64, last modified Sat Nov 16 20:42:38 2019
+# ------------------------------------------------
+
+package:
+    name: pandas
+    version: 0.25.3
+source:
+    sha256: 52da74df8a9c9a103af0a72c9d5fdc8e0183a90884278db7f386b5692a2220a4
+    url: https://github.com/pandas-dev/pandas/releases/download/v0.25.3/pandas-0.25.3.tar.gz
+build:
+    number: '0'
+    string: py36he6710b0_0
+requirements:
+    build:
+        - _libgcc_mutex 0.1 main
+        - binutils_impl_linux-64 2.31.1 h6176602_1
+        - binutils_linux-64 2.31.1 h6176602_8
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_8
+        - gxx_impl_linux-64 7.3.0 hdf63c60_1
+        - gxx_linux-64 7.3.0 h553295d_8
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+    host:
+        - _libgcc_mutex 0.1 main
+        - blas 1.0 mkl
+        - ca-certificates 2019.10.16 0
+        - certifi 2019.9.11 py36_0
+        - cython 0.29.13 py36he6710b0_0
+        - intel-openmp 2019.4 243
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libgfortran-ng 7.3.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - mkl 2018.0.3 1
+        - mkl_fft 1.0.6 py36h7dd41cf_0
+        - mkl_random 1.0.1 py36h4414c95_1
+        - ncurses 6.1 he6710b0_1
+        - numpy 1.13.3 py36hdbf6ddf_4
+        - openssl 1.1.1d h7b6447c_3
+        - pip 19.3.1 py36_0
+        - python 3.6.9 h265db76_0
+        - readline 7.0 h7b6447c_5
+        - setuptools 41.6.0 py36_0
+        - sqlite 3.30.1 h7b6447c_0
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.33.6 py36_0
+        - xz 5.2.4 h14c3975_4
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - libgcc-ng >=7.3.0
+        - libstdcxx-ng >=7.3.0
+        - numpy >=1.13.3,<2.0a0
+        - python >=3.6,<3.7.0a0
+        - python-dateutil >=2.6.1
+        - pytz >=2017.2
+test:
+    imports:
+        - pandas
+about:
+    home: http://pandas.pydata.org
+    license: BSD 3-clause
+    license_file: LICENSE
+    summary: High-performance, easy-to-use data structures and data analysis tools.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - TomAugspurger
+        - WillAyd
+        - jorisvandenbossche
+        - jreback
+        - msarahan
+        - ocefpaf

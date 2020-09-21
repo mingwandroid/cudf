@@ -1,0 +1,70 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /jenkins/workspace/rapidsai/gpuci/rmm/branches/rmm-cpu-branch-build/conda/recipes/librmm, last modified Wed Jun  3 14:58:38 2020
+# ------------------------------------------------
+
+package:
+    name: librmm
+    version: 0.14.0
+source:
+    path: /jenkins/workspace/rapidsai/gpuci/rmm/branches/rmm-cpu-branch-build
+build:
+    number: '0'
+    run_exports:
+        - librmm >=0.14.0,<0.15.0a0
+    script_env:
+        - CC
+        - CUDAHOSTCXX
+        - CXX
+        - PARALLEL_LEVEL
+        - VERSION_SUFFIX
+    string: cuda10.1_0
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - bzip2 1.0.8 h516909a_2
+        - ca-certificates 2020.4.5.1 hecc5488_0
+        - cmake 3.17.0 h28c56e5_0
+        - expat 2.2.9 he1b5a44_2
+        - krb5 1.17.1 h2fd8d38_0
+        - libcurl 7.69.1 hf7181ac_0
+        - libedit 3.1.20191231 h46ee950_0
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libssh2 1.9.0 hab1572f_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - libuv 1.38.0 h516909a_0
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.1.1g h516909a_0
+        - rhash 1.3.6 h14c3975_1001
+        - tk 8.6.10 hed695b0_0
+        - xz 5.2.5 h516909a_0
+        - zlib 1.2.11 h516909a_1006
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - cudatoolkit 10.1.243 h6bb024c_0
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - spdlog 1.6.1 hc9558a2_0
+    run:
+        - cudatoolkit >=10.1.243,<10.2.0a0
+        - spdlog >=1.4.2
+test:
+    commands:
+        - test -f $PREFIX/include/rmm/rmm.h
+        - test -f $PREFIX/include/rmm/rmm.hpp
+        - test -f $PREFIX/include/rmm/rmm_api.h
+        - test -f $PREFIX/include/rmm/thrust_rmm_allocator.h
+        - test -f $PREFIX/include/rmm/detail/memory_manager.hpp
+        - test -f $PREFIX/include/rmm/detail/cnmem.h
+        - test -f $PREFIX/lib/librmm.so
+about:
+    home: http://rapids.ai/
+    license: Apache-2.0
+    summary: librmm library
+extra:
+    copy_test_source_files: true
+    final: true

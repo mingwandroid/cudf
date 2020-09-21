@@ -1,0 +1,1588 @@
+commit 763583a3d7e953eb6c1549dff16a17fe3fbee2af
+Merge: d9decf7 02db109
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Mon Jun 22 14:48:29 2020 -0400
+
+    Merge pull request #95 from regro-cf-autotick-bot/0.23.5_h6ced2e
+    
+    fastavro v0.23.5
+
+commit 02db1091499b71ec3dfd0dd8942bb591cf1afdc7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jun 22 18:32:49 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.06.16.21.09.39
+
+commit 85d088d9dd48539b7b7c6e67bf3b5f7d8c2e5ac5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jun 22 18:31:57 2020 +0000
+
+    updated v0.23.5
+
+commit d9decf70e5a338b6e8df59fd65e54d3942c3cea6
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:11:07 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 7804cbf4d3da1ec0ec16de5c61bd7a09e631ce8c
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat May 16 04:36:02 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 931c92bf2b16982cb8a6e7db49a0bf07051df6ba
+Merge: dba25a1 5b66692
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Fri May 15 14:33:55 2020 -0400
+
+    Merge pull request #94 from regro-cf-autotick-bot/0.23.4_h7104c3
+    
+    fastavro v0.23.4
+
+commit 5b66692e685cae7a0e158c6ae94ff07d3309edb2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri May 15 18:09:34 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.1, and conda-forge-pinning 2020.05.14.17.14.20
+
+commit 13c6c3e2f1b50e8abb5458e42dce12d5f10080ef
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri May 15 18:08:51 2020 +0000
+
+    updated v0.23.4
+
+commit dba25a17d9e2638fecfec2ab0c87cbaaf7676a2e
+Merge: 0d4bdef 1fd4075
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Wed Apr 29 13:23:08 2020 -0400
+
+    Merge pull request #93 from regro-cf-autotick-bot/0.23.3_h265b32
+    
+    fastavro v0.23.3
+
+commit 1fd4075e6314ddab84830302f87bc1eb0a6e7bd9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Apr 29 16:44:15 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.0, and conda-forge-pinning 2020.04.28.13.02.26
+
+commit 490b61379d47a4ad584eff237792a5ea92cfb489
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Apr 29 16:43:30 2020 +0000
+
+    updated v0.23.3
+
+commit 0d4bdef954f83f5eefa096d53d646c694e42fb19
+Merge: 95071c8 bd94c79
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Sun Apr 19 07:00:58 2020 -0400
+
+    Merge pull request #92 from regro-cf-autotick-bot/0.23.2_h70e883
+    
+    fastavro v0.23.2
+
+commit bd94c792cfdc56b8672519a3e217d2d5784b0a52
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Apr 19 00:26:47 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.6.16, and conda-forge-pinning 2020.04.18.00.00.57
+
+commit dd182b4584334a88f00d43685d1cb698b8fe784b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Apr 19 00:26:07 2020 +0000
+
+    updated v0.23.2
+
+commit 95071c8dd3e6188a5e8c5df701e71097f595420b
+Merge: 9362edb b3ddf9e
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Fri Apr 3 12:20:45 2020 -0400
+
+    Merge pull request #91 from regro-cf-autotick-bot/0.23.1_h3ecf59
+    
+    fastavro v0.23.1
+
+commit b3ddf9e0237dd9ed38d790957a5183f37df5a56b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Apr 3 15:29:49 2020 +0000
+
+    updated v0.23.1
+
+commit 9362edbac86b7aaaa078f4d672ea0d8107d1c46e
+Merge: 338e48b 5c449a0
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Mon Mar 23 16:08:07 2020 -0400
+
+    Merge pull request #90 from regro-cf-autotick-bot/0.23.0
+    
+    fastavro v0.23.0
+
+commit 5c449a011c6ac4215561ae8817621321f09bff37
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Mar 23 19:39:28 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.1, conda-smithy 3.6.15, and conda-forge-pinning 2020.03.23
+
+commit bcb1d925b9460a4875ec3ff21afdde64fb260bd7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Mar 23 19:39:03 2020 +0000
+
+    updated v0.23.0
+
+commit 338e48b88cf56df3c3dccab842195b280da41800
+Merge: 5bffb3b 0b7e3c9
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Sun Mar 15 21:57:33 2020 -0400
+
+    Merge pull request #89 from regro-cf-autotick-bot/rebuild-pypy-0-1
+    
+    Rebuild for pypy
+
+commit 0b7e3c9205b7b94818c5a5d6a8b5de678f4a11b3
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Mar 15 23:52:12 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.0, conda-smithy 3.6.12, and conda-forge-pinning 2020.03.14
+
+commit 0c7be5a3db37b9f0baba935314dbf2a0f60ddd5c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Mar 15 23:51:48 2020 +0000
+
+    Rebuild for pypy
+
+commit 5bffb3b4256a16af1f4f1046fced14d8780a22e6
+Merge: 53897af 7f11fee
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Tue Mar 3 13:45:00 2020 -0500
+
+    Merge pull request #88 from regro-cf-autotick-bot/0.22.13
+    
+    fastavro v0.22.13
+
+commit 7f11fee5f583de7ae7e2650a68501ea2cf7b89e1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 3 18:19:22 2020 +0000
+
+    updated v0.22.13
+
+commit 53897af29cdf52b302def5a8d6c67caafed7bd22
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 19:39:33 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit a0816182286840dc7a245e1978d15d2e1af9eb0b
+Merge: c9fa1c8 7b491b3
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Thu Feb 27 13:48:34 2020 -0500
+
+    Merge pull request #87 from regro-cf-autotick-bot/0.22.12
+    
+    fastavro v0.22.12
+
+commit 7b491b35e7f2f93ecb6336e01bccc444c4194259
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Feb 27 18:21:24 2020 +0000
+
+    updated v0.22.12
+
+commit c9fa1c84aee6a8272ff4c3eebd96e382204d577f
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Wed Feb 26 21:30:56 2020 -0500
+
+    add back in the --no-deps
+
+commit e12f7045ad58e3af1182c0ad438e1792c4005143
+Merge: 2b8d264 d083ea4
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Wed Feb 26 19:57:10 2020 -0500
+
+    Merge pull request #86 from conda-forge/0.22.11
+    
+    0.22.11
+
+commit d083ea4a7d6d52da303bb4ce39830f4f5593000d
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Wed Feb 26 19:27:42 2020 -0500
+
+    Update meta.yaml
+
+commit 99b36d51db92ee87c584a7c8188dc0f066ee8bc2
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Wed Feb 26 19:16:02 2020 -0500
+
+    Update meta.yaml
+
+commit 2b8d264c510dddc145bec0819add745c2941d70b
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Wed Feb 26 16:48:25 2020 -0500
+
+    install dependencies
+
+commit c9abfe970b702d0b1b4b6614de67497f60b38ff0
+Merge: 127fbcd 56385f6
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Sun Feb 23 23:28:39 2020 -0500
+
+    Merge pull request #84 from regro-cf-autotick-bot/0.22.10
+    
+    fastavro v0.22.10
+
+commit 56385f65569d42008f12bdc9c30c51b39a08f391
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 24 03:19:02 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.20
+
+commit 5e6daefd429ee4ed92ce9a1572ddc19b19b649ef
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 24 03:18:24 2020 +0000
+
+    updated v0.22.10
+
+commit 127fbcd83eabed50ccb3f46997b5fc33bcc47207
+Merge: 3e2b151 9daa31f
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Tue Dec 24 09:47:10 2019 -0500
+
+    Merge pull request #83 from regro-cf-autotick-bot/0.22.9
+    
+    fastavro v0.22.9
+
+commit 9daa31f85036549c727fd60f438eabbdea335f85
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Dec 24 01:50:21 2019 +0000
+
+    updated v0.22.9
+
+commit 3e2b151125db31923a35aaf4d61e7d442cd7f863
+Merge: 1f7c4d7 8401e24
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Mon Dec 16 11:49:18 2019 -0500
+
+    Merge pull request #82 from regro-cf-autotick-bot/0.22.8
+    
+    fastavro v0.22.8
+
+commit 8401e249d0e1c93ebc500153b69cfea6549ea88a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Dec 16 16:14:04 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2019.12.02
+
+commit dfb014cb933f3e91be04fa3da38b160ac7b656f1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Dec 16 16:13:43 2019 +0000
+
+    updated v0.22.8
+
+commit 1f7c4d78ebd0a7f73abb7bbb85ddd6dc3ec7aae6
+Merge: 4b45056 90d006a
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Wed Nov 6 20:28:50 2019 -0500
+
+    Merge pull request #81 from regro-cf-autotick-bot/0.22.7
+    
+    fastavro v0.22.7
+
+commit 90d006a50f25e9f7b9b02558f2a9d25ab336d4ec
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Nov 7 00:20:10 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.2, and conda-forge-pinning 2019.11.01
+
+commit 06c124795c5687c682f617583707a48e1e3dd7b6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Nov 7 00:19:51 2019 +0000
+
+    updated v0.22.7
+
+commit 4b450568b67055a92dd170617e77b38f97aada19
+Merge: 02502ab 82f07df
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Nov 3 14:47:19 2019 -0500
+
+    Rebuild for python38 (#79)
+    
+    Rebuild for python38
+
+commit 02502abbf2f04e4dc83fdc5123d17cb1ad3c8b7b
+Merge: 3d448c1 4b347cb
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Sun Nov 3 13:41:46 2019 -0500
+
+    Merge pull request #80 from regro-cf-autotick-bot/0.22.6
+    
+    fastavro v0.22.6
+
+commit 4b347cb587bc4a10eff0da04d3d70c5395685501
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Nov 3 18:17:25 2019 +0000
+
+    updated v0.22.6
+
+commit 82f07df9d6826537ac7a9644bde003017faa8144
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 12:38:40 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit 24d2b5b7cd913b6375fa4aa1abef1e0f1f85c152
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 12:38:14 2019 +0000
+
+    bump build number
+
+commit 3d448c14bd0e8880da2c1acf2093d2b9801d7417
+Merge: ca5d01d 53c1692
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Fri Sep 20 12:18:08 2019 -0400
+
+    Merge pull request #77 from jakirkham-feedstocks/bld_multiarch
+    
+    Build multiarch packages
+
+commit 53c1692e2cac4dfd10d562397f9aa576bdeeef7b
+Merge: a1ad88e ca5d01d
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Fri Sep 20 02:59:58 2019 +0200
+
+    Merge conda-forge/master into jakirkham-feedstocks/bld_multiarch
+
+commit ca5d01dee803b20be33d6251aad934ac7eb42a08
+Merge: 707c780 b263256
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Thu Sep 19 17:29:28 2019 -0400
+
+    Merge pull request #78 from regro-cf-autotick-bot/0.22.5
+    
+    fastavro v0.22.5
+
+commit b263256d41f4fa92481d26c8567a5fa7e8fb46d7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 19 21:14:54 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.7, and conda-forge-pinning 2019.09.08
+
+commit 7f2909fd9b068d0c6bc5e1f8c0207300fe07d031
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 19 21:14:40 2019 +0000
+
+    updated v0.22.5
+
+commit a1ad88ed9df5507b9abfbe5fc7282f045a63329a
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Thu Sep 19 19:30:08 2019 +0200
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.7, and conda-forge-pinning 2019.09.08
+    
+    Now that multiarch builds are enabled, re-render to update the CI
+    configuration files and other feedstock content to reflect this.
+
+commit d94940fceb60157ef337477c27f9e34fe6c850a7
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Thu Sep 19 19:29:33 2019 +0200
+
+    Enable multiarch builds
+
+commit bcb7872ca3875cc7f12e693d55866c942cf3857e
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Thu Sep 19 19:28:13 2019 +0200
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.7, and conda-forge-pinning 2019.09.08
+
+commit 707c780306cd0f43d9589689c7ed85720ebafc3e
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:46:15 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit b3a042fd838bde12cdb7abb38f915f706c2efc0a
+Merge: 3d062d4 c5c8a0f
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Mon Aug 26 11:55:57 2019 -0400
+
+    Merge pull request #76 from regro-cf-autotick-bot/0.22.4
+    
+    fastavro v0.22.4
+
+commit c5c8a0f218e14b3f83adbde4b9f1a9fa3bb9b7d5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Aug 26 15:33:55 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.22
+
+commit 91a7263592b908cc2b19eed1059b6c218cfacd51
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Aug 26 15:33:36 2019 +0000
+
+    updated v0.22.4
+
+commit 3d062d4e279c929f6456a91094504cd6a5a8f12a
+Merge: 3e933d6 4c067df
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Fri Jul 12 17:38:32 2019 -0400
+
+    Merge pull request #75 from regro-cf-autotick-bot/0.22.3
+    
+    fastavro v0.22.3
+
+commit 4c067df402b21c9b4fca13ddb07629f99ff6dbae
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 12 21:25:58 2019 +0000
+
+    updated v0.22.3
+
+commit 3e933d665749bb85f89634a01485c703222cce81
+Merge: a7496cb cd26399
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Fri Jun 28 12:37:53 2019 -0400
+
+    Merge pull request #74 from regro-cf-autotick-bot/0.22.2
+    
+    fastavro v0.22.2
+
+commit cd26399039803242c46a3342c5f69a5d3ae4197c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jun 28 16:26:27 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.6, conda-smithy 3.4.0, and conda-forge-pinning 2019.06.27
+
+commit 736ca28752d9ec15fd165d1a77c086e7c57740f2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jun 28 16:26:06 2019 +0000
+
+    updated v0.22.2
+
+commit a7496cbac92fd6973cf20e27e0cafcadca1e130c
+Merge: eadd67e db9e404
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Fri Jun 14 11:52:06 2019 -0400
+
+    Merge pull request #73 from regro-cf-autotick-bot/0.22.1
+    
+    fastavro v0.22.1
+
+commit db9e404ab78cd5ec64dc7939d026a8fe3ef0094f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jun 14 15:34:32 2019 +0000
+
+    updated v0.22.1
+
+commit eadd67e5ef1b863a9799b6e6c1316459aecb3660
+Merge: e3d9762 97be58f
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Thu May 30 09:07:32 2019 -0400
+
+    Merge pull request #71 from regro-cf-autotick-bot/0.21.24
+    
+    fastavro v0.21.24
+
+commit 97be58fa9c54b3ba0291f122c980ed07d9ede2ae
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed May 29 22:27:45 2019 +0000
+
+    updated v0.21.24
+
+commit e3d9762a0142ab09c0b3527a2c6572fb539c97bb
+Merge: a3ce358 e2e54f6
+Author: Scott Belden <scottabelden@gmail.com>
+Date:   Mon May 6 23:52:31 2019 -0400
+
+    Merge pull request #70 from regro-cf-autotick-bot/0.21.23
+    
+    fastavro v0.21.23
+
+commit e2e54f6cf9ca99409ed9f80b4a84f3a3c2a0650e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue May 7 03:32:28 2019 +0000
+
+    updated v0.21.23
+
+commit a3ce3584f3c61667b4a8aa3aea79fef7edc41bc9
+Merge: 1901461 5097632
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon May 6 10:52:12 2019 -0400
+
+    modernize recipe (#69)
+    
+    modernize recipe
+
+commit 5097632aef2fe79140cef0e354f1e886d37a750a
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon May 6 10:13:00 2019 -0400
+
+    modernize recipe
+
+commit 1901461f126c3f505fa1ed55c1167645b129ba88
+Merge: 9388de5 d6c514a
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Sun Apr 28 11:27:22 2019 -0400
+
+    Merge pull request #68 from regro-cf-autotick-bot/0.21.22
+    
+    fastavro v0.21.22
+
+commit d6c514a9b452e305ee379c4233ba76226d8ebade
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Apr 27 23:35:32 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.04.25
+
+commit 99cbc94e93bc27f97fd6c8e50404985b1bdaa6ec
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Apr 27 23:35:17 2019 +0000
+
+    updated v0.21.22
+
+commit 9388de5e1b78277427065d9ac1c634967fe24ef3
+Merge: 48c9326 39bce0c
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Fri Apr 19 11:06:40 2019 -0400
+
+    Merge pull request #67 from regro-cf-autotick-bot/0.21.21
+    
+    fastavro v0.21.21
+
+commit 39bce0c1bbb938351f3e8ace7d6e0ce2b44b0d71
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Apr 19 14:31:47 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.3, and conda-forge-pinning 2019.04.18
+
+commit cc61706810915347f046ceb57d75aa3c13c51b49
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Apr 19 14:29:27 2019 +0000
+
+    updated v0.21.21
+
+commit 48c9326277520866b3229fc573204392a8491fb9
+Merge: 03db122 816976a
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Sun Apr 7 11:31:10 2019 -0400
+
+    Merge pull request #66 from regro-cf-autotick-bot/0.21.20
+    
+    fastavro v0.21.20
+
+commit 816976a9f8ed75ac5d2bcf1b83671c35cc09cbef
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Apr 6 18:25:46 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.2, and conda-forge-pinning 2019.03.17
+
+commit b1519a22d0f6717fbbcc1e80105744c2ea0b7eae
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Apr 6 18:25:33 2019 +0000
+
+    updated v0.21.20
+
+commit 03db1222b16602d9d647337ace0b3ced447f9960
+Merge: ea312e5 3199432
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Sat Mar 2 21:58:52 2019 -0500
+
+    Merge pull request #65 from regro-cf-autotick-bot/0.21.19
+    
+    fastavro v0.21.19
+
+commit 3199432ab28ad850ebe10f4806a9dab59b48cf09
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Mar 3 02:25:50 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.24
+
+commit 037ef818956bc29b09fd70ea0627207a306563ba
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Mar 3 02:25:39 2019 +0000
+
+    updated v0.21.19
+
+commit ea312e51a7daf43de751f2b29e00257172d4c93f
+Merge: 8ea8a27 2dbb2cc
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Thu Feb 14 07:42:25 2019 -0500
+
+    Merge pull request #64 from regro-cf-autotick-bot/0.21.18
+    
+    fastavro v0.21.18
+
+commit 2dbb2cc30739ed58cd75e6e365d30074b492627f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Feb 14 06:13:25 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.13, and conda-forge-pinning 2019.02.11
+
+commit ce72cb2067510d9069da9f8e56cb6563093693a2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Feb 14 06:13:15 2019 +0000
+
+    updated v0.21.18
+
+commit 8ea8a2756ce766cbd4d9d449bb42d2c50b7fc548
+Merge: 9cf6dcc 14992c3
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Tue Jan 29 06:12:41 2019 -0500
+
+    Merge pull request #63 from regro-cf-autotick-bot/0.21.17
+    
+    fastavro v0.21.17
+
+commit 14992c34600477d6ba4db4acf8577fd96f6c52ee
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jan 29 04:52:50 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.10, and conda-forge-pinning 2019.01.21
+
+commit 7476880991d361b270feb1ed2d73d0330f858ec3
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jan 29 04:52:38 2019 +0000
+
+    updated v0.21.17
+
+commit 9cf6dcce8d75d4f1954fda318bdca16f375b69ad
+Merge: 60668bc f9c313a
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Sat Dec 22 00:09:51 2018 -0500
+
+    Merge pull request #62 from regro-cf-autotick-bot/0.21.16
+    
+    fastavro v0.21.16
+
+commit f9c313aeaafd2e2bed32d566137a937983123e6d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Dec 22 04:13:07 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.18
+
+commit 28e466517c9de77178c7ed894ea4df56c6e57db7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Dec 22 04:13:00 2018 +0000
+
+    updated v0.21.16
+
+commit 60668bc74430529a5dbf04dfe2c2e451d521d8ce
+Merge: 7bae0b1 a8465f1
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Mon Dec 10 17:30:52 2018 -0500
+
+    Merge pull request #61 from regro-cf-autotick-bot/0.21.15
+    
+    fastavro v0.21.15
+
+commit a8465f123fc5560d9fb3e412563232595646eb5d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Dec 10 21:14:48 2018 +0000
+
+    updated v0.21.15
+
+commit 7bae0b14d40a37e833c56b18dcc6c57b4156e1ef
+Merge: 14b21b0 708fa76
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Sat Nov 17 21:12:40 2018 -0500
+
+    Merge pull request #60 from regro-cf-autotick-bot/0.21.14
+    
+    fastavro v0.21.14
+
+commit 708fa76b9f0aa3d72d21d56b3a5e90ba300022dc
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 17 21:13:47 2018 +0000
+
+    updated v0.21.14
+
+commit 14b21b0f12198643390a0d5e1078ebda55737a84
+Merge: e5bc110 a5522a9
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Mon Nov 12 00:32:14 2018 -0500
+
+    Merge pull request #59 from regro-cf-autotick-bot/0.21.13
+    
+    fastavro v0.21.13
+
+commit a5522a9388e3ef102468f4ae456c4341217075e9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Nov 12 03:13:48 2018 +0000
+
+    updated v0.21.13
+
+commit e5bc1100c95acd5600407c9f8eb76d04762f07df
+Merge: a28a995 98e4cab
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Wed Oct 31 22:45:45 2018 -0400
+
+    Merge pull request #58 from regro-cf-autotick-bot/0.21.12
+    
+    fastavro v0.21.12
+
+commit 98e4cab13ba8a9f88f34aedf46d4e30fa94a2f02
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Nov 1 02:14:46 2018 +0000
+
+    updated v0.21.12
+
+commit a28a995a5f4fb634ef99854c89d5bd2d57098aba
+Merge: dc4b153 ef64f18
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Tue Oct 30 19:26:16 2018 -0400
+
+    Merge pull request #57 from regro-cf-autotick-bot/0.21.11
+    
+    fastavro v0.21.11
+
+commit ef64f185c363ffe9d82756774c1fbc7c99a1efc5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 30 22:18:33 2018 +0000
+
+    updated v0.21.11
+
+commit dc4b1535e2d92472fc0b853d00e7dda3fdf5a102
+Merge: 28c6827 637ba2f
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Thu Oct 25 09:16:17 2018 -0400
+
+    Merge pull request #56 from regro-cf-autotick-bot/0.21.10
+    
+    fastavro v0.21.10
+
+commit 637ba2fbff5020a888ec7e1c6cbfb4df5379dd64
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 25 12:18:15 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.16
+
+commit 4528d364f1cf44a5626df9301124a0dbd0e6af8c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 25 12:17:59 2018 +0000
+
+    updated v0.21.10
+
+commit 28c6827b74140d4293ca0927570b33ff210a8bf0
+Merge: d059bac b868855
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Wed Oct 3 22:42:36 2018 -0400
+
+    Merge pull request #54 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit b868855b2a0e976857e957beeb4960432ebe3083
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 3 11:17:51 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit d0e71e2edd5478b1f7cf86d97f958acd3a0e6d78
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 3 11:17:43 2018 +0000
+
+    bump build number
+
+commit d059baccdccc65900585fc25b9411e8a57fe37f2
+Merge: a3b43d6 f063c72
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Wed Sep 26 07:20:26 2018 -0400
+
+    Merge pull request #53 from regro-cf-autotick-bot/0.21.8
+    
+    fastavro v0.21.8
+
+commit f063c72d4594faebe1005c86de15b638e17098c8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Sep 25 22:09:41 2018 +0000
+
+    updated v0.21.8
+
+commit a3b43d6c803b79cc07e205480c152e14b26bf6f2
+Merge: 0dcd1ce e65e9ba
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Sun Sep 16 19:18:28 2018 -0400
+
+    Merge pull request #51 from regro-cf-autotick-bot/0.21.6
+    
+    fastavro v0.21.6
+
+commit e65e9ba4d5f726427c28f275055941e4d85d105a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Sep 16 23:10:15 2018 +0000
+
+    updated v0.21.6
+
+commit 0dcd1cecb768a82d6161b424c31a58bc36a7a8c3
+Merge: 79ace62 918b82a
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Tue Sep 4 22:11:37 2018 -0400
+
+    Merge pull request #50 from regro-cf-autotick-bot/0.21.5
+    
+    fastavro v0.21.5
+
+commit 918b82a67d2a08e087fe796ce3d966616ad8dcfc
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 5 00:13:43 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.31
+
+commit 8e5c21c64f62ef2d999ada6a23e9ddf158b861f8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 5 00:13:18 2018 +0000
+
+    updated v0.21.5
+
+commit 79ace62b5767a06fcd0d6f2aa207c4c9215e918b
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:29:01 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 256377bd60cb497664b70358b53f23a20b89902a
+Merge: 1a730ca 9d94f7b
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Thu Jul 26 08:02:27 2018 -0400
+
+    Merge pull request #49 from regro-cf-autotick-bot/0.21.4
+    
+    fastavro v0.21.4
+
+commit 9d94f7b156577e5154cdbae052f763cf4b0c5225
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jul 26 00:10:23 2018 +0000
+
+    updated v0.21.4
+
+commit 1a730cab7d9f86d24aa7dfa53d9054fd96f1d441
+Merge: 5e7c7af 389aaef
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Thu Jul 12 10:53:25 2018 -0400
+
+    Merge pull request #48 from regro-cf-autotick-bot/0.21.3
+    
+    fastavro v0.21.3
+
+commit 389aaefacd219a230a8fd2852cb62f2cbb6b93ef
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jul 12 13:10:55 2018 +0000
+
+    updated v0.21.3
+
+commit 5e7c7afb46b28bf8d43e6e5e8a45216f0a8e3233
+Merge: f023538 af2df61
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Thu Jul 12 07:42:47 2018 -0400
+
+    Merge pull request #47 from regro-cf-autotick-bot/0.21.2
+    
+    fastavro v0.21.2
+
+commit af2df611cf5606806878fbc305ab617ff6c76aab
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jul 12 06:15:15 2018 +0000
+
+    updated v0.21.2
+
+commit f023538b44072fc231b2c04e6973a577fcd86404
+Merge: cab1061 0ddd5d1
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Wed Jul 11 07:22:33 2018 -0400
+
+    Merge pull request #46 from regro-cf-autotick-bot/0.21.1
+    
+    fastavro v0.21.1
+
+commit 0ddd5d1197d03713684b48129a6d1924787c2f1c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jul 10 21:10:52 2018 +0000
+
+    updated v0.21.1
+
+commit cab10612a396869c76b15b7e2a75562b0a4914eb
+Merge: b746005 c47cc13
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Tue Jul 10 08:29:06 2018 -0400
+
+    Merge pull request #45 from regro-cf-autotick-bot/0.21.0
+    
+    fastavro v0.21.0
+
+commit c47cc13de64ae4bb8bdb106d3aaf23ee7e67bbac
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jul 10 03:37:55 2018 +0000
+
+    updated v0.21.0
+
+commit b7460057fbd863bab742f75eac90f7a105b3856e
+Merge: 9d33592 f8abd8f
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Thu Jul 5 18:00:21 2018 -0400
+
+    Merge pull request #44 from regro-cf-autotick-bot/0.20.0
+    
+    fastavro v0.20.0
+
+commit f8abd8fea292d1dab93b1ccaaa96089a21703922
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jul 5 19:07:30 2018 +0000
+
+    updated v0.20.0
+
+commit 9d3359239f5b1aecccdc0f8913b4dfb8051db8ad
+Merge: 8f4ece8 973c374
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Sun Jul 1 11:34:42 2018 -0400
+
+    Merge pull request #43 from regro-cf-autotick-bot/0.19.9
+    
+    fastavro v0.19.9
+
+commit 973c37484067664619f1b525376db1b5224aa7e3
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 1 05:36:35 2018 +0000
+
+    updated v0.19.9
+
+commit 8f4ece8002f9397eeb2cd6a2c4c8e73161bf374e
+Merge: ef65f43 46b46e5
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Thu Jun 28 08:02:29 2018 -0400
+
+    Merge pull request #42 from regro-cf-autotick-bot/0.19.8
+    
+    fastavro v0.19.8
+
+commit 46b46e57fc85404cd8c78b2f861175bb04f8acd7
+Author: Travis CI User <travis@example.org>
+Date:   Thu Jun 28 02:21:37 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.19
+
+commit 6d61898c34f1d01b7b5d51a54ec45ee04c028a5c
+Author: Travis CI User <travis@example.org>
+Date:   Thu Jun 28 02:21:31 2018 +0000
+
+    updated v0.19.8
+
+commit ef65f43c8141447583254b702ff1398d00f78a71
+Merge: cc0f8ab b0704e1
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Wed Jun 20 09:13:03 2018 -0400
+
+    Merge pull request #41 from scottbelden/fix_url
+    
+    update url
+
+commit b0704e1c49f25bc9740c63fd8beabd317f952a2c
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Wed Jun 20 07:46:57 2018 -0400
+
+    update url
+
+commit cc0f8ab2eace1722c8971d75b6cb3f9264e53c17
+Merge: bf4e73f cc925ad
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Wed Jun 20 07:43:26 2018 -0400
+
+    Merge pull request #40 from jjhelmus/master
+    
+    update recipe for conda build 3
+
+commit cc925add026b802a142cd4ce3605b7cc26121301
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Jun 19 18:30:34 2018 -0500
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.19
+
+commit 7a41762ce415ab3fb739643c693f89a269ff2f25
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Jan 25 13:02:16 2018 -0600
+
+    update recipe for conda build 3
+
+commit bf4e73f70358cc046798eebfa5e14f422840e71e
+Merge: e881aa7 769e674
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Fri Jun 15 13:46:01 2018 -0400
+
+    Merge pull request #38 from regro-cf-autotick-bot/0.19.7
+    
+    fastavro v0.19.7
+
+commit 769e67423a94d42a11bfc32562ca19d03771a925
+Author: Travis CI User <travis@example.org>
+Date:   Fri Jun 15 16:23:10 2018 +0000
+
+    updated v0.19.7
+
+commit 7a796d4a79c9bab2447426bd72c72bbf236ab0ea
+Author: Travis CI User <travis@example.org>
+Date:   Wed Jun 13 17:52:53 2018 +0000
+
+    updated v0.19.7
+
+commit e881aa72b6d4e5962932ea7190858ddd24c78d33
+Merge: 8ec8925 f2d0be8
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Fri Jun 1 07:53:57 2018 -0400
+
+    Merge pull request #37 from regro-cf-autotick-bot/0.19.6
+    
+    fastavro v0.19.6
+
+commit f2d0be8d528326699b6dddccb3daa108bde222eb
+Author: Travis CI User <travis@example.org>
+Date:   Thu May 31 23:13:43 2018 +0000
+
+    updated v0.19.6
+
+commit 8ec89251212ac4f4793cca731670f4dd296995d2
+Merge: a5b1bc1 677a8d8
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Tue May 29 15:06:04 2018 -0400
+
+    Merge pull request #36 from regro-cf-autotick-bot/0.19.5
+    
+    fastavro v0.19.5
+
+commit 677a8d86df38768dfc692465f7af9eda3a9268c7
+Author: Travis CI User <travis@example.org>
+Date:   Tue May 29 17:38:46 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.5 and pinning 2018.05.22
+
+commit 9972a13c5c7cd1df5b9bf1c65bad1abdc5eff0b2
+Author: Travis CI User <travis@example.org>
+Date:   Tue May 29 17:38:22 2018 +0000
+
+    updated v0.19.5
+
+commit a5b1bc193d2c0a3cde7a5a1be7554b477742cb6d
+Merge: e69b627 52e8159
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Wed May 23 07:58:58 2018 -0400
+
+    Merge pull request #35 from regro-cf-autotick-bot/0.19.4
+    
+    fastavro v0.19.4
+
+commit 52e81594ef2827e53f979e2c22050c7675802f9e
+Author: Travis CI User <travis@example.org>
+Date:   Wed May 23 04:25:59 2018 +0000
+
+    updated v0.19.4
+
+commit e69b6277395b72adfd7b9046374fb06611e9d5d1
+Merge: 867fcbf 2af77d7
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Mon May 21 07:06:17 2018 -0400
+
+    Merge pull request #33 from regro-cf-autotick-bot/0.19.3
+    
+    fastavro v0.19.3
+
+commit 2af77d7a7424aafa5d7c2770e1ffd9f5a9d80179
+Author: Travis CI User <travis@example.org>
+Date:   Sun May 20 23:11:32 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.4 and pinning 2018.05.07
+
+commit d6d82b11f688bc110cf60fdf8f5d51ff643630c8
+Author: Travis CI User <travis@example.org>
+Date:   Sun May 20 23:11:08 2018 +0000
+
+    updated v0.19.3
+
+commit 867fcbfc21a98e55951c77058b947a6ba28e26fb
+Merge: 16cc26f 17e2a1c
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Fri May 18 15:31:34 2018 -0400
+
+    Merge pull request #31 from scottbelden/0.19.2
+    
+    0.19.2
+
+commit 17e2a1ce686bd2210879d625c8552c01db38e756
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Fri May 18 15:03:17 2018 -0400
+
+    0.19.2
+
+commit 16cc26ff1dedbdaef29f0272f1c40c8df657dd19
+Merge: 222e09f 9347b7e
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Tue May 15 23:36:47 2018 -0400
+
+    Merge pull request #30 from scottbelden/0.19.1
+    
+    0.19.1
+
+commit 9347b7e51324a60a1d45350f0d35e58331912e6a
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Tue May 15 22:12:23 2018 -0400
+
+    0.19.1
+
+commit 222e09f867ea0fb9fcae7d9e8f8fb8bd350d1489
+Merge: 8052b4b 6622aaf
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Mon May 14 12:13:49 2018 -0400
+
+    Merge pull request #29 from scottbelden/0.19.0
+    
+    0.19.0
+
+commit 6622aaf69d5cb7086b182bf5971ed12075a0486d
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Mon May 14 11:55:34 2018 -0400
+
+    0.19.0
+
+commit 8052b4bb0bce0748ebe20380ca88686b10f766b7
+Merge: c8abafe 0e55a6c
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Tue May 8 09:24:26 2018 -0400
+
+    Merge pull request #28 from scottbelden/0.18.2
+    
+    0.18.2
+
+commit 0e55a6cd95359ce9cf28d80984624c39fa06680e
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Tue May 8 08:29:28 2018 -0400
+
+    0.18.2
+
+commit c8abafef62def56b2330bb004d4c1c89946a4555
+Merge: 36af506 68388a6
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Wed May 2 17:44:19 2018 -0400
+
+    Merge pull request #27 from scottbelden/0.18.1
+    
+    0.18.1
+
+commit 68388a6c320711e9e9984f500771b220fa29df90
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Wed May 2 16:14:01 2018 -0400
+
+    0.18.1
+
+commit 36af506b53bb0750555f8c0dc4a8644e9ab57024
+Merge: af7a4a5 55a82a1
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Fri Apr 27 09:15:06 2018 -0400
+
+    Merge pull request #26 from scottbelden/0.18.0
+    
+    0.18.0
+
+commit 55a82a1e979767fcbfbaa6ae22d6cb19c1cba1cb
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Fri Apr 27 08:42:47 2018 -0400
+
+    fix hash
+
+commit cafcfae77f71929c012af64da8b66696b8ce0e1e
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Fri Apr 27 08:31:51 2018 -0400
+
+    0.18.0
+
+commit af7a4a583bdf5bdb34cc6bc32e9995a7b4a00f4e
+Merge: 2324f76 1fde053
+Author: Scott Belden <scottabelden+github.sb@gmail.com>
+Date:   Fri Mar 30 15:53:24 2018 -0400
+
+    Merge pull request #25 from scottbelden/0.17.10
+    
+    0.17.10
+
+commit 1fde053a39e9903d5087f49c94bb980e6cd48fa5
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Fri Mar 30 09:14:28 2018 -0400
+
+    0.17.10
+
+commit 2324f767924919de9787c8978deed0b293c33dba
+Merge: c877109 9516ecb
+Author: scottbelden <scottabelden+github.sb@gmail.com>
+Date:   Fri Mar 2 08:00:29 2018 -0500
+
+    Merge pull request #24 from scottbelden/0.17.9
+    
+    0.17.9
+
+commit 9516ecb62adaa18c638359e0de7bc32084b90424
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Thu Mar 1 09:17:55 2018 -0500
+
+    0.17.9
+
+commit c8771091f22fc267d0c1b1524c257491a1c07cd3
+Merge: a20acc1 506eab2
+Author: scottbelden <scottabelden+github.sb@gmail.com>
+Date:   Tue Feb 13 07:33:14 2018 -0500
+
+    Merge pull request #23 from scottbelden/0.17.8
+    
+    0.17.8
+
+commit 506eab287d41630d2e4131999305e3c1fd062f1a
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Mon Feb 12 16:52:48 2018 -0500
+
+    0.17.8
+
+commit a20acc19d8088f63788e5e4da3a7e992ed67ecfa
+Merge: b7ec807 127a104
+Author: scottbelden <scottabelden+github.sb@gmail.com>
+Date:   Thu Feb 1 20:11:42 2018 -0500
+
+    Merge pull request #22 from scottbelden/0.17.7
+    
+    0.17.7
+
+commit 127a1046572719df3caea579d082a7a13d893b44
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Thu Feb 1 16:34:39 2018 -0500
+
+    0.17.7
+
+commit b7ec8076102707ee9bc02113413c00f97ca2ba22
+Merge: ad8e035 f80d76a
+Author: scottbelden <scottabelden+github.sb@gmail.com>
+Date:   Mon Jan 29 00:59:46 2018 -0500
+
+    Merge pull request #20 from scottbelden/0.17.5
+    
+    0.17.5
+
+commit f80d76aa1089712054e73e4f89ba64d3220afae9
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Wed Jan 24 17:35:28 2018 -0500
+
+    0.17.5
+
+commit ad8e035519ef6951aa5af3fe97ddb3471df060f7
+Merge: 0a75178 bc2f0ee
+Author: scottbelden <scottabelden+github.sb@gmail.com>
+Date:   Wed Dec 27 17:29:10 2017 -0500
+
+    Merge pull request #16 from scottbelden/0.17.1
+    
+    update to 0.17.1
+
+commit bc2f0ee4ba94b011b2a7308b7942d585dd583ee2
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Wed Dec 27 15:08:12 2017 -0500
+
+    update to 0.17.1
+
+commit 0a75178d284e9d0a036de9516d315d13bb00a612
+Merge: 4911470 dd284c3
+Author: scottbelden <scottabelden+github.sb@gmail.com>
+Date:   Tue Dec 26 11:19:57 2017 -0500
+
+    Merge pull request #15 from scottbelden/0.17.0
+    
+    update to 0.17.0
+
+commit dd284c398dc284c05c09044c24f8f82271be10db
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Tue Dec 26 08:45:43 2017 -0500
+
+    update to 0.17.0
+
+commit 491147098fdfb1802c05a5948efb25735d1dbb18
+Merge: 3e6df67 0dcaf9c
+Author: scottbelden <scottabelden+github.sb@gmail.com>
+Date:   Sun Dec 24 11:33:55 2017 -0500
+
+    Merge pull request #14 from scottbelden/0.16.7
+    
+    update to 0.16.7
+
+commit 0dcaf9cfcaf818aeb7eb59bb63fc8862f8c8836d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Dec 24 07:27:57 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 6743566e0b81df79730674ec873317fddd06615a
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Sat Dec 23 23:45:15 2017 -0500
+
+    update to 0.16.7
+
+commit 3e6df677e38db80acda69ee25bdafa91a7bbeb19
+Merge: 4cb268f dc02d60
+Author: scottbelden <scottabelden+github.sb@gmail.com>
+Date:   Fri Dec 15 07:25:49 2017 -0500
+
+    Merge pull request #13 from scottbelden/0.16.6
+    
+    update to 0.16.6
+
+commit dc02d609e885b3100ae36a99d2c09e4bdaa0b171
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Wed Dec 13 20:31:20 2017 -0500
+
+    update to 0.16.6
+
+commit 4cb268f8bdbd52ec5d039744a3d37723ba404824
+Merge: b15ca01 9adfd91
+Author: scottbelden <scottabelden+github.sb@gmail.com>
+Date:   Wed Dec 6 09:25:27 2017 -0500
+
+    Merge pull request #10 from scottbelden/0.16.4
+    
+    update to 0.16.4
+
+commit 9adfd91f464cca1cfdb9718651f771e0d7c05913
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Tue Dec 5 13:04:30 2017 -0500
+
+    update to 0.16.4
+
+commit b15ca0161a5b69bce031dfed1dc8c90282a313fe
+Merge: 56f9de4 06e89be
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Thu Nov 30 15:39:56 2017 +0200
+
+    Merge pull request #9 from tebeka/add-scott
+    
+    Add scottbelden as maintainer
+
+commit 06e89beca5d5222cd16b7acbc9f250ec0a6e41df
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Thu Nov 30 15:32:36 2017 +0200
+
+    add scottbelden as maintainer
+
+commit 56f9de454b68d5912372b93182ee971ec9ff26e1
+Merge: e74cff8 5472075
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Thu Nov 30 15:14:51 2017 +0200
+
+    Merge pull request #7 from scottbelden/0.16.3
+    
+    update to 0.16.3
+
+commit 5472075cfeddf20a04e56a9353c71a300b41a96e
+Author: scottbelden <scottabelden@gmail.com>
+Date:   Tue Nov 28 22:31:14 2017 -0500
+
+    update to 0.16.3
+
+commit e74cff81b9594a392a35a49da536235a1231b333
+Merge: b2d875f f8fb964
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Nov 10 08:45:54 2017 -0500
+
+    Merge pull request #5 from tebeka/0.14.11
+    
+    0.14.11
+
+commit f8fb9641b6e3ac223e7a323f34373a531bee14bb
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Fri Nov 10 07:06:55 2017 +0200
+
+    0.14.11
+
+commit b2d875f11473964858d873b5be386e8dcb97007b
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Mon Sep 18 08:17:02 2017 +0300
+
+    0.14.10
+
+commit 4ec0a9c4d30bb19bf99d35b349ec24f8d4ac619d
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Sun Sep 10 08:58:44 2017 +0300
+
+    0.14.9
+
+commit a35354cd4aef2362ed4231493d36f1ee483c814d
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Sat Sep 2 10:43:33 2017 +0300
+
+    0.14.8
+
+commit 2da8bd8dd0f3726be0bab81244c6120c70739476
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 20:14:54 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit a5849c8bdd46313cbc306dc6994abef55df3ff38
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Tue Aug 8 20:48:58 2017 +0300
+
+    0.14.7
+
+commit a03ea63f02c6e37ce67745d8bf6bdeb77deb1661
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Wed Aug 2 06:51:40 2017 +0300
+
+    0.14.6
+
+commit 40252d92682d8ed3b320a21036f6dcafeb8e61ae
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Sat Jul 15 08:45:06 2017 +0300
+
+    0.14.5
+
+commit 312291846f1c1980e934f2431797485d51852125
+Merge: 4984732 7cd40c0
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Sun Jul 2 15:06:19 2017 +0300
+
+    Merge pull request #4 from mariusvniekerk/rerender
+    
+    MNT: Re-rendered with conda-smithy 2.3.2
+
+commit 7cd40c070b81c8e2e71ce1c456012de2d2f28ed3
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Jun 30 21:21:51 2017 -0400
+
+    cleanup
+
+commit 8ec83e4320846896eb9e9a9b695b673756bb30eb
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Jun 30 21:19:03 2017 -0400
+
+    Updated build number
+
+commit 8faa8f87a32059898ca89338480b317d213f25c2
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Jun 30 21:16:54 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.2
+
+commit 49847324c2c03080cd11474785448371dbc31c27
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Sat Jun 24 08:58:14 2017 +0300
+
+    0.14.3
+
+commit b375884e844635535c6032e15752a109a4333eb0
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Thu Jun 8 18:49:08 2017 +0300
+
+    0.14.2
+
+commit c2740f00fc2326032e4f11f938d8a2d5d8c874ba
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Wed Jun 7 21:36:26 2017 +0300
+
+    0.14.1
+
+commit 710ca0f004977f5c0a4857e0e0f5c7ca3c696c38
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Sat Jun 3 09:59:13 2017 +0300
+
+    version 0.14
+
+commit 042340eeb1ffe5b3bf1a047804d2d3dabe55e135
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Tue May 2 08:31:16 2017 +0300
+
+    0.13.0
+
+commit 35e8c1cd51a2be03ad7fe42887771306ed1d3b1f
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Tue May 2 08:30:32 2017 +0300
+
+    exit code
+
+commit d00a7315cd66f3ac44f99b7451814283ce47d999
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Wed Apr 19 08:02:42 2017 +0300
+
+    0.12.2 and more tests
+
+commit bbd8800a8bf491dd0b82c803126c1940e6c6aced
+Merge: 2ada5af 0ec436d
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Wed Mar 1 06:48:30 2017 +0200
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 0ec436d0535a807c662131eb18cf30411710e31a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Mar 1 01:45:19 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.1.1.
+
+commit 2ada5af8ba3c61c861a0b6e093ad4ff84c92e65c
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Fri Dec 9 17:43:04 2016 +0200
+
+    0.12.1
+
+commit 2592f3448898000fc94094b438f47d0c8367b68d
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Thu Dec 8 15:57:49 2016 +0200
+
+    oops, wrong sha
+
+commit 80b1d17e057fcaa3c3a7c055f3392d85c9630fb2
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Thu Dec 8 15:51:00 2016 +0200
+
+    0.12.0
+
+commit 8a735a857241c5fe2f87cd48002a52e1c5df29c4
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Fri Nov 25 16:29:19 2016 +0200
+
+    version 0.11.1
+
+commit df1af178d874856bfd656446ee93e26bc8e2e13d
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Thu Oct 20 07:47:48 2016 +0300
+
+    0.11.0 and right download URL
+
+commit 05965f8fa5860673ec14abd179b7e572ade2a351
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Thu Oct 20 07:30:36 2016 +0300
+
+    rolling back to 0.10.2 for now
+
+commit 393795ca6859683d7fbb848379b48eb524cd7680
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Thu Oct 20 07:23:17 2016 +0300
+
+    verion 0.11.0
+
+commit 64865b21a1d55d4ca2dc8a1cb9e852d558d8a066
+Merge: f1de52a f66d7e6
+Author: Miki Tebeka <miki.tebeka@gmail.com>
+Date:   Wed Sep 21 06:13:36 2016 +0300
+
+    Merge pull request #1 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit f66d7e6d495140a350feaba9ff0601a6b9778b0d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Sep 20 01:34:17 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.2.0.
+    
+    [ci skip]
+
+commit f1de52ae958d81542e5bd6b8de437c7b21f8f0d4
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Aug 17 10:20:18 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 88addc47ab1d6dd87cddf195892e4c1662179eeb
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Aug 17 10:18:50 2016 +0000
+
+    Initial commit of the fastavro feedstock.

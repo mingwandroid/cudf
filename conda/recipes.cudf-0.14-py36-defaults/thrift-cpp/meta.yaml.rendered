@@ -1,0 +1,87 @@
+# This file created by conda-build 3.18.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon Jun 17 17:44:03 2019
+# ------------------------------------------------
+
+package:
+    name: thrift-cpp
+    version: 0.12.0
+source:
+    -   patches:
+            - 0001-disable-qt5.patch
+        sha256: c336099532b765a6815173f62df0ed897528a9d551837d627c1f87fadad90428
+        url: http://archive.apache.org/dist/thrift/0.12.0/thrift-0.12.0.tar.gz
+build:
+    number: '1004'
+    run_exports:
+        - thrift-cpp >=0.12.0,<0.13.0a0
+    string: hf3afdfd_1004
+requirements:
+    build:
+        - binutils_impl_linux-64 2.31.1 h6176602_1
+        - binutils_linux-64 2.31.1 h6176602_7
+        - bison 3.4 he1b5a44_0
+        - bzip2 1.0.6 h14c3975_1002
+        - ca-certificates 2019.6.16 hecc5488_0
+        - cmake 3.14.5 hf94ab9c_0
+        - curl 7.64.1 hf8cf82a_0
+        - expat 2.2.5 hf484d3e_1002
+        - flex 2.6.4 hf484d3e_1004
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_7
+        - gxx_impl_linux-64 7.3.0 hdf63c60_1
+        - gxx_linux-64 7.3.0 h553295d_7
+        - krb5 1.16.3 h05b26f9_1001
+        - libcurl 7.64.1 hda55be3_0
+        - libedit 3.1.20170329 hf8c457e_1001
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libssh2 1.8.2 h22169c7_2
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - libtool 2.4.6 h14c3975_1002
+        - libuv 1.29.1 h516909a_0
+        - m4 1.4.18 h14c3975_1001
+        - make 4.2.1 h14c3975_2004
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.1.1b h14c3975_1
+        - pkg-config 0.29.2 h14c3975_1005
+        - rhash 1.3.6 h14c3975_1001
+        - tk 8.6.9 hed695b0_1002
+        - xz 5.2.4 h14c3975_1001
+        - zlib 1.2.11 h14c3975_1004
+    host:
+        - boost-cpp 1.70.0 ha2d47e9_0
+        - bzip2 1.0.6 h14c3975_1002
+        - ca-certificates 2019.6.16 hecc5488_0
+        - icu 58.2 hf484d3e_1000
+        - libevent 2.1.10 h72c5cf5_0
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - openssl 1.1.1a h14c3975_1001
+        - xz 5.2.4 h14c3975_1001
+        - zlib 1.2.11 h14c3975_1004
+    run:
+        - boost-cpp >=1.70.0,<1.70.1.0a0
+        - libevent >=2.1.10,<2.1.11.0a0
+        - libgcc-ng >=7.3.0
+        - libstdcxx-ng >=7.3.0
+        - openssl >=1.1.1a,<1.1.2a
+        - openssl >=1.1.1a,<1.1.2a
+        - zlib >=1.2.11,<1.3.0a0
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - test -f $PREFIX/bin/thrift
+        - test -f $PREFIX/lib/libthrift.a
+        - test -f $PREFIX/include/thrift/Thrift.h
+about:
+    home: http://thrift.apache.org
+    license: Apache 2.0
+    summary: Compiler and C++ libraries and headers for the Apache Thrift RPC system
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - msarahan
+        - wesm
+        - xhochy

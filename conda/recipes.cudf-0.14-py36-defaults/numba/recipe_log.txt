@@ -1,0 +1,302 @@
+commit be64ffdbe28374a287e2180c3ac6264f897cbf9f
+Author: Angela Gloyna <angela.gloyna@gmail.com>
+Date:   Mon Jun 29 08:20:56 2020 -0500
+
+    numba 0.50.1
+
+commit e4dba30c601fee5c3af22877b6a62535e4fa5231
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue May 12 09:56:31 2020 -0500
+
+    update to 0.49.1, bump llvmlite version to 0.32.1
+
+commit d7f8b8ff48251f3141454f6b7599689f94e76459
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Apr 20 16:16:40 2020 -0500
+
+    remove un-necessary remove_unwanted_files step
+
+commit 0aee819066c8a652fca9146b3f35aec87c370e05
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Apr 20 16:16:12 2020 -0500
+
+    update tests
+
+commit c247f005b19dae3e5569566f70b4c5139852d62f
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Apr 20 16:16:03 2020 -0500
+
+    switch llvmlite requirement to 0.32
+
+commit 2eac2e888f001e352264a06b08c687b1ab071887
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Apr 20 16:15:41 2020 -0500
+
+    update entry point
+
+commit 49f0cb8581622ece1a1eddb6d1a8e145cbe45db0
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Apr 20 16:15:29 2020 -0500
+
+    numba 0.49.0
+
+commit 69199a7ca69a8af07a7c56e741fb3e556c751be5
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Jan 30 09:24:33 2020 -0600
+
+    limit tests to numpy < 1.18
+
+commit f03e181e97ba92931708d5729aad5b470b51af96
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Jan 30 09:24:21 2020 -0600
+
+    update to 0.48.0
+
+commit 8d4e157482edcbe45ed236e6fd97f850aa90b6ef
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Jan 24 10:14:08 2020 -0600
+
+    add setuptools to run requirements
+    
+    starting with 0.46.0 numba depends on pkg_resources which is provided by
+    setuptools.
+    https://github.com/numba/numba/issues/4763
+
+commit a8c7af5f32c75b4108c9a60bbfcddcb078105bc2
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Jan 14 13:20:11 2020 -0600
+
+    0.47.0
+
+commit 5ef432d289c4fa10752ae29658d55306816ac23f
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Oct 25 12:07:07 2019 -0500
+
+    0.46.0
+
+commit a07df1edb1fca23ba8b716d126b4bfadb6de820b
+Author: Sophia Castellarin <scastellarin@anaconda.com>
+Date:   Wed Aug 7 12:12:46 2019 -0500
+
+    0.45.1
+
+commit 8883cac624286bee3cf6789c4df50cd56eb1c1e4
+Author: Forrest Waters <fwaters@0609.local>
+Date:   Mon Jul 22 07:56:37 2019 -0500
+
+    bump numba version
+
+commit 6e2e43fd969aac259eba6e1ede43ae8d58eb62e2
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Jun 18 16:33:39 2019 -0500
+
+    0.44.1
+
+commit afcac58ecfaafe90171f5fd80f924e1396c57d52
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Jun 18 13:00:49 2019 -0500
+
+    update to 0.44.0
+
+commit 4b2fc4f0abb16906b1930ba7db7b771ba2c48e14
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Mar 27 03:49:49 2019 -0500
+
+    Bump version to 0.43.1
+
+commit e305270ab2eb5a513c645ef6fe49e83dbee03586
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Jan 4 08:55:23 2019 -0600
+
+    Bump version to 0.42.0
+
+commit bcc0348fa02f17f33c556b29b60ee7317cc92dc3
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Nov 30 09:23:52 2018 -0600
+
+    Bump version to 0.41.0
+
+commit 54a6c4f8a20ed846a917f5cbe2e667d7522e58d5
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Oct 4 08:34:43 2018 -0500
+
+    Bump version to 0.40.0
+
+commit 7b8186ca59cc17be27c1801b95dd3c248270d692
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Aug 5 07:29:07 2018 -0500
+
+    Fix Windows test
+
+commit 8855eb4a13dd5a7245f815bab5a5ce16256b85a0
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jul 10 22:05:13 2018 +0100
+
+    Sync run_test.sh from numba's recipe
+
+commit e04c50f0d7a6b61f38b1cc014e3c32ac270ad2fd
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jul 10 17:13:01 2018 +0100
+
+    Remove patches
+
+commit 96673aa22fe4d93c3e9221b127eac6b37100e5f9
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jul 10 16:56:08 2018 +0100
+
+    Update to 0.39.0
+
+commit 020d2595f3b80f682135236314c75af913924e64
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Jun 22 08:07:59 2018 -0500
+
+    Bump version to 0.38.1
+
+commit 7ddcef384bd7a43025a5345ca24901ab9a6c994a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Jun 17 16:24:04 2018 +0000
+
+    Python 3.7.0rc1: Bring back 2/3 of my patches
+
+commit de72158bbc2bd1155daa9f753170a7e79a59f4e4
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu May 17 17:32:22 2018 -0500
+
+    Sync numba recipe from numba/buildscripts/condarecipe.local
+
+commit c3752ad23c3615ea0784cd844cae9a3a5605df25
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri May 4 16:48:26 2018 +0000
+
+    Add compilers, host deps
+
+commit 18836dbd583d30468351d2933d379f93141ffecf
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu May 3 15:25:05 2018 -0700
+
+    Another Python 3.7 compat fix and a declspec fix
+
+commit e5f327ce9ef372f0267770275d06f2f451c27de5
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed May 2 16:58:25 2018 -0700
+
+    Stop skipping on Windows
+
+commit 9fa112755a20d5a12566c1ae75e08bb50cadba39
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu May 3 00:39:49 2018 +0100
+
+    Python 3.7 compat
+
+commit fe8015968ce7cb4cfb81abe3cab9e36b46e5bb78
+Merge: f54a880 7128f18
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Apr 29 14:17:14 2018 -0400
+
+    Merge pull request #11 from jakirkham-feedstocks/disable_linux_py27
+    
+    Disable Linux Python 2.7
+
+commit 7128f18b4595fd400278be20ce7ad5eb0ba4ffae
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Apr 29 14:09:24 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.28
+    
+    Re-render now that Linux Python 2.7 is disabled to update the CIs
+    accordingly.
+
+commit 74ad577f83ce467e0d808668ae1e75298c2e5e63
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Apr 29 14:09:23 2018 -0400
+
+    Disable Linux Python 2.7 builds
+    
+    For some reason the Python 2.7 builds are hanging in the tests. Not sure
+    why ATM. However it seems reasonable not to waste CI time on them. So
+    this skips them.
+
+commit fb87ccceb7d0c0b4dd413b4c4b1000159e1fe818
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Apr 29 14:09:22 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.28
+
+commit f54a8807dffb660f79a7c6afa7d033ab9595d782
+Merge: d0bce99 390aeb8
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Apr 25 00:09:22 2018 -0400
+
+    Merge pull request #9 from jakirkham-feedstocks/disable_win_blds
+    
+    Disable Windows builds
+
+commit 390aeb8c1f66a70ded10cdac127f7b64ae57c8ca
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Apr 25 00:03:47 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.19
+    
+    Now that Windows is skipped, re-render to disable CIs on Windows and
+    update the README accordingly.
+    
+    [ci skip]
+
+commit 7f3634bb05e0aced425e89c7f6ae58da45cdf6a3
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Apr 25 00:02:28 2018 -0400
+
+    Disable Windows builds
+    
+    Currently all Windows builds either fail due to precision issues in the
+    tests (Python 3 primarily) or they stall out during testing until CI
+    terminates them (Python 2). Not entirely sure the issues that are
+    causing these problems. However both will require a Windows developer
+    with a fair bit of experience (and necessary resources) to debug these
+    issues. For now it would be nice to save the CI time as far as
+    conda-forge is concerned and disable the Windows builds until someone
+    can properly fix these issues. Hence this marks the Windows builds as
+    skipped until then.
+    
+    [skip ci]
+
+commit d0bce99bdd18e7ebb3cfff7379ee2ca2d0c289ed
+Merge: 6825577 bf079d5
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Apr 24 22:19:05 2018 -0400
+
+    Merge pull request #2 from jakirkham-feedstocks/use_circleci_osx
+    
+    Use CircleCI for macOS X builds
+
+commit bf079d5b399dcb100bfffdc8f82759317635a174
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Apr 21 15:33:22 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.19
+    
+    Now that CircleCI is being used as the macOS build worker provider
+    instead of macOS, re-render to refresh the CI files to make disable
+    Travis CI and enable macOS builds on CircleCI in addition to the current
+    Linux builds.
+
+commit ff0220fdf81200b9fc50fcdd70866cf8651c14e0
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Apr 21 15:30:51 2018 -0400
+
+    Use CircleCI's macOS build workers
+    
+    As this is timing out on Travis CI's macOS build workers, switch over to
+    using CircleCI as the provider of macOS builds.
+
+commit 682557770db5853286d5c82019fcc6b8d8d54337
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Apr 21 18:38:09 2018 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit e4275f51f6d6d26e5b97fb395c60f9908242fa16
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Apr 21 18:35:58 2018 +0000
+
+    Initial feedstock commit with conda-smithy 3.1.2.

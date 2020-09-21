@@ -1,0 +1,27 @@
+From 318da54f0138c92ee6e2b04f37ceadd62a79dc0a Mon Sep 17 00:00:00 2001
+From: Jonathan Helmus <jjhelmus@gmail.com>
+Date: Wed, 19 Apr 2017 15:26:27 -0400
+Subject: [PATCH] skip signal handler test on ppc64le
+
+---
+ src/signalhandler_unittest.sh | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/src/signalhandler_unittest.sh b/src/signalhandler_unittest.sh
+index 265cd45..b8d93df 100755
+--- a/src/signalhandler_unittest.sh
++++ b/src/signalhandler_unittest.sh
+@@ -71,6 +71,10 @@ if [ x`uname -p` = x"powerpc" ]; then
+   echo "PASS (We don't test the signal handler on PowerPC.)"
+   exit 0
+ fi
++if [ x`uname -p` = x"ppc64le" ]; then
++  echo "PASS (We don't test the signal handler on PowerPC.)"
++  exit 0
++fi
+ 
+ # Test for a case the program kills itself by SIGSEGV.
+ GOOGLE_LOG_DIR=. $BINARY segv 2> signalhandler.out1
+-- 
+2.7.4
+

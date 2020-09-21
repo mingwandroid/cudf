@@ -1,0 +1,35 @@
+package:
+   name: cudatoolkit
+   # match the package version to the libcudart.so version
+   version: 10.1.243
+
+build:
+  number: 0
+  # script_env:
+  #   - NVTOOLSEXT_INSTALL_PATH
+  missing_dso_whitelist:
+    - "$RPATH/libdl.so.2"
+    - "$RPATH/libpthread.so.0"
+    - "$RPATH/libc.so.6"
+    - "$RPATH/librt.so.1"
+    - "$RPATH/ld-linux-x86-64.so.2"
+    - "$RPATH/libm.so.6"
+
+requirements:
+  build:
+    - python >=3.7
+    - requests
+    - 7za # [win]
+    - conda
+    - pyyaml
+    # for run_exports
+    - {{ compiler('cxx') }}
+
+source:
+    path: .
+
+test:
+  requires:
+    - numba
+    - python >=3.7
+    - setuptools  # for pkg_resources

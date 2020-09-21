@@ -1,0 +1,26 @@
+From a3e29341be58af6bae4363854bb85fc32f7b3b26 Mon Sep 17 00:00:00 2001
+From: "Korn, Uwe" <Uwe.Korn@blue-yonder.com>
+Date: Sat, 3 Nov 2018 13:00:02 +0100
+Subject: [PATCH] Ignore unmangled cxx11 symbols
+
+---
+ src/demangle_unittest.sh | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/src/demangle_unittest.sh b/src/demangle_unittest.sh
+index 91deee2..6f5f7e7 100755
+--- a/src/demangle_unittest.sh
++++ b/src/demangle_unittest.sh
+@@ -82,6 +82,9 @@ if test "$NM_LINES" != "$DM_LINES"; then
+     die "$NM_OUTPUT and $DM_OUTPUT don't have the same numbers of lines"
+ fi
+ 
++# Ignore cxx1* symbols, not supported by the demangler yet
++DM_OUTPUT=$(grep -v cxx1 "$DM_OUTPUT")
++
+ # Check if mangled symbols exist.  They must not exist.
+ if grep --quiet '^_Z' "$DM_OUTPUT"; then
+     MANGLED=`grep '^_Z' "$DM_OUTPUT" | wc -l | awk '{ print \$1 }'`
+-- 
+2.19.1
+

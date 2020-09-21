@@ -1,0 +1,27 @@
+From db224ed2b0a999e95aa0efe59994844857857e71 Mon Sep 17 00:00:00 2001
+From: "Korn, Uwe" <Uwe.Korn@blue-yonder.com>
+Date: Sat, 3 Nov 2018 11:48:48 +0100
+Subject: [PATCH] Remove non-existent USAGE level from tests
+
+---
+ src/logging_striplog_test.sh | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/logging_striplog_test.sh b/src/logging_striplog_test.sh
+index 73492bd..4d09d3a 100755
+--- a/src/logging_striplog_test.sh
++++ b/src/logging_striplog_test.sh
+@@ -64,8 +64,8 @@ mode=`GLOG_check_mode=1 ./logging_striptest0 2> /dev/null`
+ if [ "$mode" = "opt" ];
+ then
+     echo "In OPT mode"
+-    check_eq "`get_strings logging_striptest0`" "COND ERROR FATAL INFO USAGE WARNING "
+-    check_eq "`get_strings logging_striptest2`" "COND ERROR FATAL USAGE "
++    check_eq "`get_strings logging_striptest0`" "COND ERROR FATAL INFO WARNING "
++    check_eq "`get_strings logging_striptest2`" "COND ERROR FATAL "
+     check_eq "`get_strings logging_striptest10`" "" 
+ else
+     echo "In DBG mode; not checking strings"
+-- 
+2.19.1
+

@@ -1,0 +1,56 @@
+{% set name = "gflags" %}
+{% set version = "2.2.2" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://github.com/gflags/gflags/archive/v{{ version }}.tar.gz
+  sha256: 34af2f15cf7367513b352bdcd2493ab14ce43692d2dcd9dfc499492966c64dcf
+
+build:
+  number: 0
+  run_exports:
+    # seems to change SONAME every minor version
+    # https://abi-laboratory.pro/tracker/timeline/gflags/
+    - {{ pin_subpackage('gflags', max_pin='x.x') }}
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+    - cmake
+    - msinttypes  # [win and py<35]
+
+test:
+  commands:
+    - test -f ${PREFIX}/lib/libgflags.dylib                           # [osx]
+    - test -f ${PREFIX}/lib/libgflags_nothreads.dylib                 # [osx]
+    - test -f ${PREFIX}/lib/libgflags.so                              # [linux]
+    - test -f ${PREFIX}/lib/libgflags_nothreads.so                    # [linux]
+    - test -f ${PREFIX}/lib/libgflags.a                               # [not win]
+    - test -f ${PREFIX}/lib/libgflags_nothreads.a                     # [not win]
+    - if not exist %PREFIX%\\Library\\bin\\gflags.dll exit 1          # [win]
+    - if not exist %PREFIX%\\Library\\lib\\gflags.lib exit 1          # [win]
+    - if not exist %PREFIX%\\Library\\lib\\gflags_static.lib exit 1   # [win]
+    - conda inspect linkages -p $PREFIX gflags  # [unix]
+
+about:
+  home: https://github.com/gflags/gflags
+  license: BSD 3-Clause
+  license_family: BSD
+  license_file: COPYING.txt
+  summary: A C++ library that implements commandline flags processing.
+  description: |
+    gflags are Commandline flags that Users specify on the command line when they run an executable.
+  doc_url: https://gflags.github.io/gflags/
+  doc_source_url: https://github.com/gflags/gflags/blob/971dd2a4fadac9cdab174c523c22df79efd63aa5/index.html
+  dev_url: https://bitbucket.org/noppo/gevent-websocket
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - wesm

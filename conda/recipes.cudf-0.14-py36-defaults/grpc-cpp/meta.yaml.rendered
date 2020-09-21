@@ -1,0 +1,94 @@
+# This file created by conda-build 3.18.9
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Tue Aug 20 13:16:18 2019
+# ------------------------------------------------
+
+package:
+    name: grpc-cpp
+    version: 1.23.0
+source:
+    -   patches: null
+        sha256: f56ced18740895b943418fa29575a65cc2396ccfa3159fa40d318ef5f59471f9
+        url: https://github.com/grpc/grpc/archive/v1.23.0.tar.gz
+build:
+    number: '0'
+    string: h18db393_0
+requirements:
+    build:
+        - _libgcc_mutex 0.1 main
+        - binutils_impl_linux-64 2.31.1 h6176602_1
+        - binutils_linux-64 2.31.1 h6176602_8
+        - bzip2 1.0.8 h516909a_0
+        - ca-certificates 2019.6.16 hecc5488_0
+        - cmake 3.15.2 hf94ab9c_0
+        - curl 7.65.3 hf8cf82a_0
+        - expat 2.2.5 he1b5a44_1003
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_8
+        - gxx_impl_linux-64 7.3.0 hdf63c60_1
+        - gxx_linux-64 7.3.0 h553295d_8
+        - krb5 1.16.3 h05b26f9_1001
+        - libcurl 7.65.3 hda55be3_0
+        - libedit 3.1.20170329 hf8c457e_1001
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libprotobuf 3.8.0 h8b12597_0
+        - libssh2 1.8.2 h22169c7_2
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - libuv 1.30.1 h516909a_0
+        - ncurses 6.1 hf484d3e_1002
+        - ninja 1.9.0 h6bb024c_0
+        - openssl 1.1.1c h516909a_0
+        - rhash 1.3.6 h14c3975_1001
+        - tk 8.6.9 hed695b0_1002
+        - xz 5.2.4 h14c3975_1001
+        - zlib 1.2.11 h516909a_1005
+    host:
+        - _libgcc_mutex 0.1 main
+        - c-ares 1.15.0 h516909a_1001
+        - ca-certificates 2019.6.16 hecc5488_0
+        - gflags 2.2.2 he1b5a44_1001
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libprotobuf 3.8.0 h8b12597_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - openssl 1.1.1a h14c3975_1001
+        - zlib 1.2.11 h516909a_1005
+    run:
+        - libgcc-ng >=7.3.0
+        - libprotobuf >=3.8.0,<3.9.0a0
+        - libprotobuf >=3.8.0,<3.9.0a0
+        - libstdcxx-ng >=7.3.0
+        - openssl >=1.1.1a,<1.1.2a
+        - zlib >=1.2.11,<1.3.0a0
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - grpc_cpp_plugin < /dev/null
+about:
+    description: 'gRPC is a modern, open source, high-performance remote procedure
+        call
+
+        (RPC) framework that can run anywhere. gRPC enables client and server
+
+        applications to communicate transparently, and simplifies the building
+
+        of connected systems.
+
+
+        This package contains the gRPC C++ libraries and header files, as well
+
+        as the code generation plugins.
+
+        '
+    doc_url: https://grpc.io/docs/
+    home: https://grpc.io/
+    license: Apache 2.0
+    license_family: APACHE
+    license_file: LICENSE
+    summary: gRPC - A high-performance, open-source universal RPC framework
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - pitrou
+        - wesm
+        - xhochy

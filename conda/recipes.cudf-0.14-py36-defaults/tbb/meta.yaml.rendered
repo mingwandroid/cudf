@@ -1,0 +1,65 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/tbb-2020.2-on-linux_canary, last modified Mon Aug 24 15:54:18 2020
+# ------------------------------------------------
+
+package:
+    name: tbb
+    version: '2020.2'
+source:
+    fn: tbbv2020.2_oss_src.tgz
+    sha256: 4804320e1e6cbe3a5421997b52199e3c1a3829b2ecb6489641da4b8e32faf500
+    url: https://github.com/intel/tbb/archive/v2020.2.tar.gz
+build:
+    number: '0'
+    script: python build/build.py --build-args="stdver=c++11 runtime=conda" --install-libs
+    string: hfd86e86_0
+requirements:
+    build:
+        - _libgcc_mutex 0.1 main
+        - binutils_impl_linux-64 2.33.1 he6710b0_7
+        - binutils_linux-64 2.33.1 h9595d00_15
+        - ca-certificates 2020.6.24 0
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_15
+        - gxx_impl_linux-64 7.3.0 hdf63c60_1
+        - gxx_linux-64 7.3.0 h553295d_15
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20191231 h14c3975_1
+        - libffi 3.3 he6710b0_2
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - make 4.2.1 h1bed415_1
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - python 3.8.5 hcff3b4d_0
+        - readline 8.0 h7b6447c_0
+        - sqlite 3.33.0 h62c20be_0
+        - tk 8.6.10 hbc83047_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    host:
+        - _libgcc_mutex 0.1 main
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+    run:
+        - libgcc-ng >=7.3.0
+        - libstdcxx-ng >=7.3.0
+test:
+    commands:
+        - python -c "import ctypes; assert 11102 == ctypes.cdll[r'libtbb.so.2']       ['TBB_runtime_interface_version']()"
+    requires:
+        - python *
+about:
+    dev_url: https://github.com/01org/tbb
+    doc_url: https://software.intel.com/en-us/node/506039
+    home: http://www.threadingbuildingblocks.org
+    license: Apache-2.0
+    license_file: LICENSE
+    summary: High level abstract threading library
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - anton-malakhov
+        - jschueller
